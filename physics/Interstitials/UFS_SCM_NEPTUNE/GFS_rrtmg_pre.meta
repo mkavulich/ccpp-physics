@@ -58,7 +58,7 @@
   type = logical
   intent = in
 [xr_cnvcld]
-  standard_name = flag_for_suspended_convective_clouds_in_Xu_Randall
+  standard_name = flag_for_suspended_convective_clouds_in_xu_randall
   long_name = flag for using suspended convective clouds in Xu Randall
   units = flag
   dimensions = ()
@@ -268,7 +268,7 @@
   type = ty_ozphys
   intent = in
 [tempo_cfg]
-  standard_name = configuration_for_TEMPO_microphysics
+  standard_name = configuration_for_tempo_microphysics
   long_name = configuration information for TEMPO microphysics
   units = mixed
   dimensions = ()
@@ -663,7 +663,7 @@
   type = logical
   intent = in
 [lgfdlmprad]
-  standard_name = flag_for_GFDL_microphysics_radiation_interaction
+  standard_name = flag_for_gfdl_microphysics_radiation_interaction
   long_name = flag for GFDL microphysics-radiation interaction
   units = flag
   dimensions = ()
@@ -705,7 +705,7 @@
   type = logical
   intent = in
 [lcrick]
-  standard_name = flag_for_CRICK_proof_cloud_water
+  standard_name = flag_for_crick_proof_cloud_water
   long_name = flag for CRICK-Proof cloud water
   units = flag
   dimensions = ()
@@ -928,7 +928,7 @@
   intent = in
   optional = True
 [mg_cld]
-  standard_name = cloud_fraction_for_MG
+  standard_name = cloud_fraction_for_mg
   long_name = cloud fraction used by Morrison-Gettelman MP
   units = frac
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -1202,7 +1202,7 @@
   kind = kind_phys
   intent = out
 [plvl]
-  standard_name = air_pressure_at_interface_for_radiation_in_hPa
+  standard_name = air_pressure_at_interface_for_radiation_in_hpa
   long_name = air pressure at vertical interface for radiation calculation
   units = hPa
   dimensions = (horizontal_loop_extent,adjusted_vertical_level_dimension_for_radiation)
@@ -1210,7 +1210,7 @@
   kind = kind_phys
   intent = out
 [plyr]
-  standard_name = air_pressure_at_layer_for_radiation_in_hPa
+  standard_name = air_pressure_at_layer_for_radiation_in_hpa
   long_name = air pressure at vertical layer for radiation calculation
   units = hPa
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)

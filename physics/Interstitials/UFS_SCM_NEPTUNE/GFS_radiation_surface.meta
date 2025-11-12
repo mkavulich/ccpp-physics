@@ -432,7 +432,7 @@
   kind = kind_phys
   intent = inout
 [albdnir_lnd]
-  standard_name = surface_albedo_direct_NIR_over_land
+  standard_name = surface_albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -448,7 +448,7 @@
   kind = kind_phys
   intent = inout
 [albinir_lnd]
-  standard_name = surface_albedo_diffuse_NIR_over_land
+  standard_name = surface_albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -465,7 +465,7 @@
   intent = in
   optional = True
 [albdnir_ice]
-  standard_name = surface_albedo_direct_NIR_over_ice
+  standard_name = surface_albedo_direct_nir_over_ice
   long_name = direct surface albedo NIR band over ice
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -483,7 +483,7 @@
   intent = in
   optional = True
 [albinir_ice]
-  standard_name = surface_albedo_diffuse_NIR_over_ice
+  standard_name = surface_albedo_diffuse_nir_over_ice
   long_name = diffuse surface albedo NIR band over ice
   units = frac
   dimensions = (horizontal_loop_extent)

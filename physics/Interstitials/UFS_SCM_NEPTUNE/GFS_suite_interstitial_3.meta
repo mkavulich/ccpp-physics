@@ -37,7 +37,7 @@
   type = integer
   intent = in
 [cscnv]
-  standard_name = flag_for_Chikira_Sugiyama_deep_convection
+  standard_name = flag_for_chikira_sugiyama_deep_convection
   long_name = flag for Chikira-Sugiyama convection
   units = flag
   dimensions = ()
@@ -114,7 +114,7 @@
   type = logical
   intent = in
 [satmedmf]
-  standard_name = flag_for_scale_aware_TKE_moist_EDMF_PBL
+  standard_name = flag_for_scale_aware_tke_moist_edmf_pbl
   long_name = flag for scale-aware TKE moist EDMF PBL scheme
   units = flag
   dimensions = ()
@@ -391,7 +391,7 @@
   kind = kind_phys
   intent = in
 [rhcpbl]
-  standard_name = critical_relative_humidity_at_PBL_top
+  standard_name = critical_relative_humidity_at_pbl_top
   long_name = critical relative humidity at the PBL top
   units = frac
   dimensions = ()
@@ -506,14 +506,14 @@
   kind = kind_phys
   intent = inout
 [ldiag3d]
-  standard_name = flag_for_diagnostics_3D
+  standard_name = flag_for_diagnostics_3d
   long_name = flag for 3d diagnostic fields
   units = flag
   dimensions = ()
   type = logical
   intent = in
 [qdiag3d]
-  standard_name = flag_for_tracer_diagnostics_3D
+  standard_name = flag_for_tracer_diagnostics_3d
   long_name = flag for 3d tracer diagnostic fields
   units = flag
   dimensions = ()

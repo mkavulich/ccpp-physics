@@ -221,7 +221,7 @@
   type = integer
   intent = in
 [lgfdlmprad]
-  standard_name = flag_for_GFDL_microphysics_radiation_interaction
+  standard_name = flag_for_gfdl_microphysics_radiation_interaction
   long_name = flag for GFDL microphysics-radiation interaction
   units = flag
   dimensions = ()
@@ -260,7 +260,7 @@
   kind = kind_phys
   intent = in
 [p_lev]
-  standard_name = air_pressure_at_interface_for_RRTMGP
+  standard_name = air_pressure_at_interface_for_rrtmgp
   long_name = air pressure at vertical interface for radiation calculation
   units = Pa
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -269,7 +269,7 @@
   intent = in
   optional = True
 [p_lay]
-  standard_name = air_pressure_at_layer_for_RRTMGP
+  standard_name = air_pressure_at_layer_for_rrtmgp
   long_name = air pressure at vertical layer for radiation calculation
   units = Pa
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -287,7 +287,7 @@
   intent = in
   optional = True
 [t_lay]
-  standard_name = air_temperature_at_layer_for_RRTMGP
+  standard_name = air_temperature_at_layer_for_rrtmgp
   long_name = air temperature at vertical layer for radiation calculation
   units = K
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -375,7 +375,7 @@
   kind = kind_phys
   intent = in
 [cld_cnv_frac]
-  standard_name = convective_cloud_fraction_for_RRTMGP
+  standard_name = convective_cloud_fraction_for_rrtmgp
   long_name = layer convective cloud fraction
   units = frac
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -411,7 +411,7 @@
   intent = in
   optional = True
 [deltaP]
-  standard_name = layer_thickness_in_Pa
+  standard_name = layer_thickness_in_pa
   long_name = layer_thickness_in_Pa
   units = Pa
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -470,7 +470,7 @@
   kind = kind_phys
   intent = in
 [doGP_smearclds]
-  standard_name = flag_for_implicit_sgs_cloud_in_RRTMGP
+  standard_name = flag_for_implicit_sgs_cloud_in_rrtmgp
   long_name = logical flag to implicit SGS cloud in RRTMGP
   units = flag
   dimensions = ()
@@ -603,7 +603,7 @@
   intent = in
   optional = True
 [cld_pbl_lwp]
-  standard_name = MYNN_SGS_cloud_liquid_water_path
+  standard_name = mynn_sgs_cloud_liquid_water_path
   long_name = layer convective cloud liquid water path
   units = g m-2
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -612,7 +612,7 @@
   intent = inout
   optional = True
 [cld_pbl_iwp]
-  standard_name = MYNN_SGS_cloud_ice_water_path
+  standard_name = mynn_sgs_cloud_ice_water_path
   long_name = layer convective cloud ice water path
   units = g m-2
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -621,7 +621,7 @@
   intent = inout
   optional = True
 [cld_pbl_reliq]
-  standard_name = mean_effective_radius_for_liquid_MYNN_SGS_cloud
+  standard_name = mean_effective_radius_for_liquid_mynn_sgs_cloud
   long_name = mean effective radius for liquid MYNN_SGS cloud
   units = um
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -630,7 +630,7 @@
   intent = inout
   optional = True
 [cld_pbl_reice]
-  standard_name = mean_effective_radius_for_ice_MYNN_SGS_cloud
+  standard_name = mean_effective_radius_for_ice_mynn_sgs_cloud
   long_name = mean effective radius for ice MYNN_SGS cloud
   units = um
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)

@@ -22,14 +22,14 @@
   type = integer
   intent = in
 [do_cscnv]
-  standard_name = flag_for_Chikira_Sugiyama_deep_convection
+  standard_name = flag_for_chikira_sugiyama_deep_convection
   long_name = flag for Chikira-Sugiyama convection
   units = flag
   dimensions = ()
   type = logical
   intent = in
 [do_aw]
-  standard_name = flag_for_Arakawa_Wu_adjustment
+  standard_name = flag_for_arakawa_wu_adjustment
   long_name = flag for Arakawa Wu scale-aware adjustment
   units = flag
   dimensions = ()
@@ -127,7 +127,7 @@
   kind = kind_phys
   intent = in
 [cldfrac]
-  standard_name = cloud_fraction_for_MG
+  standard_name = cloud_fraction_for_mg
   long_name = cloud fraction used by Morrison-Gettelman MP
   units = frac
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)

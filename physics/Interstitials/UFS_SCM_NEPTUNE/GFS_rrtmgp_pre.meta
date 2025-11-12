@@ -10,14 +10,14 @@
   name = GFS_rrtmgp_pre_init
   type = scheme
 [nGases]
-  standard_name = number_of_active_gases_used_by_RRTMGP
+  standard_name = number_of_active_gases_used_by_rrtmgp
   long_name = number of gases available used by RRTMGP (Model%nGases)
   units = count
   dimensions =  ()
   type = integer  
   intent = in
 [active_gases]
-  standard_name = active_gases_used_by_RRTMGP
+  standard_name = active_gases_used_by_rrtmgp
   long_name = active gases used by RRTMGP
   units = none
   dimensions =  ()
@@ -25,7 +25,7 @@
   kind = len=128
   intent = in
 [active_gases_array]
-  standard_name = list_of_active_gases_used_by_RRTMGP
+  standard_name = list_of_active_gases_used_by_rrtmgp
   long_name = list of active gases used by RRTMGP
   units = none
   dimensions = (number_of_active_gases_used_by_RRTMGP)
@@ -271,7 +271,7 @@
   kind = kind_phys
   intent = inout
 [p_lay]
-  standard_name = air_pressure_at_layer_for_RRTMGP
+  standard_name = air_pressure_at_layer_for_rrtmgp
   long_name = air pressure at vertical layer for radiation calculation
   units = Pa
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -280,7 +280,7 @@
   intent = inout
   optional = True
 [p_lev]
-  standard_name = air_pressure_at_interface_for_RRTMGP
+  standard_name = air_pressure_at_interface_for_rrtmgp
   long_name = air pressure at vertical interface for radiation calculation
   units = Pa
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -289,7 +289,7 @@
   intent = inout
   optional = True
 [t_lay]
-  standard_name = air_temperature_at_layer_for_RRTMGP
+  standard_name = air_temperature_at_layer_for_rrtmgp
   long_name = air temperature at vertical layer for radiation calculation
   units = K
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -298,7 +298,7 @@
   intent = inout
   optional = True
 [t_lev]
-  standard_name = air_temperature_at_interface_for_RRTMGP
+  standard_name = air_temperature_at_interface_for_rrtmgp
   long_name = air temperature  at vertical interface for radiation calculation
   units = K
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -325,7 +325,7 @@
   intent = inout
   optional = True
 [deltaP]
-  standard_name = layer_thickness_in_Pa
+  standard_name = layer_thickness_in_pa
   long_name = layer_thickness_in_Pa
   units = Pa
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -341,14 +341,14 @@
   type = logical
   intent = inout
 [iSFC]
-  standard_name = vertical_index_for_surface_in_RRTMGP
+  standard_name = vertical_index_for_surface_in_rrtmgp
   long_name = index for	surface	layer in RRTMGP
   units = flag
   dimensions = ()
   type = integer
   intent = inout
 [iTOA]
-  standard_name = vertical_index_for_TOA_in_RRTMGP
+  standard_name = vertical_index_for_toa_in_rrtmgp
   long_name = index for TOA layer in RRTMGP
   units = flag
   dimensions = ()
@@ -470,7 +470,7 @@
   intent = inout
   optional = True
 [active_gases_array]
-  standard_name = list_of_active_gases_used_by_RRTMGP
+  standard_name = list_of_active_gases_used_by_rrtmgp
   long_name = list of active gases used by RRTMGP
   units = none
   dimensions =  (number_of_active_gases_used_by_RRTMGP)
@@ -503,7 +503,7 @@
   kind = kind_phys
   intent = in
 [sfc_emiss_byband]
-  standard_name = surface_emissivity_in_each_RRTMGP_LW_band
+  standard_name = surface_emissivity_in_each_rrtmgp_lw_band
   long_name = surface emissivity in each RRTMGP LW band
   units = none
   dimensions = (number_of_longwave_bands,horizontal_loop_extent)

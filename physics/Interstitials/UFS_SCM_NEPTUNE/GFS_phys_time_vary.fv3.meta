@@ -45,7 +45,7 @@
   type = logical
   intent = in
 [iaerclm]
-  standard_name = flag_for_aerosol_input_MG_radiation
+  standard_name = flag_for_aerosol_input_mg_radiation
   long_name = flag for using aerosols in Morrison-Gettelman MP_radiation
   units = flag
   dimensions = ()
@@ -87,14 +87,14 @@
   type = integer
   intent = in
 [nx]
-  standard_name = number_of_points_in_x_direction_for_this_MPI_rank
+  standard_name = number_of_points_in_x_direction_for_this_mpi_rank
   long_name = number of points in x direction for this MPI rank
   units = count
   dimensions = ()
   type = integer
   intent = in
 [ny]
-  standard_name = number_of_points_in_y_direction_for_this_MPI_rank
+  standard_name = number_of_points_in_y_direction_for_this_mpi_rank
   long_name = number of points in y direction for this MPI rank
   units = count
   dimensions = ()
@@ -747,7 +747,7 @@
   kind = kind_phys
   intent = inout
 [albdnir_lnd]
-  standard_name = surface_albedo_direct_NIR_over_land
+  standard_name = surface_albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
   units = frac
   dimensions = (horizontal_dimension)
@@ -763,7 +763,7 @@
   kind = kind_phys
   intent = inout
 [albinir_lnd]
-  standard_name = surface_albedo_diffuse_NIR_over_land
+  standard_name = surface_albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
   units = frac
   dimensions = (horizontal_dimension)
@@ -780,7 +780,7 @@
   intent = inout
   optional = True
 [albdnir_ice]
-  standard_name = surface_albedo_direct_NIR_over_ice
+  standard_name = surface_albedo_direct_nir_over_ice
   long_name = direct surface albedo NIR band over ice
   units = frac
   dimensions = (horizontal_dimension)
@@ -798,7 +798,7 @@
   intent = inout
   optional = True
 [albinir_ice]
-  standard_name = surface_albedo_diffuse_NIR_over_ice
+  standard_name = surface_albedo_diffuse_nir_over_ice
   long_name = diffuse surface albedo NIR band over ice
   units = frac
   dimensions = (horizontal_dimension)
@@ -1125,14 +1125,14 @@
   type = integer
   intent = in
 [isc]
-  standard_name = starting_x_index_for_this_MPI_rank
+  standard_name = starting_x_index_for_this_mpi_rank
   long_name = starting index in the x direction for this MPI rank
   units = count
   dimensions = ()
   type = integer
   intent = in
 [jsc]
-  standard_name = starting_y_index_for_this_MPI_rank
+  standard_name = starting_y_index_for_this_mpi_rank
   long_name = starting index in the y direction for this MPI rank
   units = count
   dimensions = ()
@@ -1225,7 +1225,7 @@
   type = logical
   intent = in
 [random_clds]
-  standard_name = flag_for_random_clouds_for_RAS
+  standard_name = flag_for_random_clouds_for_ras
   long_name = flag for using random clouds with the RAS scheme
   units = flag
   dimensions = ()
@@ -1253,7 +1253,7 @@
   type = logical
   intent = in
 [iaerclm]
-  standard_name = flag_for_aerosol_input_MG_radiation
+  standard_name = flag_for_aerosol_input_mg_radiation
   long_name = flag for using aerosols in Morrison-Gettelman MP_radiation
   units = flag
   dimensions = ()
@@ -1509,7 +1509,7 @@
   kind = kind_phys
   intent = in
 [seed0]
-  standard_name = seed_random_numbers_RAS
+  standard_name = seed_random_numbers_ras
   long_name = random number seed for the RAS scheme
   units = none
   dimensions = ()
@@ -1531,14 +1531,14 @@
   type = integer
   intent = in
 [nx]
-  standard_name = number_of_points_in_x_direction_for_this_MPI_rank
+  standard_name = number_of_points_in_x_direction_for_this_mpi_rank
   long_name = number of points in x direction for this MPI rank
   units = count
   dimensions = ()
   type = integer
   intent = in
 [ny]
-  standard_name = number_of_points_in_y_direction_for_this_MPI_rank
+  standard_name = number_of_points_in_y_direction_for_this_mpi_rank
   long_name = number of points in y direction for this MPI rank
   units = count
   dimensions = ()

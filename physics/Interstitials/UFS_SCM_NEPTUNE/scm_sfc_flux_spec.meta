@@ -146,7 +146,7 @@
   kind = kind_phys
   intent = in
 [hvap]
-  standard_name = latent_heat_of_vaporization_of_water_at_0C
+  standard_name = latent_heat_of_vaporization_of_water_at_0c
   long_name = latent heat of vaporization of water at 0C
   units = J kg-1
   dimensions = ()
@@ -393,7 +393,7 @@
   kind = kind_phys
   intent = out
 [fm]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum
+  standard_name = monin_obukhov_similarity_function_for_momentum
   long_name = Monin-Obukhov similarity function for momentum
   units = none
   dimensions = (horizontal_loop_extent)
@@ -401,7 +401,7 @@
   kind = kind_phys
   intent = out
 [fh]
-  standard_name = Monin_Obukhov_similarity_function_for_heat
+  standard_name = monin_obukhov_similarity_function_for_heat
   long_name = Monin-Obukhov similarity function for heat
   units = none
   dimensions = (horizontal_loop_extent)

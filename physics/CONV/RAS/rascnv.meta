@@ -55,7 +55,7 @@
   kind = kind_phys
   intent = in
 [con_hvap] 
-  standard_name = latent_heat_of_vaporization_of_water_at_0C
+  standard_name = latent_heat_of_vaporization_of_water_at_0c
   long_name = latent heat of evaporation/sublimation
   units = J kg-1
   dimensions = ()
@@ -63,7 +63,7 @@
   kind = kind_phys
   intent = in
 [con_hfus]
-  standard_name = latent_heat_of_fusion_of_water_at_0C
+  standard_name = latent_heat_of_fusion_of_water_at_0c
   long_name = latent heat of fusion
   units = J kg-1
   dimensions = ()

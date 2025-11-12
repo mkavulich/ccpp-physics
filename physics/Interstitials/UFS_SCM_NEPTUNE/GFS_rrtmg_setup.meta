@@ -185,7 +185,7 @@
   type = integer
   intent = in
 [lcrick]
-  standard_name = flag_for_CRICK_proof_cloud_water
+  standard_name = flag_for_crick_proof_cloud_water
   long_name = flag for CRICK-Proof cloud water
   units = flag
   dimensions = ()

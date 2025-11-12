@@ -22,21 +22,21 @@
   type = integer
   intent = in
 [ldiag3d]
-  standard_name = flag_for_diagnostics_3D
+  standard_name = flag_for_diagnostics_3d
   long_name = logical flag for 3D diagnostics
   units = flag
   dimensions = ()
   type = logical
   intent = in
 [qdiag3d]
-  standard_name = flag_for_tracer_diagnostics_3D
+  standard_name = flag_for_tracer_diagnostics_3d
   long_name = logical flag for 3D tracer diagnostics
   units = flag
   dimensions = ()
   type = logical
   intent = in
 [do_aw]
-  standard_name = flag_for_Arakawa_Wu_adjustment
+  standard_name = flag_for_arakawa_wu_adjustment
   long_name = flag for Arakawa Wu scale-aware adjustment
   units = flag
   dimensions = ()

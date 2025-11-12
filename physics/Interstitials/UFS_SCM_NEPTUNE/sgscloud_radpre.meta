@@ -111,7 +111,7 @@
   kind = kind_phys
   intent = in
 [xlv]
-  standard_name = latent_heat_of_vaporization_of_water_at_0C
+  standard_name = latent_heat_of_vaporization_of_water_at_0c
   long_name = latent heat of evaporation/sublimation
   units = J kg-1
   dimensions = ()
@@ -119,7 +119,7 @@
   kind = kind_phys
   intent = in
 [xlf]
-  standard_name = latent_heat_of_fusion_of_water_at_0C
+  standard_name = latent_heat_of_fusion_of_water_at_0c
   long_name = latent heat of fusion
   units = J kg-1
   dimensions = ()
@@ -413,7 +413,7 @@
   type = integer
   intent = in
 [plyr]
-  standard_name = air_pressure_at_layer_for_radiation_in_hPa
+  standard_name = air_pressure_at_layer_for_radiation_in_hpa
   long_name = air pressure at vertical layer for radiation calculation
   units = hPa
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)

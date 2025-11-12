@@ -136,7 +136,7 @@
   type = logical
   intent = in
 [ldiag3d]
-  standard_name = flag_for_diagnostics_3D
+  standard_name = flag_for_diagnostics_3d
   long_name = flag for 3d diagnostic fields
   units = flag
   dimensions = ()

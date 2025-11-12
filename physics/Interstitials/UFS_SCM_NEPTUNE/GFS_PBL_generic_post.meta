@@ -156,7 +156,7 @@
   type = integer
   intent = in
 [trans_aero]
-  standard_name = flag_for_aerosol_convective_transport_and_PBL_diffusion
+  standard_name = flag_for_aerosol_convective_transport_and_pbl_diffusion
   long_name = flag for aerosol convective transport and PBL diffusion
   units = flag
   dimensions = ()
@@ -359,7 +359,7 @@
   type = logical
   intent = in
 [ldiag3d]
-  standard_name = flag_for_diagnostics_3D
+  standard_name = flag_for_diagnostics_3d
   long_name = flag for 3d diagnostic fields
   units = flag
   dimensions = ()
@@ -387,14 +387,14 @@
   type = logical
   intent = in
 [satmedmf]
-  standard_name = flag_for_scale_aware_TKE_moist_EDMF_PBL
+  standard_name = flag_for_scale_aware_tke_moist_edmf_pbl
   long_name = flag for scale-aware TKE moist EDMF PBL scheme
   units = flag
   dimensions = ()
   type = logical
   intent = in
 [shinhong]
-  standard_name = flag_for_scale_aware_Shinhong_PBL
+  standard_name = flag_for_scale_aware_shinhong_pbl
   long_name = flag for scale-aware Shinhong PBL scheme
   units = flag
   dimensions = ()
@@ -716,7 +716,7 @@
   kind = kind_phys
   intent = in
 [hvap]
-  standard_name = latent_heat_of_vaporization_of_water_at_0C
+  standard_name = latent_heat_of_vaporization_of_water_at_0c
   long_name = latent heat of evaporation/sublimation
   units = J kg-1
   dimensions = ()

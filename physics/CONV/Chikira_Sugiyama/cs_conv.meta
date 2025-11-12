@@ -37,14 +37,14 @@
   type = integer
   intent = in
 [ntr]
-  standard_name = number_of_tracers_for_CS
+  standard_name = number_of_tracers_for_cs
   long_name = number of convectively transported tracers in Chikira-Sugiyama deep conv. scheme
   units = count
   dimensions = ()
   type = integer
   intent = in
 [nctp]
-  standard_name = number_of_cloud_types_CS
+  standard_name = number_of_cloud_types_cs
   long_name = number of cloud types in Chikira-Sugiyama scheme
   units = count
   dimensions = ()
@@ -231,7 +231,7 @@
   kind = kind_phys
   intent = in
 [precz0in]
-  standard_name = detrainment_and_precipitation_tunable_parameter_3_CS
+  standard_name = detrainment_and_precipitation_tunable_parameter_3_cs
   long_name = partition water between detrainment and precipitation (decrease for more precipitation)
   units = m
   dimensions = ()
@@ -239,7 +239,7 @@
   kind = kind_phys
   intent = in
 [preczhin]
-  standard_name = detrainment_and_precipitation_tunable_parameter_4_CS
+  standard_name = detrainment_and_precipitation_tunable_parameter_4_cs
   long_name = partition water between detrainment and precipitation (decrease for more precipitation)
   units = m
   dimensions = ()
@@ -247,7 +247,7 @@
   kind = kind_phys
   intent = in
 [clmdin]
-  standard_name = entrainment_efficiency_tunable_parameter_9_CS
+  standard_name = entrainment_efficiency_tunable_parameter_9_cs
   long_name = entrainment efficiency
   units = none
   dimensions = ()
@@ -263,7 +263,7 @@
   kind = kind_phys
   intent = out
 [do_aw]
-  standard_name = flag_for_Arakawa_Wu_adjustment
+  standard_name = flag_for_arakawa_wu_adjustment
   long_name = flag for Arakawa Wu scale-aware adjustment
   units = flag
   dimensions = ()
@@ -277,7 +277,7 @@
   type = logical
   intent = in
 [flx_form]
-  standard_name = flag_flux_form_CS
+  standard_name = flag_flux_form_cs
   long_name = flag to enable using the flux form of the equations in CS scheme
   units = flag
   dimensions = ()

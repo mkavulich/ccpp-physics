@@ -262,7 +262,7 @@
   type = logical
   intent = in
 [fluxlwUP_clrsky]
-  standard_name = RRTMGP_lw_flux_profile_upward_clrsky
+  standard_name = rrtmgp_lw_flux_profile_upward_clrsky
   long_name = RRTMGP upward longwave clr-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -271,7 +271,7 @@
   intent = in
   optional = True
 [fluxlwDOWN_clrsky]
-  standard_name = RRTMGP_lw_flux_profile_downward_clrsky
+  standard_name = rrtmgp_lw_flux_profile_downward_clrsky
   long_name = RRTMGP downward longwave clr-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -289,7 +289,7 @@
   intent = inout
   optional = True
 [fluxlwUP_allsky]
-  standard_name = RRTMGP_lw_flux_profile_upward_allsky
+  standard_name = rrtmgp_lw_flux_profile_upward_allsky
   long_name = RRTMGP upward longwave all-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -298,7 +298,7 @@
   intent = in
   optional = True
 [fluxlwDOWN_allsky]
-  standard_name = RRTMGP_lw_flux_profile_downward_allsky
+  standard_name = rrtmgp_lw_flux_profile_downward_allsky
   long_name = RRTMGP downward longwave all-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -331,7 +331,7 @@
   intent = inout
   optional = True
 [fluxswUP_clrsky]
-  standard_name = RRTMGP_sw_flux_profile_upward_clrsky
+  standard_name = rrtmgp_sw_flux_profile_upward_clrsky
   long_name = RRTMGP upward shortwave clr-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -347,7 +347,7 @@
   type = integer
   intent = in
 [fluxswDOWN_clrsky]
-  standard_name = RRTMGP_sw_flux_profile_downward_clrsky
+  standard_name = rrtmgp_sw_flux_profile_downward_clrsky
   long_name = RRTMGP downward shortwave clr-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -364,7 +364,7 @@
   kind = kind_phys
   intent = inout
 [fluxswUP_allsky]
-  standard_name = RRTMGP_sw_flux_profile_upward_allsky
+  standard_name = rrtmgp_sw_flux_profile_upward_allsky
   long_name = RRTMGP upward shortwave all-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -373,7 +373,7 @@
   intent = in
   optional = True
 [fluxswDOWN_allsky]
-  standard_name = RRTMGP_sw_flux_profile_downward_allsky
+  standard_name = rrtmgp_sw_flux_profile_downward_allsky
   long_name = RRTMGP downward shortwave all-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -382,14 +382,14 @@
   intent = in
   optional = True
 [iSFC]
-  standard_name = vertical_index_for_surface_in_RRTMGP
+  standard_name = vertical_index_for_surface_in_rrtmgp
   long_name = index for surface layer in RRTMGP
   units = flag
   dimensions = ()
   type = integer
   intent = in
 [iTOA]
-  standard_name = vertical_index_for_TOA_in_RRTMGP
+  standard_name = vertical_index_for_toa_in_rrtmgp
   long_name = index for TOA layer in RRTMGP
   units = flag
   dimensions = ()
@@ -501,7 +501,7 @@
   kind = kind_phys
   intent = inout
 [sfc_alb_nir_dir]
-  standard_name = surface_albedo_due_to_near_IR_direct
+  standard_name = surface_albedo_due_to_near_ir_direct
   long_name = surface albedo due to near IR direct beam
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -509,7 +509,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_nir_dif]
-  standard_name = surface_albedo_due_to_near_IR_diffused
+  standard_name = surface_albedo_due_to_near_ir_diffused
   long_name = surface albedo due to near IR diffused beam
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -517,7 +517,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_uvvis_dir]
-  standard_name = surface_albedo_due_to_UV_and_VIS_direct
+  standard_name = surface_albedo_due_to_uv_and_vis_direct
   long_name = surface albedo due to UV+VIS direct beam
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -525,7 +525,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_uvvis_dif]
-  standard_name = surface_albedo_due_to_UV_and_VIS_diffused
+  standard_name = surface_albedo_due_to_uv_and_vis_diffused
   long_name = surface albedo due to UV+VIS diffused beam
   units = frac
   dimensions = (horizontal_loop_extent)

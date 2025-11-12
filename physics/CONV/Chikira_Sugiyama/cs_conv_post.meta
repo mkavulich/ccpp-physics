@@ -23,7 +23,7 @@
   type = integer
   intent = in
 [do_aw]
-  standard_name = flag_for_Arakawa_Wu_adjustment
+  standard_name = flag_for_arakawa_wu_adjustment
   long_name = flag for Arakawa Wu scale-aware adjustment
   units = flag
   dimensions = ()

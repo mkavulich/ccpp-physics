@@ -102,7 +102,7 @@
   kind = kind_phys
   intent = in
 [p_lay]
-  standard_name = air_pressure_at_layer_for_RRTMGP
+  standard_name = air_pressure_at_layer_for_rrtmgp
   long_name = air pressure at vertical layer for radiation calculation
   units = Pa
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -119,7 +119,7 @@
   kind = kind_phys
   intent = in
 [p_lev]
-  standard_name = air_pressure_at_interface_for_RRTMGP
+  standard_name = air_pressure_at_interface_for_rrtmgp
   long_name = air pressure at vertical interface for radiation calculation
   units = Pa
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)

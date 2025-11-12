@@ -675,7 +675,7 @@
   kind = kind_phys
   intent = inout
 [clls_io]
-  standard_name = cloud_fraction_for_MG
+  standard_name = cloud_fraction_for_mg
   long_name = cloud fraction used by Morrison-Gettelman MP
   units = frac
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -730,7 +730,7 @@
   kind = kind_phys
   intent = out
 [ntrcaer]
-  standard_name = number_of_aerosol_tracers_MG
+  standard_name = number_of_aerosol_tracers_mg
   long_name = number of aerosol tracers for Morrison Gettelman MP
   units = count
   dimensions = ()
