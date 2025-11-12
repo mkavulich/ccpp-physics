@@ -244,7 +244,7 @@
   kind = kind_phys
   intent = out
 [psim]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum
+  standard_name = monin_obukhov_similarity_function_for_momentum
   long_name = Monin-Obukhov similarity function for momentum
   units = none
   dimensions = (horizontal_loop_extent)
@@ -252,7 +252,7 @@
   kind = kind_phys
   intent = in
 [psih]
-  standard_name = Monin_Obukhov_similarity_function_for_heat
+  standard_name = monin_obukhov_similarity_function_for_heat
   long_name = Monin-Obukhov similarity function for heat
   units = none
   dimensions = (horizontal_loop_extent)
@@ -347,7 +347,7 @@
   kind = kind_phys
   intent = in
 [xlv]
-  standard_name = latent_heat_of_vaporization_of_water_at_0C
+  standard_name = latent_heat_of_vaporization_of_water_at_0c
   long_name = latent heat of evaporation/sublimation
   units = J kg-1
   dimensions = ()
@@ -425,14 +425,14 @@
   type = logical
   intent = in
 [ldiag3d]
-  standard_name = flag_for_diagnostics_3D
+  standard_name = flag_for_diagnostics_3d
   long_name = flag for 3d diagnostic fields
   units = flag
   dimensions = ()
   type = logical
   intent = in
 [qdiag3d]
-  standard_name = flag_for_tracer_diagnostics_3D
+  standard_name = flag_for_tracer_diagnostics_3d
   long_name = flag for 3d tracer diagnostic fields
   units = flag
   dimensions = ()

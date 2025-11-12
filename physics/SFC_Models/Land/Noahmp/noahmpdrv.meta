@@ -275,7 +275,7 @@
   kind = kind_phys
   intent = in
 [con_hfus]
-  standard_name = latent_heat_of_fusion_of_water_at_0C
+  standard_name = latent_heat_of_fusion_of_water_at_0c
   long_name = latent heat of fusion
   units = J kg-1
   dimensions = ()
@@ -784,7 +784,7 @@
   kind = kind_phys
   intent = in
 [con_hvap]
-  standard_name = latent_heat_of_vaporization_of_water_at_0C
+  standard_name = latent_heat_of_vaporization_of_water_at_0c
   long_name = latent heat of evaporation/sublimation
   units = J kg-1
   dimensions = ()
@@ -848,7 +848,7 @@
   kind = kind_phys
   intent = in
 [con_hfus]
-  standard_name = latent_heat_of_fusion_of_water_at_0C
+  standard_name = latent_heat_of_fusion_of_water_at_0c
   long_name = latent heat of fusion
   units = J kg-1
   dimensions = ()
@@ -981,7 +981,7 @@
   kind = kind_phys
   intent = inout
 [fm1]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum_over_land
+  standard_name = monin_obukhov_similarity_function_for_momentum_over_land
   long_name = Monin-Obukhov similarity function for momentum over land
   units = none
   dimensions = (horizontal_loop_extent)
@@ -989,7 +989,7 @@
   kind = kind_phys
   intent = inout
 [fh1]
-  standard_name = Monin_Obukhov_similarity_function_for_heat_over_land
+  standard_name = monin_obukhov_similarity_function_for_heat_over_land
   long_name = Monin-Obukhov similarity function for heat over land
   units = none
   dimensions = (horizontal_loop_extent)
@@ -1013,7 +1013,7 @@
   kind = kind_phys
   intent = inout
 [fm101]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum_at_10m_over_land
+  standard_name = monin_obukhov_similarity_function_for_momentum_at_10m_over_land
   long_name = Monin-Obukhov similarity parameter for momentum at 10m over land
   units = none
   dimensions = (horizontal_loop_extent)
@@ -1021,7 +1021,7 @@
   kind = kind_phys
   intent = inout
 [fh21]
-  standard_name = Monin_Obukhov_similarity_function_for_heat_at_2m_over_land
+  standard_name = monin_obukhov_similarity_function_for_heat_at_2m_over_land
   long_name = Monin-Obukhov similarity parameter for heat at 2m over land
   units = none
   dimensions = (horizontal_loop_extent)
@@ -1340,7 +1340,7 @@
   kind = kind_phys
   intent = out
 [albdnir]
-  standard_name = surface_albedo_direct_NIR_over_land
+  standard_name = surface_albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -1356,7 +1356,7 @@
   kind = kind_phys
   intent = out
 [albinir]
-  standard_name = surface_albedo_diffuse_NIR_over_land
+  standard_name = surface_albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
   units = frac
   dimensions = (horizontal_loop_extent)

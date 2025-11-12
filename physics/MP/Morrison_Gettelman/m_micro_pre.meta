@@ -211,7 +211,7 @@
   kind = kind_phys
   intent = inout
 [cld_frc_MG]
-  standard_name = cloud_fraction_for_MG
+  standard_name = cloud_fraction_for_mg
   long_name = cloud fraction used by Morrison-Gettelman MP
   units = frac
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)

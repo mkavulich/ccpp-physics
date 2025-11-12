@@ -199,7 +199,7 @@
   kind = kind_phys
   intent = in
 [fm]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum
+  standard_name = monin_obukhov_similarity_function_for_momentum
   long_name = Monin-Obukhov similarity function for momentum
   units = none
   dimensions = (horizontal_loop_extent)
@@ -207,7 +207,7 @@
   kind = kind_phys
   intent = in
 [fh]
-  standard_name = Monin_Obukhov_similarity_function_for_heat
+  standard_name = monin_obukhov_similarity_function_for_heat
   long_name = Monin-Obukhov similarity function for heat
   units = none
   dimensions = (horizontal_loop_extent)
@@ -318,7 +318,7 @@
   kind = kind_phys
   intent = in
 [dspheat]
-  standard_name = flag_TKE_dissipation_heating
+  standard_name = flag_tke_dissipation_heating
   long_name = flag for using TKE dissipation heating
   units = flag
   dimensions = ()
@@ -458,7 +458,7 @@
   kind = kind_phys
   intent = in
 [hurr_pbl]
-  standard_name = flag_hurricane_PBL
+  standard_name = flag_hurricane_pbl
   long_name = flag for hurricane-specific options in PBL scheme
   units = flag
   dimensions = ()
@@ -496,7 +496,7 @@
   kind = kind_phys
   intent = in
 [ldiag3d]
-  standard_name = flag_for_diagnostics_3D
+  standard_name = flag_for_diagnostics_3d
   long_name = flag for 3d diagnostic fields
   units = flag
   dimensions = ()

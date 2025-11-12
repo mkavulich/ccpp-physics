@@ -8,7 +8,7 @@
   name = satmedmfvdif_init
   type = scheme
 [satmedmf]
-  standard_name = flag_for_scale_aware_TKE_moist_EDMF_PBL
+  standard_name = flag_for_scale_aware_tke_moist_edmf_pbl
   long_name = flag for scale-aware TKE moist EDMF PBL scheme
   units = flag
   dimensions = ()
@@ -16,14 +16,14 @@
   intent = in
   intent = in
 [isatmedmf]
-  standard_name = choice_of_scale_aware_TKE_moist_EDMF_PBL
+  standard_name = choice_of_scale_aware_tke_moist_edmf_pbl
   long_name = choice of scale-aware TKE moist EDMF PBL scheme
   units = none
   dimensions = ()
   type = integer
   intent = in
 [isatmedmf_vdif]
-  standard_name = choice_of_original_scale_aware_TKE_moist_EDMF_PBL
+  standard_name = choice_of_original_scale_aware_tke_moist_edmf_pbl
   long_name = choice of original scale-aware TKE moist EDMF PBL scheme
   units = none
   dimensions = ()
@@ -124,7 +124,7 @@
   kind = kind_phys
   intent = in
 [hvap]
-  standard_name = latent_heat_of_vaporization_of_water_at_0C
+  standard_name = latent_heat_of_vaporization_of_water_at_0c
   long_name = latent heat of evaporation/sublimation
   units = J kg-1
   dimensions = ()
@@ -132,7 +132,7 @@
   kind = kind_phys
   intent = in
 [hfus]
-  standard_name = latent_heat_of_fusion_of_water_at_0C
+  standard_name = latent_heat_of_fusion_of_water_at_0c
   long_name = latent heat of fusion
   units = J kg-1
   dimensions = ()
@@ -300,7 +300,7 @@
   kind = kind_phys
   intent = in
 [fm]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum
+  standard_name = monin_obukhov_similarity_function_for_momentum
   long_name = Monin-Obukhov similarity function for momentum
   units = none
   dimensions = (horizontal_loop_extent)
@@ -308,7 +308,7 @@
   kind = kind_phys
   intent = in
 [fh]
-  standard_name = Monin_Obukhov_similarity_function_for_heat
+  standard_name = monin_obukhov_similarity_function_for_heat
   long_name = Monin-Obukhov similarity function for heat
   units = none
   dimensions = (horizontal_loop_extent)
@@ -419,7 +419,7 @@
   kind = kind_phys
   intent = in
 [dspheat]
-  standard_name = flag_TKE_dissipation_heating
+  standard_name = flag_tke_dissipation_heating
   long_name = flag for using TKE dissipation heating
   units = flag
   dimensions = ()
@@ -562,7 +562,7 @@
   type = logical
   intent = in
 [ldiag3d]
-  standard_name = flag_for_diagnostics_3D
+  standard_name = flag_for_diagnostics_3d
   long_name = flag for 3d diagnostic fields
   units = flag
   dimensions = ()

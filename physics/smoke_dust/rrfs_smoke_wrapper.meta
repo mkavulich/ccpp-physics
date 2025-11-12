@@ -93,7 +93,7 @@
   type = integer
   intent = in
 [hwp_method_in]
-  standard_name = control_for_HWP_equation
+  standard_name = control_for_hwp_equation
   long_name = control for HWP equation
   units = 1
   dimensions = ()
@@ -609,7 +609,7 @@
   intent = in
   optional = True
 [smoke_RRFS]
-  standard_name = emission_smoke_RRFS
+  standard_name = emission_smoke_rrfs
   long_name = emission fire RRFS
   units = various
   dimensions = (horizontal_loop_extent,24,2)
@@ -618,7 +618,7 @@
   intent = in
   optional = True
 [smoke2d_RRFS]
-  standard_name = emission_smoke_prvd_RRFS
+  standard_name = emission_smoke_prvd_rrfs
   long_name = emission fire RRFS daily
   units = various
   dimensions = (horizontal_loop_extent,5)

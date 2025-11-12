@@ -509,7 +509,7 @@
   kind = kind_phys
   intent = inout
 [fm_wat]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum_over_water
+  standard_name = monin_obukhov_similarity_function_for_momentum_over_water
   long_name = Monin-Obukhov similarity function for momentum over water
   units = none
   dimensions = (horizontal_loop_extent)
@@ -517,7 +517,7 @@
   kind = kind_phys
   intent = inout
 [fm_lnd]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum_over_land
+  standard_name = monin_obukhov_similarity_function_for_momentum_over_land
   long_name = Monin-Obukhov similarity function for momentum over land
   units = none
   dimensions = (horizontal_loop_extent)
@@ -525,7 +525,7 @@
   kind = kind_phys
   intent = inout
 [fm_ice]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum_over_ice
+  standard_name = monin_obukhov_similarity_function_for_momentum_over_ice
   long_name = Monin-Obukhov similarity function for momentum over ice
   units = none
   dimensions = (horizontal_loop_extent)
@@ -533,7 +533,7 @@
   kind = kind_phys
   intent = inout
 [fh_wat]
-  standard_name = Monin_Obukhov_similarity_function_for_heat_over_water
+  standard_name = monin_obukhov_similarity_function_for_heat_over_water
   long_name = Monin-Obukhov similarity function for heat over water
   units = none
   dimensions = (horizontal_loop_extent)
@@ -541,7 +541,7 @@
   kind = kind_phys
   intent = inout
 [fh_lnd]
-  standard_name = Monin_Obukhov_similarity_function_for_heat_over_land
+  standard_name = monin_obukhov_similarity_function_for_heat_over_land
   long_name = Monin-Obukhov similarity function for heat over land
   units = none
   dimensions = (horizontal_loop_extent)
@@ -549,7 +549,7 @@
   kind = kind_phys
   intent = inout
 [fh_ice]
-  standard_name = Monin_Obukhov_similarity_function_for_heat_over_ice
+  standard_name = monin_obukhov_similarity_function_for_heat_over_ice
   long_name = Monin-Obukhov similarity function for heat over ice
   units = none
   dimensions = (horizontal_loop_extent)
@@ -557,7 +557,7 @@
   kind = kind_phys
   intent = inout
 [fm10_wat]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum_at_10m_over_water
+  standard_name = monin_obukhov_similarity_function_for_momentum_at_10m_over_water
   long_name = Monin-Obukhov similarity parameter for momentum at 10m over water
   units = none
   dimensions = (horizontal_loop_extent)
@@ -565,7 +565,7 @@
   kind = kind_phys
   intent = inout
 [fm10_lnd]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum_at_10m_over_land
+  standard_name = monin_obukhov_similarity_function_for_momentum_at_10m_over_land
   long_name = Monin-Obukhov similarity parameter for momentum at 10m over land
   units = none
   dimensions = (horizontal_loop_extent)
@@ -573,7 +573,7 @@
   kind = kind_phys
   intent = inout
 [fm10_ice]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum_at_10m_over_ice
+  standard_name = monin_obukhov_similarity_function_for_momentum_at_10m_over_ice
   long_name = Monin-Obukhov similarity parameter for momentum at 10m over ice
   units = none
   dimensions = (horizontal_loop_extent)
@@ -581,7 +581,7 @@
   kind = kind_phys
   intent = inout
 [fh2_wat]
-  standard_name = Monin_Obukhov_similarity_function_for_heat_at_2m_over_water
+  standard_name = monin_obukhov_similarity_function_for_heat_at_2m_over_water
   long_name = Monin-Obukhov similarity parameter for heat at 2m over water
   units = none
   dimensions = (horizontal_loop_extent)
@@ -589,7 +589,7 @@
   kind = kind_phys
   intent = inout
 [fh2_lnd]
-  standard_name = Monin_Obukhov_similarity_function_for_heat_at_2m_over_land
+  standard_name = monin_obukhov_similarity_function_for_heat_at_2m_over_land
   long_name = Monin-Obukhov similarity parameter for heat at 2m over land
   units = none
   dimensions = (horizontal_loop_extent)
@@ -597,7 +597,7 @@
   kind = kind_phys
   intent = inout
 [fh2_ice]
-  standard_name = Monin_Obukhov_similarity_function_for_heat_at_2m_over_ice
+  standard_name = monin_obukhov_similarity_function_for_heat_at_2m_over_ice
   long_name = Monin-Obukhov similarity parameter for heat at 2m over ice
   units = none
   dimensions = (horizontal_loop_extent)

@@ -45,7 +45,7 @@
   type = integer
   intent = inout
 [rrtmgp_phys_blksz]
-  standard_name = number_of_columns_per_RRTMGP_SW_block
+  standard_name = number_of_columns_per_rrtmgp_sw_block
   long_name = number of columns to process at a time by RRTMGP SW scheme
   units = count
   dimensions =  ()
@@ -80,7 +80,7 @@
   type = MPI_Comm
   intent = in
 [active_gases_array]
-  standard_name = list_of_active_gases_used_by_RRTMGP
+  standard_name = list_of_active_gases_used_by_rrtmgp
   long_name = list of active gases used by RRTMGP
   units = none
   dimensions =  (number_of_active_gases_used_by_RRTMGP)
@@ -129,7 +129,7 @@
   type = logical
   intent = in
 [iSFC]
-  standard_name = vertical_index_for_surface_in_RRTMGP
+  standard_name = vertical_index_for_surface_in_rrtmgp
   long_name = index for surface layer in RRTMGP
   units = flag
   dimensions = ()
@@ -150,14 +150,14 @@
   type = integer
   intent = in
 [rrtmgp_phys_blksz]
-  standard_name = number_of_columns_per_RRTMGP_SW_block
+  standard_name = number_of_columns_per_rrtmgp_sw_block
   long_name = number of columns to process at a time by RRTMGP SW scheme
   units = count
   dimensions =  ()
   type = integer
   intent = in
 [nGases]
-  standard_name = number_of_active_gases_used_by_RRTMGP
+  standard_name = number_of_active_gases_used_by_rrtmgp
   long_name = number of gases available used by RRTMGP (Model%nGases)
   units = count
   dimensions =  ()
@@ -256,7 +256,7 @@
   type = integer
   intent = in
 [p_lay]
-  standard_name = air_pressure_at_layer_for_RRTMGP
+  standard_name = air_pressure_at_layer_for_rrtmgp
   long_name = air pressure at vertical layer for radiation calculation
   units = Pa
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -264,7 +264,7 @@
   kind = kind_phys
   intent = in
 [p_lev]
-  standard_name = air_pressure_at_interface_for_RRTMGP
+  standard_name = air_pressure_at_interface_for_rrtmgp
   long_name = air pressure at vertical interface for radiation calculation
   units = Pa
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -272,7 +272,7 @@
   kind = kind_phys
   intent = in
 [t_lay]
-  standard_name = air_temperature_at_layer_for_RRTMGP
+  standard_name = air_temperature_at_layer_for_rrtmgp
   long_name = air temperature at vertical layer for radiation calculation
   units = K
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -280,7 +280,7 @@
   kind = kind_phys
   intent = in
 [t_lev]
-  standard_name = air_temperature_at_interface_for_RRTMGP
+  standard_name = air_temperature_at_interface_for_rrtmgp
   long_name = air temperature  at vertical interface for radiation calculation
   units = K
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -452,7 +452,7 @@
   intent = in
   optional = True
 [cld_pbl_lwp]
-  standard_name = MYNN_SGS_cloud_liquid_water_path
+  standard_name = mynn_sgs_cloud_liquid_water_path
   long_name = layer convective cloud liquid water path
   units = g m-2
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -461,7 +461,7 @@
   intent = in
   optional = True
 [cld_pbl_iwp]
-  standard_name = MYNN_SGS_cloud_ice_water_path
+  standard_name = mynn_sgs_cloud_ice_water_path
   long_name = layer convective cloud ice water path
   units = g m-2
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -470,7 +470,7 @@
   intent = in
   optional = True
 [cld_pbl_reliq]
-  standard_name = mean_effective_radius_for_liquid_MYNN_SGS_cloud
+  standard_name = mean_effective_radius_for_liquid_mynn_sgs_cloud
   long_name = mean effective radius for liquid MYNN_SGS cloud
   units = um
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -479,7 +479,7 @@
   intent = in
   optional = True
 [cld_pbl_reice]
-  standard_name = mean_effective_radius_for_ice_MYNN_SGS_cloud
+  standard_name = mean_effective_radius_for_ice_mynn_sgs_cloud
   long_name = mean effective radius for ice MYNN_SGS cloud
   units = um
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -496,7 +496,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_nir_dir]
-  standard_name = surface_albedo_due_to_near_IR_direct
+  standard_name = surface_albedo_due_to_near_ir_direct
   long_name = surface albedo due to near IR direct beam
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -504,7 +504,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_nir_dif]
-  standard_name = surface_albedo_due_to_near_IR_diffused
+  standard_name = surface_albedo_due_to_near_ir_diffused
   long_name = surface albedo due to near IR diffused beam
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -512,7 +512,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_uvvis_dir]
-  standard_name = surface_albedo_due_to_UV_and_VIS_direct
+  standard_name = surface_albedo_due_to_uv_and_vis_direct
   long_name = surface albedo due to UV+VIS direct beam
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -520,7 +520,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_uvvis_dif]
-  standard_name = surface_albedo_due_to_UV_and_VIS_diffused
+  standard_name = surface_albedo_due_to_uv_and_vis_diffused
   long_name = surface albedo due to UV+VIS diffused beam
   units = frac
   dimensions = (horizontal_loop_extent)
@@ -528,7 +528,7 @@
   kind = kind_phys
   intent = in
 [active_gases_array]
-  standard_name = list_of_active_gases_used_by_RRTMGP
+  standard_name = list_of_active_gases_used_by_rrtmgp
   long_name = list of active gases used by RRTMGP
   units = none
   dimensions =  (number_of_active_gases_used_by_RRTMGP)
@@ -575,7 +575,7 @@
   type = cmpfsw_type
   intent = inout
 [fluxswUP_allsky]
-  standard_name = RRTMGP_sw_flux_profile_upward_allsky
+  standard_name = rrtmgp_sw_flux_profile_upward_allsky
   long_name = RRTMGP upward shortwave all-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -583,7 +583,7 @@
   kind = kind_phys
   intent = inout
 [fluxswDOWN_allsky]
-  standard_name = RRTMGP_sw_flux_profile_downward_allsky
+  standard_name = rrtmgp_sw_flux_profile_downward_allsky
   long_name = RRTMGP downward shortwave all-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -591,7 +591,7 @@
   kind = kind_phys
   intent = inout
 [fluxswUP_clrsky]
-  standard_name = RRTMGP_sw_flux_profile_upward_clrsky
+  standard_name = rrtmgp_sw_flux_profile_upward_clrsky
   long_name = RRTMGP upward shortwave clr-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
@@ -599,7 +599,7 @@
   kind = kind_phys
   intent = inout
 [fluxswDOWN_clrsky]
-  standard_name = RRTMGP_sw_flux_profile_downward_clrsky
+  standard_name = rrtmgp_sw_flux_profile_downward_clrsky
   long_name = RRTMGP downward shortwave clr-sky flux profile
   units = W m-2
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)

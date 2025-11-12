@@ -81,7 +81,7 @@
   kind = kind_phys
   intent = in
 [con_hvap]
-  standard_name = latent_heat_of_vaporization_of_water_at_0C
+  standard_name = latent_heat_of_vaporization_of_water_at_0c
   long_name = latent heat of evaporation/sublimation
   units = J kg-1
   dimensions = ()
@@ -89,7 +89,7 @@
   kind = kind_phys
   intent = in
 [con_hfus]
-  standard_name = latent_heat_of_fusion_of_water_at_0C
+  standard_name = latent_heat_of_fusion_of_water_at_0c
   long_name = latent heat of fusion
   units = J kg-1
   dimensions = ()
@@ -241,7 +241,7 @@
   kind = kind_phys
   intent = in
 [tkef1]
-  standard_name = shoc_implicit_TKE_integration_uncentering_term
+  standard_name = shoc_implicit_tke_integration_uncentering_term
   long_name = uncentering term for TKE integration in SHOC
   units = none
   dimensions = ()
@@ -249,7 +249,7 @@
   kind = kind_phys
   intent = in
 [dis_opt]
-  standard_name = shoc_flag_for_optional_surface_TKE_dissipation
+  standard_name = shoc_flag_for_optional_surface_tke_dissipation
   long_name = flag for alt. TKE diss. near surface in SHOC (>0 = ON)
   units = none
   dimensions = ()

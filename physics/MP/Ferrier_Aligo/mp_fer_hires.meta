@@ -187,7 +187,7 @@
   kind = kind_phys
   intent = inout
 [train]
-  standard_name = accumulated_change_of_air_temperature_due_to_FA_scheme
+  standard_name = accumulated_change_of_air_temperature_due_to_fa_scheme
   long_name = accumulated change of air temperature due to FA MP scheme
   units = K
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)

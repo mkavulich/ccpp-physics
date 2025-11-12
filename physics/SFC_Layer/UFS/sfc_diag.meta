@@ -180,7 +180,7 @@
   kind = kind_phys
   intent = in
 [fm]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum
+  standard_name = monin_obukhov_similarity_function_for_momentum
   long_name = Monin-Obukhov similarity parameter for momentum
   units = none
   dimensions = (horizontal_loop_extent)
@@ -188,7 +188,7 @@
   kind = kind_phys
   intent = in
 [fh]
-  standard_name = Monin_Obukhov_similarity_function_for_heat
+  standard_name = monin_obukhov_similarity_function_for_heat
   long_name = Monin-Obukhov similarity parameter for heat
   units = none
   dimensions = (horizontal_loop_extent)
@@ -196,7 +196,7 @@
   kind = kind_phys
   intent = in
 [fm10]
-  standard_name = Monin_Obukhov_similarity_function_for_momentum_at_10m
+  standard_name = monin_obukhov_similarity_function_for_momentum_at_10m
   long_name = Monin-Obukhov similarity parameter for momentum
   units = none
   dimensions = (horizontal_loop_extent)
@@ -204,7 +204,7 @@
   kind = kind_phys
   intent = in
 [fh2]
-  standard_name = Monin_Obukhov_similarity_function_for_heat_at_2m
+  standard_name = monin_obukhov_similarity_function_for_heat_at_2m
   long_name = Monin-Obukhov similarity parameter for heat
   units = none
   dimensions = (horizontal_loop_extent)
