@@ -591,7 +591,7 @@
   intent = in
 [idcor_con]
   standard_name = flag_for_constant_decorrelation_length_method
-  long_name = choice of decorrelation length computation (costant)
+  long_name = choice of decorrelation length computation (constant)
   units = flag
   dimensions = ()
   type = integer
@@ -963,7 +963,7 @@
   optional = True
 [sppt_amp]
   standard_name = total_amplitude_of_sppt_perturbation
-  long_name = total ampltidue of stochastic sppt perturbation
+  long_name = total amplitude of stochastic sppt perturbation
   units = none
   dimensions = ()
   type = real
@@ -1102,8 +1102,8 @@
   kind = kind_phys
   intent = inout
 [qci_conv]
-  standard_name = convective_cloud_condesate_after_rainout
-  long_name = convective cloud condesate after rainout
+  standard_name = convective_cloud_condensate_after_rainout
+  long_name = convective cloud condensate after rainout
   units = kg kg-1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real

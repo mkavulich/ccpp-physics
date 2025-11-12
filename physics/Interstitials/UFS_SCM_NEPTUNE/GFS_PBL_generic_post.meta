@@ -80,21 +80,21 @@
   intent = in
 [ntinc]
   standard_name = index_of_mass_number_concentration_of_cloud_ice_in_tracer_concentration_array
-  long_name = tracer index for ice    number concentration
+  long_name = tracer index for ice number concentration
   units = index
   dimensions = ()
   type = integer
   intent = in
 [ntrnc]
   standard_name = index_of_mass_number_concentration_of_rain_in_tracer_concentration_array
-  long_name = tracer index for rain   number concentration
+  long_name = tracer index for rain number concentration
   units = index
   dimensions = ()
   type = integer
   intent = in
 [ntsnc]
   standard_name = index_of_mass_number_concentration_of_snow_in_tracer_concentration_array
-  long_name = tracer index for snow   number concentration
+  long_name = tracer index for snow number concentration
   units = index
   dimensions = ()
   type = integer

@@ -18,7 +18,7 @@
   intent = in
 [kmp]
   standard_name = top_layer_index_for_fast_physics
-  long_name = top_layer_inder_for_gfdl_mp
+  long_name = top_layer_index_for_gfdl_mp
   units = index
   dimensions = ()
   type = integer

@@ -683,7 +683,7 @@
   kind = kind_phys
   intent = in
 [do_tofd]
-  standard_name = flag_for_turbulent_orographic_form_drag_in_unified_gravity_wave_physics_gravitiy_wave_drag_scheme
+  standard_name = flag_for_turbulent_orographic_form_drag_in_unified_gravity_wave_physics_gravity_wave_drag_scheme
   long_name = flag for turbulent orographic form drag
   units = flag
   dimensions = ()

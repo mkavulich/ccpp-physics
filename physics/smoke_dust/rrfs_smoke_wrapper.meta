@@ -36,8 +36,8 @@
   type = integer
   intent = in
 [wetdep_ls_alpha_in]
-  standard_name = alpha_for_ls_wet_depoistion
-  long_name = alpha paramter for ls wet deposition
+  standard_name = alpha_for_ls_wet_deposition
+  long_name = alpha parameter for ls wet deposition
   units = none
   dimensions = ()
   type = real
@@ -116,7 +116,7 @@
   intent = in
 [plume_alpha_in]
   standard_name = alpha_for_plumerise_scheme
-  long_name = alpha paramter for plumerise scheme
+  long_name = alpha parameter for plumerise scheme
   units = none
   dimensions = ()
   type = real
@@ -131,7 +131,7 @@
   intent = in
 [dust_alpha_in]
   standard_name = alpha_fengsha_dust_scheme
-  long_name = alpha paramter for fengsha dust scheme
+  long_name = alpha parameter for fengsha dust scheme
   units = none
   dimensions = ()
   type = real
@@ -139,7 +139,7 @@
   intent = in
 [dust_gamma_in]
   standard_name = gamma_fengsha_dust_scheme
-  long_name = gamma paramter for fengsha dust scheme
+  long_name = gamma parameter for fengsha dust scheme
   units = none
   dimensions = ()
   type = real
@@ -727,7 +727,7 @@
   optional = True
 [emanoc]
   standard_name = emission_of_anothropogenic_for_mp_indir_fdb
-  long_name = emission of anothropogenic for mp indirect feedabck
+  long_name = emission of anothropogenic for mp indirect feedback
   units = ug m-2 s-1
   dimensions = (horizontal_loop_extent)
   type = real
@@ -745,7 +745,7 @@
   optional = True
 [emseas]
   standard_name = emission_of_sea_salt_for_mp_indir_fdb
-  long_name = emission of sea salt for mp indirect feedabck
+  long_name = emission of sea salt for mp indirect feedback
   units = ug m-2 s-1
   dimensions = (horizontal_loop_extent)
   type = real

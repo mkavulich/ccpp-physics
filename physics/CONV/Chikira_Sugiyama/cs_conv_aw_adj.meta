@@ -16,7 +16,7 @@
   intent = in
 [levs]
   standard_name = vertical_layer_dimension
-  long_name = number of veritcal levels
+  long_name = number of vertical levels
   units = count
   dimensions = ()
   type = integer

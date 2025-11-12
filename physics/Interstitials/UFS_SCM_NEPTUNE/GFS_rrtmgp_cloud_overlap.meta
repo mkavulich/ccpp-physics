@@ -153,7 +153,7 @@
   intent = in
 [idcor_con]
   standard_name = flag_for_constant_decorrelation_length_method
-  long_name = choice of decorrelation length computation (costant)
+  long_name = choice of decorrelation length computation (constant)
   units = flag
   dimensions = ()
   type = integer
@@ -211,7 +211,7 @@
   type = integer
   intent = in
 [imfdeepcnv_samf]
-  standard_name = identifer_for_scale_aware_mass_flux_deep_convection
+  standard_name = identifier_for_scale_aware_mass_flux_deep_convection
   long_name = flag for SAMF deep convection scheme
   units = flag
   dimensions = ()

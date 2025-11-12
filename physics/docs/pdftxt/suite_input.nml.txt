@@ -701,7 +701,7 @@ show some variables in the namelist that must match the SDF.
 <tr><td>use_lake2m              <td> clm_lake                  <td> use 2m T&Q from CLM lake model      <td>.false.
 <tr><td>clm_debug_print       <td>           <td>enables prints in clm_lake <td>.false.
 <tr><td>clm_lake_debug        <td>           <td>verbose debugging in clm_lake   <td>.false.
-<tr><td>nstf_name(5)    <td>sfc_nst                   <td>NSST related paramters:\n
+<tr><td>nstf_name(5)    <td>sfc_nst                   <td>NSST related parameters:\n
                                                       <ul>
                                                       <li> nstf_name(1): 0=NSST off, 1= NSST on but uncoupled, 2= NSST on and coupled
                                                       <li> nstf_name(2): 1=NSST spin up on, 0=NSST spin up off
@@ -773,10 +773,10 @@ show some variables in the namelist that must match the SDF.
 <tr><td>dust_drylimit_factor    <td>rrfs_smoke_wrapper               <td>factor for drylimit parameeterization in Fengsha     <td> 1.0
 <tr><td>dust_moist_correction   <td>rrfs_smoke_wrapper               <td>factor to tune volumetric soil moisture              <td> 1.0
 <tr><td>dust_moist_opt          <td>rrfs_smoke_wrapper               <td>dust moisture option 1:fecan 2:shao                  <td> 1
-<tr><td>dust_alpha              <td>rrfs_smoke_wrapper               <td>alpha paramter for fengsha dust scheme               <td> 0.
+<tr><td>dust_alpha              <td>rrfs_smoke_wrapper               <td>alpha parameter for fengsha dust scheme               <td> 0.
 <tr><td>dust_gamma              <td>rrfs_smoke_wrapper               <td>gamma parameter for fengsha dust scheme              <td> 0.
 <tr><td>wetdep_ls_alpha         <td>rrfs_smoke_wrapper               <td>alpha parameter for wet deposition                   <td> 1.
-<tr><td>plume_alpha             <td>rrfs_smoke_wrapper               <td>alpha paramter for plumerise scheme                  <td> 0.
+<tr><td>plume_alpha             <td>rrfs_smoke_wrapper               <td>alpha parameter for plumerise scheme                  <td> 0.
 <tr><td>ebb_dcycle              <td>rrfs_smoke_wrapper               <td>1: retro; 2: forcast of fire emission                <td> 1
 <tr><td>seas_opt                <td>rrfs_smoke_wrapper               <td>1: gocart  <td>2
 <tr><td>dust_opt                <td>rrfs_smoke_wrapper               <td>1: gocart dust fengsha         <td>1

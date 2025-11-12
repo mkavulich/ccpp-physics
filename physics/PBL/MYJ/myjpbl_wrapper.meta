@@ -241,7 +241,7 @@
   optional = True
 [phy_myj_thz0]
   standard_name = air_potential_temperature_at_top_of_viscous_sublayer
-  long_name = potential temperat at viscous sublayer top over water
+  long_name = potential temperature at viscous sublayer top over water
   units = K
   dimensions = (horizontal_loop_extent)
   type = real
@@ -330,8 +330,8 @@
   intent = inout
   optional = True
 [phy_myj_a1t]
-  standard_name = weight_for_potental_temperature_at_top_of_viscous_sublayer
-  long_name = Weight for potental temperature at viscous layer top
+  standard_name = weight_for_potential_temperature_at_top_of_viscous_sublayer
+  long_name = Weight for potential temperature at viscous layer top
   units = none
   dimensions = (horizontal_loop_extent)
   type = real
@@ -340,7 +340,7 @@
   optional = True
 [phy_myj_a1q]
   standard_name = weight_for_specific_humidity_at_top_of_viscous_sublayer
-  long_name = Weight for Specfic Humidity at viscous layer top
+  long_name = Weight for Specific Humidity at viscous layer top
   units = none
   dimensions = (horizontal_loop_extent)
   type = real

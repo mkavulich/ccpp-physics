@@ -78,7 +78,7 @@ assumed to vary (red line in Fig.2b) with rain content (\f$\rho_\alpha\times q_r
 
 \image html FA_NOR_EQ.png " " width=10cm
 
-\image html FA_DRI.png " Figure 2. (a) Schematic illustration of the drizzle parameterization for a single cloud layer in which drizzle forms from a low-level liquid water cloud at > 0C only when it is completely disconnected from rain formed from melting ice aloft. (b) The scatterplot from Westbrook at al.(2010) shows retrieved rain rate (R,mm/h) vs the mornalized rain intercept paramter (Nl in 1/m^4, where Nl=Nor for exponential distributions) based on lidar observations of drizzle. The different values of Nor described in (1) are overlaid on the figure with the red line showing the variation of Nor as a funciton of rain rate for rain contents between 0.02 and 0.5 g/m^3. " width=10cm
+\image html FA_DRI.png " Figure 2. (a) Schematic illustration of the drizzle parameterization for a single cloud layer in which drizzle forms from a low-level liquid water cloud at > 0C only when it is completely disconnected from rain formed from melting ice aloft. (b) The scatterplot from Westbrook at al.(2010) shows retrieved rain rate (R,mm/h) vs the mornalized rain intercept parameter (Nl in 1/m^4, where Nl=Nor for exponential distributions) based on lidar observations of drizzle. The different values of Nor described in (1) are overlaid on the figure with the red line showing the variation of Nor as a funciton of rain rate for rain contents between 0.02 and 0.5 g/m^3. " width=10cm
 
 
 \section intra_famp Intraphysics Communication

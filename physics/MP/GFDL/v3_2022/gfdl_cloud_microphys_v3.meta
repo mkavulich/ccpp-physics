@@ -25,7 +25,7 @@
   intent = in
 [nlunit]
   standard_name = iounit_of_namelist
-  long_name = fortran unit number for opening nameliust file
+  long_name = fortran unit number for opening namelist file
   units = none
   dimensions = ()
   type = integer

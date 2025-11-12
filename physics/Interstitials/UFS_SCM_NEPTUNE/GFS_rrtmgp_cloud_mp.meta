@@ -214,7 +214,7 @@
   type = integer
   intent = in
 [imfdeepcnv_samf]
-  standard_name = identifer_for_scale_aware_mass_flux_deep_convection
+  standard_name = identifier_for_scale_aware_mass_flux_deep_convection
   long_name = flag for SAMF deep convection scheme
   units = flag
   dimensions = ()
@@ -384,8 +384,8 @@
   intent = inout
   optional = True
 [qci_conv]
-  standard_name = convective_cloud_condesate_after_rainout
-  long_name = convective cloud condesate after rainout
+  standard_name = convective_cloud_condensate_after_rainout
+  long_name = convective cloud condensate after rainout
   units = kg kg-1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
@@ -471,7 +471,7 @@
   intent = in
 [doGP_smearclds]
   standard_name = flag_for_implicit_sgs_cloud_in_RRTMGP
-  long_name = logical flag to impicit SGS cloud in RRTMGP
+  long_name = logical flag to implicit SGS cloud in RRTMGP
   units = flag
   dimensions = ()
   type = logical

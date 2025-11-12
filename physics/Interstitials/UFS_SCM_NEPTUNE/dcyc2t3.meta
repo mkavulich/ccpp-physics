@@ -498,7 +498,7 @@
   kind = kind_phys
   intent = inout
 [dtdtnp]
-  standard_name = tendency_of_air_temperature_to_withold_from_sppt
+  standard_name = tendency_of_air_temperature_to_withhold_from_sppt
   long_name = temp. change from physics that should not be perturbed by sppt
   units = K s-1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)

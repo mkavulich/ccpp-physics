@@ -255,7 +255,7 @@
   intent = in
 [co2cyc_file]
   standard_name = co2_clim_monthly_cycle_data_table_file
-  long_name = co2 climotological monthly cycle data table file
+  long_name = co2 climatological monthly cycle data table file
   units = none
   dimensions =  ()
   type = character

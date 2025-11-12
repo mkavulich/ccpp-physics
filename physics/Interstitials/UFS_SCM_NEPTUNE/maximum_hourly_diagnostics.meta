@@ -192,7 +192,7 @@
   intent = inout
 [t02min]
   standard_name = minimum_temperature_at_2m_over_maximum_hourly_time_interval
-  long_name = minumum temperature at 2m over maximum hourly time interval
+  long_name = minimum temperature at 2m over maximum hourly time interval
   units = K
   dimensions = (horizontal_loop_extent)
   type = real
@@ -208,7 +208,7 @@
   intent = inout
 [rh02min]
   standard_name = minimum_relative_humidity_at_2m_over_maximum_hourly_time_interval
-  long_name = minumum relative humidity at 2m over maximum hourly time interval
+  long_name = minimum relative humidity at 2m over maximum hourly time interval
   units = frac
   dimensions = (horizontal_loop_extent)
   type = real

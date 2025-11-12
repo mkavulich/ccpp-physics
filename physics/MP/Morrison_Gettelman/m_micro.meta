@@ -127,7 +127,7 @@
   kind = kind_phys
   intent = in
 [mg_dcs]
-  standard_name = autoconverion_to_snow_size_threshold
+  standard_name = autoconversion_to_snow_size_threshold
   long_name = autoconversion size threshold for cloud ice to snow for MG microphysics
   units = um
   dimensions = ()

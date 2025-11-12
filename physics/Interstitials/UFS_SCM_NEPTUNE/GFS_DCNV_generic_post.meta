@@ -386,7 +386,7 @@
   intent = in
 [ntiw]
   standard_name = index_of_cloud_ice_mixing_ratio_in_tracer_concentration_array
-  long_name = tracer index for  ice water
+  long_name = tracer index for ice water
   units = index
   dimensions = ()
   type = integer

@@ -19,10 +19,10 @@ counter-gradient(EDCG) scheme is used for the weakly unstable PBL. The new TKE-E
 -# It includes interaction between TKE and cumulus convection
 
 The CCPP-compliant subroutine satmedmfvdif_run() computes subgrid vertical turbulence mixing using scale-aware
-TKE-based moist eddy-diffusion mass-flux paramterization (Han et al. 2019 \cite Han_2019)
+TKE-based moist eddy-diffusion mass-flux parameterization (Han et al. 2019 \cite Han_2019)
 - For the convective boundary layer, the scheme adopts EDMF parameterization (Siebesma et al. (2007)\cite Siebesma_2007)
 to take into account nonlocal transport by large eddies(mfpblt.f)
-- A new mass-flux paramterization for stratocumulus-top-induced turbulence mixing has been introduced (mfscu.f; previously,
+- A new mass-flux parameterization for stratocumulus-top-induced turbulence mixing has been introduced (mfscu.f; previously,
 it was an eddy diffusion form)
 - For local turbulence mixing, a TKE closure model is used.
 

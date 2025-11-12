@@ -19,10 +19,10 @@ scheme (Han et al. 2016 \cite Han_2016; Han et al. 2017 \cite han_et_al_2017)  w
 -# It includes interaction between TKE and cumulus convection
 
 The CCPP-compliant subroutine satmedmfvdifq_run() computes subgrid vertical turbulence mixing using scale-aware
-TKE-based moist eddy-diffusion mass-flux paramterization (Han et al. 2019 \cite Han_2019)
+TKE-based moist eddy-diffusion mass-flux parameterization (Han et al. 2019 \cite Han_2019)
 - For the convective boundary layer, the scheme adopts EDMF parameterization (Siebesma et al. (2007)\cite Siebesma_2007)
 to take into account nonlocal transport by large eddies(mfpbltq.f)
-- A new mass-flux paramterization for stratocumulus-top-induced turbulence mixing has been introduced (mfscuq.f; previously,
+- A new mass-flux parameterization for stratocumulus-top-induced turbulence mixing has been introduced (mfscuq.f; previously,
 it was an eddy diffusion form)
 - For local turbulence mixing, a TKE closure model is used.
 - Wind shear effect in characteristic mixing length calculation is included, which

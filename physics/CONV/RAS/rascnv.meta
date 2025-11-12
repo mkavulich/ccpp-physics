@@ -207,7 +207,7 @@
   intent = in
 [ccwf]
   standard_name = tunable_parameter_for_critical_cloud_workfunction_in_relaxed_arakawa_schubert_deep_convection
-  long_name = multiplication factor for tical_cloud_workfunction
+  long_name = multiplication factor for critical_cloud_workfunction
   units = none
   dimensions = (2)
   type = real

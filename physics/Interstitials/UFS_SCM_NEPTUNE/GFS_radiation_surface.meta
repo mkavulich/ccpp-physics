@@ -83,7 +83,7 @@
   intent = in
 [nf_albd]
   standard_name = number_of_components_for_surface_albedo
-  long_name = number of IR/VIS/UV compinents for surface albedo
+  long_name = number of IR/VIS/UV components for surface albedo
   units = count
   dimensions = ()
   type = integer

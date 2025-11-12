@@ -408,7 +408,7 @@
   optional = True
 [q_lay]
   standard_name = water_vapor_mixing_ratio
-  long_name = water vaport mixing ratio
+  long_name = water vapor mixing ratio
   units = kg kg-1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real

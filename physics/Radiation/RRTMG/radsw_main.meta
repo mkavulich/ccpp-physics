@@ -152,7 +152,7 @@
   intent = in
 [aerasy]
   standard_name = aerosol_asymmetry_parameter_for_shortwave_bands_01_16
-  long_name = aerosol asymmetry paramter for shortwave bands 01-16
+  long_name = aerosol asymmetry parameter for shortwave bands 01-16
   units = none
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation,number_of_aerosol_bands_for_shortwave_radiation)
   type = real
@@ -224,7 +224,7 @@
   intent = in
 [cosz]
   standard_name = cosine_of_solar_zenith_angle_for_daytime_points_on_radiation_timestep
-  long_name = cosine of the solar zenit angle
+  long_name = cosine of the solar zenith angle
   units = none
   dimensions = (horizontal_loop_extent)
   type = real

@@ -524,7 +524,7 @@
   optional = True
 [dlwsfc_cpl]
   standard_name = cumulative_surface_downwelling_longwave_flux_for_coupling_multiplied_by_timestep
-  long_name = cumulative sfc downward lw flux mulitplied by timestep
+  long_name = cumulative sfc downward lw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
   type = real
@@ -748,7 +748,7 @@
   intent = inout
   optional = True
 [nnirdf_cpl]
-  standard_name = cumulative_surface_net_downwellling_diffuse_nir_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_surface_net_downwelling_diffuse_nir_shortwave_flux_for_coupling_multiplied_by_timestep
   long_name = cumulative net nir diff downward sw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -776,7 +776,7 @@
   optional = True
 [gflux]
   standard_name = cumulative_surface_ground_heat_flux_multiplied_by_timestep
-  long_name = cumulative groud conductive heat flux multiplied by timestep
+  long_name = cumulative ground conductive heat flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
   type = real

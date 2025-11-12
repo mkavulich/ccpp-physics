@@ -52,7 +52,7 @@
   intent = in
 [progsigma]
   standard_name = do_prognostic_updraft_area_fraction
-  long_name = flag for prognostic sigma in cumuls scheme
+  long_name = flag for prognostic sigma in cumulus scheme
   units = flag
   dimensions = ()
   type = logical
@@ -144,7 +144,7 @@
   intent = in
 [progsigma]
   standard_name = do_prognostic_updraft_area_fraction
-  long_name = flag for prognostic sigma in cumuls scheme
+  long_name = flag for prognostic sigma in cumulus scheme
   units = flag
   dimensions = ()
   type = logical
@@ -223,7 +223,7 @@
   intent = in
   optional = True
 [forceqv_spechum]
-  standard_name = tendendy_of_specific_humidity_due_to_nonphysics
+  standard_name = tendency_of_specific_humidity_due_to_nonphysics
   long_name = moisture tendency due to dynamics only
   units = kg kg-1 s-1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -619,8 +619,8 @@
   type = logical
   intent = in
 [qci_conv]
-  standard_name = convective_cloud_condesate_after_rainout
-  long_name = convective cloud condesate after rainout
+  standard_name = convective_cloud_condensate_after_rainout
+  long_name = convective cloud condensate after rainout
   units = kg kg-1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real

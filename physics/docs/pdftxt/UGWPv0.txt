@@ -60,13 +60,13 @@ and from NOAA's Environmental Modeling Center (EMC) (Alpert et al.
 Yudin et al. 2018 \cite yudin_et_al_2018). The UGWP considers identical 
 GW propagation solvers for OGWs and NGWs with different approaches for 
 specification of subgrid wave sources. The current set of the input and
-control paramters for UGWP version 0 (UGWP v0) enables options for GW
+control parameters for UGWP version 0 (UGWP v0) enables options for GW
 effects, including momentum deposition (also called GW drag), heat 
 deposition, and mixing by eddy viscosity, conductivity and diffusion; 
 however, note that the eddy mixing effects induced by instability of GWs
 are not activated in this version.
 
-Namelist paramters control the number of directional azimuths in which
+Namelist parameters control the number of directional azimuths in which
 waves can propagate, number of waves in a single direction, and the level
 above the surface at which NGWs can be launched. Among the input parameters,
 the GW efficiency factors reflect intermittency of wave excitation.

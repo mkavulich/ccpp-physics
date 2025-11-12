@@ -118,7 +118,7 @@
   intent = in
 [ntinc]
   standard_name = index_of_mass_number_concentration_of_cloud_ice_in_tracer_concentration_array
-  long_name = tracer index for ice    number concentration
+  long_name = tracer index for ice number concentration
   units = index
   dimensions = ()
   type = integer
