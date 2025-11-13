@@ -73,7 +73,7 @@
 [sfcalb1]
   standard_name = surface_albedo_due_to_near_ir_direct
   long_name = surface albedo due to near IR direct beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -81,7 +81,7 @@
 [sfcalb2]
   standard_name = surface_albedo_due_to_near_ir_diffused
   long_name = surface albedo due to near IR diffused beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -89,7 +89,7 @@
 [sfcalb3]
   standard_name = surface_albedo_due_to_uv_and_vis_direct
   long_name = surface albedo due to UV+VIS direct beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -97,7 +97,7 @@
 [sfcalb4]
   standard_name = surface_albedo_due_to_uv_and_vis_diffused
   long_name = surface albedo due to UV+VIS diffused beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

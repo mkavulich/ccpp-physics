@@ -49,7 +49,7 @@
 [eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -57,7 +57,7 @@
 [epsm1]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants_minus_one
   long_name = (rd/rv) - 1
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -89,7 +89,7 @@
 [pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -184,7 +184,7 @@
 [cm]
   standard_name = surface_drag_coefficient_for_momentum_in_air_over_water
   long_name = surface exchange coeff for momentum over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -192,7 +192,7 @@
 [ch]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air_over_water
   long_name = surface exchange coeff heat surface exchange coeff heat & moisture over ocean moisture over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -207,7 +207,7 @@
 [fm]
   standard_name = monin_obukhov_similarity_function_for_momentum_over_water
   long_name = Monin-Obukhov similarity function for momentum over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -215,7 +215,7 @@
 [fm10]
   standard_name = monin_obukhov_similarity_function_for_momentum_at_10m_over_water
   long_name = Monin-Obukhov similarity parameter for momentum at 10m over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -231,7 +231,7 @@
 [prslki]
   standard_name = ratio_of_exner_function_between_midlayer_and_interface_at_lowest_model_layer
   long_name = Exner function ratio bt midlayer and interface at 1st layer
-  units = ratio
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -239,7 +239,7 @@
 [prsik1]
   standard_name = surface_dimensionless_exner_function
   long_name = dimensionless Exner function at the ground surface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -247,7 +247,7 @@
 [prslk1]
   standard_name = dimensionless_exner_function_at_surface_adjacent_layer
   long_name = dimensionless Exner function at the lowest model layer
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -277,7 +277,7 @@
 [sinlat]
   standard_name = sine_of_latitude
   long_name = sine of latitude
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -293,7 +293,7 @@
 [sfcemis]
   standard_name = surface_longwave_emissivity_over_water
   long_name = surface lw emissivity in fraction over water
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -348,7 +348,7 @@
 [xcosz]
   standard_name = instantaneous_cosine_of_zenith_angle
   long_name = cosine of solar zenith angle
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -516,7 +516,7 @@
 [c_0]
   standard_name = coefficient_c_0
   long_name = coefficient1 to calculate d(tz)/d(ts)
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -524,7 +524,7 @@
 [c_d]
   standard_name = coefficient_c_d
   long_name = coefficient2 to calculate d(tz)/d(ts)
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -532,7 +532,7 @@
 [w_0]
   standard_name = coefficient_w_0
   long_name = coefficient3 to calculate d(tz)/d(ts)
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -540,7 +540,7 @@
 [w_d]
   standard_name = coefficient_w_d
   long_name = coefficient4 to calculate d(tz)/d(ts)
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

@@ -18,7 +18,7 @@
 [xlat_d]
   standard_name = latitude_in_degree
   long_name = latitude in degree north
-  units = degree_north
+  units = degree
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -26,7 +26,7 @@
 [xlon_d]
   standard_name = longitude_in_degree
   long_name = longitude in degree east
-  units = degree_east
+  units = degree
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -64,7 +64,7 @@
 [eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -72,7 +72,7 @@
 [epsm1]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants_minus_one
   long_name = (rd/rv) - 1
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -80,7 +80,7 @@
 [con_rocp]
   standard_name = ratio_of_gas_constant_dry_air_to_specific_heat_of_dry_air_at_constant_pressure
   long_name = (rd/cp)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -88,7 +88,7 @@
 [con_karman]
   standard_name = von_karman_constant
   long_name = von karman constant
-  units = none
+  units = 1
   dimensions = ()
   type = real
   intent = in
@@ -166,7 +166,7 @@
 [prslki]
   standard_name = ratio_of_exner_function_between_midlayer_and_interface_at_lowest_model_layer
   long_name = Exner function ratio bt midlayer and interface at 1st layer
-  units = ratio
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -182,7 +182,7 @@
 [fm]
   standard_name = monin_obukhov_similarity_function_for_momentum
   long_name = Monin-Obukhov similarity parameter for momentum
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -190,7 +190,7 @@
 [fh]
   standard_name = monin_obukhov_similarity_function_for_heat
   long_name = Monin-Obukhov similarity parameter for heat
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -198,7 +198,7 @@
 [fm10]
   standard_name = monin_obukhov_similarity_function_for_momentum_at_10m
   long_name = Monin-Obukhov similarity parameter for momentum
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -206,7 +206,7 @@
 [fh2]
   standard_name = monin_obukhov_similarity_function_for_heat_at_2m
   long_name = Monin-Obukhov similarity parameter for heat
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -297,7 +297,7 @@
 [lake_q2m]
   standard_name =  specific_humidity_at_2m_from_clm_lake
   long_name = specific humidity at 2m from clm lake
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -306,7 +306,7 @@
 [cdq]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air
   long_name = surface exchange coeff heat & moisture
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -329,7 +329,7 @@
 [f10m]
   standard_name = ratio_of_wind_at_surface_adjacent_layer_to_wind_at_10m
   long_name = ratio of fm10 and fm
-  units = ratio
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

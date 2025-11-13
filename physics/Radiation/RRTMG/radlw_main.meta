@@ -130,14 +130,14 @@
 [icseed]
   standard_name = random_number_seed_for_mcica_longwave
   long_name = seed for random number generation for longwave radiation
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = in
 [aeraod]
   standard_name = aerosol_optical_depth_for_longwave_bands_01_16
   long_name = aerosol optical depth for longwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys
@@ -145,7 +145,7 @@
 [aerssa]
   standard_name = aerosol_single_scattering_albedo_for_longwave_bands_01_16
   long_name = aerosol single scattering albedo for longwave bands 01-16
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys
@@ -153,7 +153,7 @@
 [sfemis]
   standard_name = surface_longwave_emissivity
   long_name = surface emissivity
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -193,7 +193,7 @@
 [alpha]
   standard_name = cloud_overlap_decorrelation_parameter
   long_name = cloud overlap decorrelation parameter
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)
   type = real
   kind = kind_phys
@@ -229,7 +229,7 @@
 [cld_cf]
   standard_name = total_cloud_fraction
   long_name = total cloud fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)
   type = real
   kind = kind_phys
@@ -350,7 +350,7 @@
 [cldtau]
   standard_name = cloud_optical_depth_layers_at_10mu_band
   long_name = approx 10mu band layer cloud optical depth
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)
   type = real
   kind = kind_phys

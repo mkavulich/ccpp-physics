@@ -31,7 +31,7 @@
 [con_pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -99,7 +99,7 @@
 [p_lk]
   standard_name = dimensionless_exner_function
   long_name = dimensionless Exner function at model layer centers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -115,7 +115,7 @@
 [relhum]
   standard_name = relative_humidity
   long_name = layer relative humidity
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -177,7 +177,7 @@
 [aerodp]
   standard_name = atmosphere_optical_thickness_due_to_ambient_aerosol_particles
   long_name = vertical integrated optical depth for various aerosol species
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,number_of_species_for_aerosol_optical_depth)
   type = real
   kind = kind_phys
@@ -185,7 +185,7 @@
 [aersw_tau]
   standard_name = aerosol_optical_depth_for_shortwave_bands_01_16
   long_name = aerosol optical depth for shortwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_shortwave_radiation)
   type = real
   kind = kind_phys
@@ -193,7 +193,7 @@
 [aersw_ssa]
   standard_name = aerosol_single_scattering_albedo_for_shortwave_bands_01_16
   long_name = aerosol single scattering albedo for shortwave bands 01-16
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_shortwave_radiation)
   type = real
   kind = kind_phys
@@ -201,7 +201,7 @@
 [aersw_g]
   standard_name = aerosol_asymmetry_parameter_for_shortwave_bands_01_16
   long_name = aerosol asymmetry parameter for shortwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_shortwave_radiation)
   type = real
   kind = kind_phys
@@ -209,7 +209,7 @@
 [aerlw_tau]
   standard_name = aerosol_optical_depth_for_longwave_bands_01_16
   long_name = aerosol optical depth for longwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys
@@ -217,7 +217,7 @@
 [aerlw_ssa]
   standard_name = aerosol_single_scattering_albedo_for_longwave_bands_01_16
   long_name = aerosol single scattering albedo for longwave bands 01-16
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys
@@ -225,7 +225,7 @@
 [aerlw_g]
   standard_name = aerosol_asymmetry_parameter_for_longwave_bands_01_16
   long_name = aerosol asymmetry parameter for longwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys
@@ -233,7 +233,7 @@
 [ext550]
   standard_name = aerosol_optical_depth_at_550nm
   long_name = 3d optical extinction for total aerosol species
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys

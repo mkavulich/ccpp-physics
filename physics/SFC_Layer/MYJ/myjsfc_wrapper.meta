@@ -184,7 +184,7 @@
 [prsik_1]
   standard_name = surface_dimensionless_exner_function
   long_name = dimensionless Exner function at lowest model interface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -192,7 +192,7 @@
 [prslk_1]
   standard_name = dimensionless_exner_function_at_surface_adjacent_layer
   long_name = dimensionless Exner function at lowest model layer
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -288,7 +288,7 @@
 [phy_myj_chkqlm]
   standard_name = control_for_surface_layer_evaporation
   long_name = surface layer evaporation switch
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -306,7 +306,7 @@
 [phy_myj_a1u]
   standard_name = weight_for_momentum_at_top_of_viscous_sublayer
   long_name = Weight for momentum at viscous layer top
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -315,7 +315,7 @@
 [phy_myj_a1t]
   standard_name = weight_for_potential_temperature_at_top_of_viscous_sublayer
   long_name = Weight for potential temperature at viscous layer top
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -324,7 +324,7 @@
 [phy_myj_a1q]
   standard_name = weight_for_specific_humidity_at_top_of_viscous_sublayer
   long_name = Weight for Specific Humidity at viscous layer top
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -365,7 +365,7 @@
 [rib]
   standard_name = bulk_richardson_number_at_lowest_model_level
   long_name = bulk Richardson number at the surface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -373,7 +373,7 @@
 [cm]
   standard_name = surface_drag_coefficient_for_momentum_in_air
   long_name = surface exchange coeff for momentum
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -381,7 +381,7 @@
 [ch]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air
   long_name = surface exchange coeff heat & moisture
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -397,7 +397,7 @@
 [ffm]
   standard_name = monin_obukhov_similarity_function_for_momentum
   long_name = monin_obukhov similarity function for momentum
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -405,7 +405,7 @@
 [ffh]
   standard_name = monin_obukhov_similarity_function_for_heat
   long_name = monin_obukhov similarity function for heat
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -413,7 +413,7 @@
 [fm10]
   standard_name = monin_obukhov_similarity_function_for_momentum_at_10m
   long_name = monin_obukhov similarity parameter for momentum at 10m
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -421,7 +421,7 @@
 [fh2]
   standard_name = monin_obukhov_similarity_function_for_heat_at_2m
   long_name = monin_obukhov similarity parameter for heat at 2m
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -429,7 +429,7 @@
 [landfrac]
   standard_name = land_area_fraction
   long_name = fraction of horizontal grid area occupied by land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -437,7 +437,7 @@
 [oceanfrac]
   standard_name = sea_area_fraction
   long_name = fraction of horizontal grid area occupied by ocean
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -445,7 +445,7 @@
 [fice]
   standard_name = sea_ice_area_fraction_of_sea_area_fraction
   long_name = ice fraction over open water
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -501,7 +501,7 @@
 [cm_wat]
   standard_name = surface_drag_coefficient_for_momentum_in_air_over_water
   long_name = surface exchange coeff for momentum over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -509,7 +509,7 @@
 [cm_lnd]
   standard_name = surface_drag_coefficient_for_momentum_in_air_over_land
   long_name = surface exchange coeff for momentum over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -517,7 +517,7 @@
 [cm_ice]
   standard_name = surface_drag_coefficient_for_momentum_in_air_over_ice
   long_name = surface exchange coeff for momentum over ice
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -525,7 +525,7 @@
 [ch_wat]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air_over_water
   long_name = surface exchange coeff heat surface exchange coeff heat & moisture over ocean moisture over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -533,7 +533,7 @@
 [ch_lnd]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air_over_land
   long_name = surface exchange coeff heat & moisture over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -541,7 +541,7 @@
 [ch_ice]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air_over_ice
   long_name = surface exchange coeff heat & moisture over ice
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -549,7 +549,7 @@
 [rb_wat]
   standard_name = bulk_richardson_number_at_lowest_model_level_over_water
   long_name = bulk Richardson number at the surface over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -557,7 +557,7 @@
 [rb_lnd]
   standard_name = bulk_richardson_number_at_lowest_model_level_over_land
   long_name = bulk Richardson number at the surface over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -565,7 +565,7 @@
 [rb_ice]
   standard_name = bulk_richardson_number_at_lowest_model_level_over_ice
   long_name = bulk Richardson number at the surface over ice
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -597,7 +597,7 @@
 [fm_wat]
   standard_name = monin_obukhov_similarity_function_for_momentum_over_water
   long_name = Monin-Obukhov similarity funct for momentum over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -605,7 +605,7 @@
 [fm_lnd]
   standard_name = monin_obukhov_similarity_function_for_momentum_over_land
   long_name = Monin-Obukhov similarity funct for momentum over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -613,7 +613,7 @@
 [fm_ice]
   standard_name = monin_obukhov_similarity_function_for_momentum_over_ice
   long_name = Monin-Obukhov similarity funct for momentum over ice
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -621,7 +621,7 @@
 [fh_wat]
   standard_name = monin_obukhov_similarity_function_for_heat_over_water
   long_name = Monin-Obukhov similarity function for heat over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -629,7 +629,7 @@
 [fh_lnd]
   standard_name = monin_obukhov_similarity_function_for_heat_over_land
   long_name = Monin-Obukhov similarity function for heat over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -637,7 +637,7 @@
 [fh_ice]
   standard_name = monin_obukhov_similarity_function_for_heat_over_ice
   long_name = Monin-Obukhov similarity function for heat over ice
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -645,7 +645,7 @@
 [fm10_wat]
   standard_name = monin_obukhov_similarity_function_for_momentum_at_10m_over_water
   long_name = Monin-Obukhov parameter for momentum at 10m over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -653,7 +653,7 @@
 [fm10_lnd]
   standard_name = monin_obukhov_similarity_function_for_momentum_at_10m_over_land
   long_name = Monin-Obukhov parameter for momentum at 10m over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -661,7 +661,7 @@
 [fm10_ice]
   standard_name = monin_obukhov_similarity_function_for_momentum_at_10m_over_ice
   long_name = Monin-Obukhov parameter for momentum at 10m over ice
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -669,7 +669,7 @@
 [fh2_wat]
   standard_name = monin_obukhov_similarity_function_for_heat_at_2m_over_water
   long_name = Monin-Obukhov parameter for heat at 2m over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -677,7 +677,7 @@
 [fh2_lnd]
   standard_name = monin_obukhov_similarity_function_for_heat_at_2m_over_land
   long_name = Monin-Obukhov parameter for heat at 2m over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -685,7 +685,7 @@
 [fh2_ice]
   standard_name = monin_obukhov_similarity_function_for_heat_at_2m_over_ice
   long_name = Monin-Obukhov parameter for heat at 2m over ice
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

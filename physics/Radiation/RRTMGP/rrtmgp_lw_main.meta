@@ -237,14 +237,14 @@
 [icseed_lw]
   standard_name = random_number_seed_for_mcica_longwave
   long_name = seed for random number generation for longwave radiation
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = in
 [semis]
   standard_name = surface_longwave_emissivity
   long_name = surface lw emissivity in fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -340,7 +340,7 @@
 [cld_frac]
   standard_name = total_cloud_fraction
   long_name = layer total cloud fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -412,7 +412,7 @@
 [precip_frac]
   standard_name = precipitation_fraction_by_layer
   long_name = precipitation fraction in each layer
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -508,7 +508,7 @@
 [aerlw_tau]
   standard_name = aerosol_optical_depth_for_longwave_bands_01_16
   long_name = aerosol optical depth for longwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys
@@ -516,7 +516,7 @@
 [aerlw_ssa]
   standard_name = aerosol_single_scattering_albedo_for_longwave_bands_01_16
   long_name = aerosol single scattering albedo for longwave bands 01-16
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys
@@ -524,7 +524,7 @@
 [aerlw_g]
   standard_name = aerosol_asymmetry_parameter_for_longwave_bands_01_16
   long_name = aerosol asymmetry parameter for longwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys

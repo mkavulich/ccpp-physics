@@ -104,7 +104,7 @@
 [oceanfrac]
   standard_name = sea_area_fraction
   long_name = fraction of horizontal grid area occupied by ocean
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

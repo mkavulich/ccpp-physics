@@ -180,7 +180,7 @@
 [coszen]
   standard_name = cosine_of_solar_zenith_angle_for_daytime_points_on_radiation_timestep
   long_name = mean cos of zenith angle over rad call period
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -251,7 +251,7 @@
 [icseed_sw]
   standard_name = random_number_seed_for_mcica_shortwave
   long_name = seed for random number generation for shortwave radiation
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = in
@@ -338,7 +338,7 @@
 [cld_frac]
   standard_name = total_cloud_fraction
   long_name = layer total cloud fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -410,7 +410,7 @@
 [precip_frac]
   standard_name = precipitation_fraction_by_layer
   long_name = precipitation fraction in each layer
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -498,7 +498,7 @@
 [sfc_alb_nir_dir]
   standard_name = surface_albedo_due_to_near_ir_direct
   long_name = surface albedo due to near IR direct beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -506,7 +506,7 @@
 [sfc_alb_nir_dif]
   standard_name = surface_albedo_due_to_near_ir_diffused
   long_name = surface albedo due to near IR diffused beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -514,7 +514,7 @@
 [sfc_alb_uvvis_dir]
   standard_name = surface_albedo_due_to_uv_and_vis_direct
   long_name = surface albedo due to UV+VIS direct beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -522,7 +522,7 @@
 [sfc_alb_uvvis_dif]
   standard_name = surface_albedo_due_to_uv_and_vis_diffused
   long_name = surface albedo due to UV+VIS diffused beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -538,7 +538,7 @@
 [aersw_tau]
   standard_name = aerosol_optical_depth_for_shortwave_bands_01_16
   long_name = aerosol optical depth for shortwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_shortwave_radiation)
   type = real
   kind = kind_phys
@@ -546,7 +546,7 @@
 [aersw_ssa]
   standard_name = aerosol_single_scattering_albedo_for_shortwave_bands_01_16
   long_name = aerosol single scattering albedo for shortwave bands 01-16
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_shortwave_radiation)
   type = real
   kind = kind_phys
@@ -554,7 +554,7 @@
 [aersw_g]
   standard_name = aerosol_asymmetry_parameter_for_shortwave_bands_01_16
   long_name = aerosol asymmetry parameter for shortwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_aerosol_bands_for_shortwave_radiation)
   type = real
   kind = kind_phys
@@ -609,7 +609,7 @@
 [cldtausw]
   standard_name = cloud_optical_depth_layers_at_0p55mu_band
   long_name = approx .55mu band layer cloud optical depth
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
