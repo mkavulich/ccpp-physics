@@ -17,7 +17,7 @@
 [moninq_fac]
   standard_name = multiplicative_tuning_parameter_for_atmosphere_diffusivity
   long_name = multiplicative constant for atmospheric diffusivities
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -153,7 +153,7 @@
 [xmu]
   standard_name = zenith_angle_temporal_adjustment_factor_for_shortwave_fluxes
   long_name = zenith angle temporal adjustment factor for shortwave
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -161,7 +161,7 @@
 [psk]
   standard_name = surface_dimensionless_exner_function
   long_name = dimensionless Exner function at the surface interface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -169,7 +169,7 @@
 [rbsoil]
   standard_name = bulk_richardson_number_at_lowest_model_level
   long_name = bulk Richardson number at the surface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -201,7 +201,7 @@
 [fm]
   standard_name = monin_obukhov_similarity_function_for_momentum
   long_name = Monin-Obukhov similarity function for momentum
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -209,7 +209,7 @@
 [fh]
   standard_name = monin_obukhov_similarity_function_for_heat
   long_name = Monin-Obukhov similarity function for heat
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -288,7 +288,7 @@
 [prslk]
   standard_name = dimensionless_exner_function
   long_name = Exner function at layers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -422,7 +422,7 @@
 [xkzm_s]
   standard_name = sigma_pressure_threshold_at_upper_extent_of_background_diffusion
   long_name = sigma level threshold for background diffusivity
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -452,7 +452,7 @@
 [moninq_fac]
   standard_name = multiplicative_tuning_parameter_for_atmosphere_diffusivity
   long_name = multiplicative constant for atmospheric diffusivities
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -482,7 +482,7 @@
 [coef_ric_l]
   standard_name = coefficient_for_variable_bulk_richardson_number_over_land
   long_name = coefficient for calculating variable bulk richardson number for hurricane PBL over land
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -490,7 +490,7 @@
 [coef_ric_s]
   standard_name = coefficient_for_variable_bulk_richardson_number_over_water
   long_name = coefficient for calculating variable bulk richardson number for hurricane PBL over water
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -526,7 +526,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys

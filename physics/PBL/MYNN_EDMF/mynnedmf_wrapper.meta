@@ -66,7 +66,7 @@
 [con_rcp]
   standard_name = ratio_of_gas_constant_dry_air_to_specific_heat_of_dry_air_at_constant_pressure
   long_name = (rd/cp)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -90,7 +90,7 @@
 [con_p608]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -98,7 +98,7 @@
 [con_ep2]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -106,7 +106,7 @@
 [con_karman]
   standard_name = von_karman_constant
   long_name = von karman constant
-  units = none
+  units = 1
   dimensions = ()
   type = real
   intent = in
@@ -383,7 +383,7 @@
 [exner]
   standard_name = dimensionless_exner_function
   long_name = Exner function at layers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -463,7 +463,7 @@
 [rb]
   standard_name = bulk_richardson_number_at_lowest_model_level
   long_name = bulk Richardson number at the surface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -627,7 +627,7 @@
 [oceanfrac]
   standard_name = sea_area_fraction
   long_name = fraction of horizontal grid area occupied by ocean
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -635,7 +635,7 @@
 [fice]
   standard_name = sea_ice_area_fraction_of_sea_area_fraction
   long_name = ice fraction over open water
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -792,7 +792,7 @@
 [Sh3D]
   standard_name = stability_function_for_heat
   long_name = stability function for heat
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -800,7 +800,7 @@
 [Sm3D]
   standard_name = stability_function_for_momentum
   long_name = stability function for momentum
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -900,7 +900,7 @@
 [CLDFRA_BL]
   standard_name = subgrid_scale_cloud_area_fraction_in_atmosphere_layer
   long_name = subgrid cloud fraction from PBL scheme
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -908,7 +908,7 @@
 [edmf_a]
   standard_name = emdf_updraft_area
   long_name = updraft area from mass flux scheme
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -1152,7 +1152,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys
@@ -1282,7 +1282,7 @@
 [xmu]
   standard_name = zenith_angle_temporal_adjustment_factor_for_shortwave_fluxes
   long_name = zenith angle temporal adjustment factor for shortwave
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1557,7 +1557,7 @@
 [huge]
   standard_name = netcdf_float_fillvalue
   long_name = definition of NetCDF float FillValue
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys

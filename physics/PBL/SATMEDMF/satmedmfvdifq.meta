@@ -17,14 +17,14 @@
 [isatmedmf]
   standard_name = choice_of_scale_aware_tke_moist_edmf_pbl
   long_name = choice of scale-aware TKE moist EDMF PBL scheme
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
 [isatmedmf_vdifq]
   standard_name = choice_of_updated_scale_aware_tke_moist_edmf_pbl
   long_name = choice of updated scale-aware TKE moist EDMF PBL scheme
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
@@ -108,7 +108,7 @@
 [pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -156,7 +156,7 @@
 [fv]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -164,7 +164,7 @@
 [eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -172,7 +172,7 @@
 [epsm1]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants_minus_one
   long_name = (rd/rv) - 1
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -307,7 +307,7 @@
 [xmu]
   standard_name = zenith_angle_temporal_adjustment_factor_for_shortwave_fluxes
   long_name = zenith angle temporal adjustment factor for shortwave
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -323,7 +323,7 @@
 [zvfun]
   standard_name = function_of_surface_roughness_length_and_green_vegetation_fraction
   long_name = function of surface roughness length and green vegetation fraction
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -331,7 +331,7 @@
 [sigmaf]
   standard_name = bounded_vegetation_area_fraction
   long_name = areal fractional cover of green vegetation bounded on the bottom
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -339,7 +339,7 @@
 [psk]
   standard_name = surface_dimensionless_exner_function
   long_name = dimensionless Exner function at the surface interface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -347,7 +347,7 @@
 [rbsoil]
   standard_name = bulk_richardson_number_at_lowest_model_level
   long_name = bulk Richardson number at the surface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -379,7 +379,7 @@
 [fm]
   standard_name = monin_obukhov_similarity_function_for_momentum
   long_name = Monin-Obukhov similarity function for momentum
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -387,7 +387,7 @@
 [fh]
   standard_name = monin_obukhov_similarity_function_for_heat
   long_name = Monin-Obukhov similarity function for heat
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -466,7 +466,7 @@
 [prslk]
   standard_name = dimensionless_exner_function
   long_name = Exner function at layers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -622,7 +622,7 @@
 [xkzm_s]
   standard_name = sigma_pressure_threshold_at_upper_extent_of_background_diffusion
   long_name = sigma level threshold for background diffusivity
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -630,7 +630,7 @@
 [dspfac]
   standard_name = multiplicative_tuning_parameter_for_tke_dissipative_heating
   long_name = tke dissipative heating factor
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -638,7 +638,7 @@
 [bl_upfr]
   standard_name = updraft_area_fraction_in_scale_aware_tke_moist_edmf_pbl_scheme
   long_name = updraft fraction in boundary layer mass flux scheme
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -646,7 +646,7 @@
 [bl_dnfr]
   standard_name = downdraft_area_fraction_in_scale_aware_tke_moist_edmf_pbl_scheme
   long_name = downdraft fraction in boundary layer mass flux scheme
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -684,7 +684,7 @@
 [claie]
   standard_name = canopy_leaf_area_index
   long_name = canopy leaf area index
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -702,7 +702,7 @@
 [cfrt]
   standard_name = canopy_forest_fraction
   long_name = canopy forest fraction
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -711,7 +711,7 @@
 [cclu]
   standard_name = canopy_clumping_index
   long_name = canopy clumping index
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -729,21 +729,21 @@
 [sfc_rlm]
   standard_name = choice_of_near_surface_mixing_length_in_boundary_layer_mass_flux_scheme
   long_name = choice of near surface mixing length in boundary layer mass flux scheme
-  units = none
+  units = flag
   dimensions = ()
   type = integer
   intent = in
 [tc_pbl]
   standard_name = control_for_tc_applications_in_the_pbl_scheme
   long_name = control for TC applications in the PBL scheme
-  units = none
+  units = flag
   dimensions = ()
   type = integer
   intent = in
 [use_lpt]
   standard_name = control_for_using_lpt_for_tc_applications_in_the_pbl_scheme
   long_name = control for using LPT in TC applications in the PBL scheme
-  units = none
+  units = flag
   dimensions = ()
   type = integer
   intent = in
@@ -757,7 +757,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys

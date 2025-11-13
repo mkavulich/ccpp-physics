@@ -193,7 +193,7 @@
 [prsik_1]
   standard_name = surface_dimensionless_exner_function
   long_name = dimensionless Exner function at lowest model interface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -201,7 +201,7 @@
 [prslk_1]
   standard_name = dimensionless_exner_function_at_surface_adjacent_layer
   long_name = dimensionless Exner function at lowest model layer
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -209,7 +209,7 @@
 [prslki]
   standard_name = ratio_of_exner_function_between_midlayer_and_interface_at_lowest_model_layer
   long_name = Exner function ratio bt midlayer and interface at 1st layer
-  units = ratio
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -305,7 +305,7 @@
 [phy_myj_chkqlm]
   standard_name = control_for_surface_layer_evaporation
   long_name = surface layer evaporation switch
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -323,7 +323,7 @@
 [phy_myj_a1u]
   standard_name = weight_for_momentum_at_top_of_viscous_sublayer
   long_name = Weight for momentum at viscous layer top
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -332,7 +332,7 @@
 [phy_myj_a1t]
   standard_name = weight_for_potential_temperature_at_top_of_viscous_sublayer
   long_name = Weight for potential temperature at viscous layer top
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -341,7 +341,7 @@
 [phy_myj_a1q]
   standard_name = weight_for_specific_humidity_at_top_of_viscous_sublayer
   long_name = Weight for Specific Humidity at viscous layer top
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -396,7 +396,7 @@
 [cm]
   standard_name = surface_drag_coefficient_for_momentum_in_air
   long_name = surface exchange coeff for momentum
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -404,7 +404,7 @@
 [ch]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air
   long_name = surface exchange coeff heat & moisture
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -540,7 +540,7 @@
 [xkzm_s]
   standard_name = sigma_pressure_threshold_at_upper_extent_of_background_diffusion
   long_name = sigma level threshold for background diffusivity
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -602,7 +602,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys

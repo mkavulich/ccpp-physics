@@ -18,14 +18,14 @@
 [isatmedmf]
   standard_name = choice_of_scale_aware_tke_moist_edmf_pbl
   long_name = choice of scale-aware TKE moist EDMF PBL scheme
-  units = none
+  units = flag
   dimensions = ()
   type = integer
   intent = in
 [isatmedmf_vdif]
   standard_name = choice_of_original_scale_aware_tke_moist_edmf_pbl
   long_name = choice of original scale-aware TKE moist EDMF PBL scheme
-  units = none
+  units = flag
   dimensions = ()
   type = integer
   intent = in
@@ -142,7 +142,7 @@
 [fv]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -150,7 +150,7 @@
 [eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -158,7 +158,7 @@
 [epsm1]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants_minus_one
   long_name = (rd/rv) - 1
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -246,7 +246,7 @@
 [xmu]
   standard_name = zenith_angle_temporal_adjustment_factor_for_shortwave_fluxes
   long_name = zenith angle temporal adjustment factor for shortwave
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -262,7 +262,7 @@
 [psk]
   standard_name = surface_dimensionless_exner_function
   long_name = dimensionless Exner function at the surface interface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -270,7 +270,7 @@
 [rbsoil]
   standard_name = bulk_richardson_number_at_lowest_model_level
   long_name = bulk Richardson number at the surface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -302,7 +302,7 @@
 [fm]
   standard_name = monin_obukhov_similarity_function_for_momentum
   long_name = Monin-Obukhov similarity function for momentum
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -310,7 +310,7 @@
 [fh]
   standard_name = monin_obukhov_similarity_function_for_heat
   long_name = Monin-Obukhov similarity function for heat
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -389,7 +389,7 @@
 [prslk]
   standard_name = dimensionless_exner_function
   long_name = Exner function at layers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -491,7 +491,7 @@
 [xkzm_s]
   standard_name = sigma_pressure_threshold_at_upper_extent_of_background_diffusion
   long_name = sigma level threshold for background diffusivity
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -499,7 +499,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys

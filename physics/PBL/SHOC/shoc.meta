@@ -115,7 +115,7 @@
 [con_pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -123,7 +123,7 @@
 [con_fvirt]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -131,7 +131,7 @@
 [con_eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -203,7 +203,7 @@
 [rhc]
   standard_name = critical_relative_humidity
   long_name = critical relative humidity
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -211,7 +211,7 @@
 [supice]
   standard_name = tunable_parameter_for_ice_supersaturation
   long_name = ice supersaturation parameter for PDF clouds
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -227,7 +227,7 @@
 [cefac]
   standard_name = multiplicative_tunable_parameter_for_tke_dissipation
   long_name = mult. tuning parameter for TKE diss. in SHOC
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -235,7 +235,7 @@
 [cesfac]
   standard_name = multiplicative_tunable_parameter_for_tke_dissipation_at_surface_adjacent_layer
   long_name = mult. tuning parameter for TKE diss. at surface in SHOC
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -243,7 +243,7 @@
 [tkef1]
   standard_name = shoc_implicit_tke_integration_uncentering_term
   long_name = uncentering term for TKE integration in SHOC
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -251,7 +251,7 @@
 [dis_opt]
   standard_name = shoc_flag_for_optional_surface_tke_dissipation
   long_name = flag for alt. TKE diss. near surface in SHOC (>0 = ON)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -275,7 +275,7 @@
 [prnum]
   standard_name = prandtl_number
   long_name = turbulent Prandtl number
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -362,7 +362,7 @@
 [cld_sgs]
   standard_name = subgrid_scale_cloud_fraction_from_shoc
   long_name = subgrid-scale cloud fraction from the SHOC scheme
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
