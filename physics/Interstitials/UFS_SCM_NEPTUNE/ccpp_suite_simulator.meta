@@ -45,7 +45,7 @@
 [jdat]
   standard_name = date_and_time_of_forecast_in_united_states_order
   long_name = current forecast date and time
-  units = none
+  units = 1
   dimensions = (8)
   type = integer
   intent = in
@@ -112,7 +112,7 @@
 [active_phys_tend]
   standard_name = tendencies_for_active_process_in_ccpp_suite_simulator
   long_name = tendencies for active physics process in ccpp suite simulator
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_prognostics_variables_in_CCPP_suite_simulator)
   type = real
   kind = kind_phys
@@ -180,7 +180,7 @@
 [physics_process]
   standard_name = physics_process_type_for_ccpp_suite_simulator
   long_name = physics process type for CCPP suite simulator
-  units = mixed
+  units = various
   dimensions = (number_of_physics_process_in_CCPP_suite_simulator)
   type = base_physics_process
   intent = inout

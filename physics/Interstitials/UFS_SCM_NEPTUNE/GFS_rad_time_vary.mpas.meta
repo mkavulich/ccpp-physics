@@ -18,7 +18,7 @@
 [rseeds]
   standard_name = random_number_seeds_from_host
   long_name = random number seeds from host
-  units = none
+  units = 1
   dimensions = (horizontal_dimension, number_of_host_provided_random_number_streams)
   type = integer
   intent = in
@@ -54,7 +54,7 @@
 [icsdsw]
   standard_name = random_number_seed_for_mcica_shortwave
   long_name = random seeds for sub-column cloud generators sw
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = integer
   intent = inout
@@ -62,7 +62,7 @@
 [icsdlw]
   standard_name = random_number_seed_for_mcica_longwave
   long_name = random seeds for sub-column cloud generators lw
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = integer
   intent = inout

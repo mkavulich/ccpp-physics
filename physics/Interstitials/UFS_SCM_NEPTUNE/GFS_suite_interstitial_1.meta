@@ -64,7 +64,7 @@
 [dxmin]
   standard_name = min_grid_scale
   long_name = minimum scaling factor for critical relative humidity
-  units = m2 rad-2
+  units = m2 radian-2
   dimensions = ()
   type = real
   kind = kind_phys
@@ -72,7 +72,7 @@
 [dxinv]
   standard_name = reciprocal_of_grid_scale_range
   long_name = inverse scaling factor for critical relative humidity
-  units = rad2 m-2
+  units = radian2 m-2
   dimensions = ()
   type = real
   kind = kind_phys
@@ -95,7 +95,7 @@
 [work1]
   standard_name = grid_size_related_coefficient_used_in_scale_sensitive_schemes
   long_name = grid size related coefficient used in scale-sensitive schemes
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -103,7 +103,7 @@
 [work2]
   standard_name = grid_size_related_coefficient_used_in_scale_sensitive_schemes_complement
   long_name = complement to work1
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

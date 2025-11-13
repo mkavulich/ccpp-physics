@@ -72,7 +72,7 @@
 [con_pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -175,7 +175,7 @@
 [cld_frac]
   standard_name = total_cloud_fraction
   long_name = layer total cloud fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -183,7 +183,7 @@
 [cld_cnv_frac]
   standard_name = convective_cloud_fraction_for_rrtmgp
   long_name = layer convective cloud fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys

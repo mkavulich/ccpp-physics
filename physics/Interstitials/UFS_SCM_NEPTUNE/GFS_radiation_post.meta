@@ -34,7 +34,7 @@
 [total_albedo]
   standard_name = total_sky_albedo
   long_name = total sky albedo at toa
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -65,7 +65,7 @@
 [coszen]
   standard_name = cosine_of_solar_zenith_angle_for_daytime_points_on_radiation_timestep
   long_name = mean cos of zenith angle over rad call period
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -73,7 +73,7 @@
 [coszdg]
   standard_name = cosine_of_solar_zenith_angle_on_radiation_timestep
   long_name = daytime mean cosz over rad call period
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -89,7 +89,7 @@
 [aerodp]
   standard_name = atmosphere_optical_thickness_due_to_ambient_aerosol_particles
   long_name = vertical integrated optical depth for various aerosol species
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,number_of_species_for_aerosol_optical_depth)
   type = real
   kind = kind_phys
@@ -97,7 +97,7 @@
 [cldsa]
   standard_name = cloud_area_fraction_for_radiation
   long_name = fraction of clouds for low, middle, high, total and BL
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,5)
   type = real
   kind = kind_phys
@@ -119,7 +119,7 @@
 [cldtausw]
   standard_name = cloud_optical_depth_layers_at_0p55mu_band
   long_name = approx .55mu band layer cloud optical depth
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)
   type = real
   kind = kind_phys
@@ -127,7 +127,7 @@
 [cldtaulw]
   standard_name = cloud_optical_depth_layers_at_10mu_band
   long_name = approx 10mu band layer cloud optical depth
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)
   type = real
   kind = kind_phys
@@ -242,7 +242,7 @@
 [fluxr]
   standard_name = cumulative_radiation_diagnostic
   long_name = time-accumulated 2D radiation-related diagnostic fields
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,number_of_diagnostics_variables_for_radiation)
   type = real
   kind = kind_phys
@@ -503,7 +503,7 @@
 [sfc_alb_nir_dir]
   standard_name = surface_albedo_due_to_near_ir_direct
   long_name = surface albedo due to near IR direct beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -511,7 +511,7 @@
 [sfc_alb_nir_dif]
   standard_name = surface_albedo_due_to_near_ir_diffused
   long_name = surface albedo due to near IR diffused beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -519,7 +519,7 @@
 [sfc_alb_uvvis_dir]
   standard_name = surface_albedo_due_to_uv_and_vis_direct
   long_name = surface albedo due to UV+VIS direct beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -527,7 +527,7 @@
 [sfc_alb_uvvis_dif]
   standard_name = surface_albedo_due_to_uv_and_vis_diffused
   long_name = surface albedo due to UV+VIS diffused beam
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

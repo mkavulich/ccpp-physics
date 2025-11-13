@@ -61,7 +61,7 @@
 [iccn]
   standard_name = control_for_ice_cloud_condensation_nuclei_forcing
   long_name = flag for IN and CCN forcing for morrison gettelman microphysics
-  units = none
+  units = flag
   dimensions = ()
   type = integer
   intent = in
@@ -103,14 +103,14 @@
 [idate]
   standard_name = date_and_time_at_model_initialization_in_united_states_order
   long_name = initial date with different size and ordering
-  units = none
+  units = 1
   dimensions = (4)
   type = integer
   intent = in
 [xlat_d]
   standard_name = latitude_in_degree
   long_name = latitude in degree north
-  units = degree_north
+  units = degree
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -118,7 +118,7 @@
 [xlon_d]
   standard_name = longitude_in_degree
   long_name = longitude in degree east
-  units = degree_east
+  units = degree
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -142,7 +142,7 @@
 [ddy_o3]
   standard_name = latitude_interpolation_weight_for_ozone_forcing
   long_name = interpolation high index for ozone
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -167,7 +167,7 @@
 [ddy_h]
   standard_name = latitude_interpolation_weight_for_stratospheric_water_vapor_forcing
   long_name = interpolation high index for stratospheric water vapor
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -176,7 +176,7 @@
 [h2opl]
   standard_name = stratospheric_water_vapor_forcing
   long_name = water forcing data
-  units = mixed
+  units = various
   dimensions = (horizontal_dimension,vertical_dimension_of_h2o_forcing_data,number_of_coefficients_in_h2o_forcing_data)
   type = real
   kind = kind_phys
@@ -208,7 +208,7 @@
 [ddy_aer]
   standard_name = latitude_interpolation_weight_for_aerosol_forcing
   long_name = interpolation high index for prescribed aerosols in the y direction
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -233,7 +233,7 @@
 [ddx_aer]
   standard_name = longitude_interpolation_weight_for_aerosol_forcing
   long_name = interpolation high index for prescribed aerosols in the x direction
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -266,7 +266,7 @@
 [ddy_ci]
   standard_name = latitude_interpolation_weight_for_cloud_nuclei_forcing
   long_name = interpolation high index for ice and cloud condensation nuclei in the y direction
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -291,7 +291,7 @@
 [ddx_ci]
   standard_name = longitude_interpolation_weight_for_cloud_nuclei_forcing
   long_name = interpolation high index for ice and cloud condensation nuclei in the x direction
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -300,14 +300,14 @@
 [imap]
   standard_name = map_of_block_column_number_to_global_i_index
   long_name = map of local index ix to global index i for this block
-  units = none
+  units = index
   dimensions = (horizontal_dimension)
   type = integer
   intent = inout
 [jmap]
   standard_name = map_of_block_column_number_to_global_j_index
   long_name = map of local index ix to global index j for this block
-  units = none
+  units = index
   dimensions = (horizontal_dimension)
   type = integer
   intent = inout
@@ -321,7 +321,7 @@
 [jindx1_tau]
   standard_name = lower_latitude_index_of_absolute_momentum_flux_due_to_nonorographic_gravity_wave_drag_for_interpolation
   long_name = index1 for weight1 for tau NGWs
-  units = none
+  units = index
   dimensions = (horizontal_dimension)
   type = integer
   intent = inout
@@ -329,7 +329,7 @@
 [jindx2_tau]
   standard_name = upper_latitude_index_of_absolute_momentum_flux_due_to_nonorographic_gravity_wave_drag_for_interpolation
   long_name = index2 for weight2 for tau NGWs
-  units = none
+  units = index
   dimensions = (horizontal_dimension)
   type = integer
   intent = inout
@@ -337,7 +337,7 @@
 [ddy_j1tau]
   standard_name = latitude_interpolation_weight_complement_for_absolute_momentum_flux_due_to_nonorographic_gravity_wave_drag
   long_name = interpolation weight1 for tau NGWs
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   intent = inout
@@ -346,7 +346,7 @@
 [ddy_j2tau]
   standard_name = latitude_interpolation_weight_for_absolute_momentum_flux_due_to_nonorographic_gravity_wave_drag
   long_name = interpolation weight2 for tau NGWs
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   intent = inout
@@ -369,14 +369,14 @@
 [nlunit]
   standard_name = iounit_of_namelist
   long_name = fortran unit number for file opens
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
 [sncovr]
   standard_name = surface_snow_area_fraction_over_land
   long_name = surface snow area fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -384,7 +384,7 @@
 [sncovr_ice]
   standard_name = surface_snow_area_fraction_over_ice
   long_name = surface snow area fraction over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -413,7 +413,7 @@
 [min_seaice]
   standard_name = min_sea_ice_area_fraction
   long_name = minimum sea ice value
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -421,7 +421,7 @@
 [fice]
   standard_name = sea_ice_area_fraction_of_sea_area_fraction
   long_name = ice fraction over open water
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -429,7 +429,7 @@
 [landfrac]
   standard_name = land_area_fraction
   long_name = fraction of horizontal grid area occupied by land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -543,7 +543,7 @@
 [cmxy]
   standard_name = surface_drag_coefficient_for_momentum_for_noahmp
   long_name = surface drag coefficient for momentum for noahmp
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -552,7 +552,7 @@
 [chxy]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_for_noahmp
   long_name = surface exchange coeff heat & moisture for noahmp
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -561,7 +561,7 @@
 [fwetxy]
   standard_name = wet_canopy_area_fraction
   long_name = area fraction of canopy that is wetted/snowed
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -579,7 +579,7 @@
 [alboldxy]
   standard_name = surface_albedo_assuming_deep_snow_on_previous_timestep
   long_name = snow albedo at previous time step
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -606,7 +606,7 @@
 [taussxy]
   standard_name = dimensionless_age_of_surface_snow
   long_name = non-dimensional snow age
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -642,7 +642,7 @@
 [xlaixy]
   standard_name = leaf_area_index
   long_name = leaf area index
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -651,7 +651,7 @@
 [xsaixy]
   standard_name = stem_area_index
   long_name = stem area index
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -741,7 +741,7 @@
 [albdvis_lnd]
   standard_name = surface_albedo_direct_visible_over_land
   long_name = direct surface albedo visible band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -749,7 +749,7 @@
 [albdnir_lnd]
   standard_name = surface_albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -757,7 +757,7 @@
 [albivis_lnd]
   standard_name = surface_albedo_diffuse_visible_over_land
   long_name = diffuse surface albedo visible band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -765,7 +765,7 @@
 [albinir_lnd]
   standard_name = surface_albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -773,7 +773,7 @@
 [albdvis_ice]
   standard_name = surface_albedo_direct_visible_over_ice
   long_name = direct surface albedo visible band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -782,7 +782,7 @@
 [albdnir_ice]
   standard_name = surface_albedo_direct_nir_over_ice
   long_name = direct surface albedo NIR band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -791,7 +791,7 @@
 [albivis_ice]
   standard_name = surface_albedo_diffuse_visible_over_ice
   long_name = diffuse surface albedo visible band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -800,7 +800,7 @@
 [albinir_ice]
   standard_name = surface_albedo_diffuse_nir_over_ice
   long_name = diffuse surface albedo NIR band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -809,7 +809,7 @@
 [emiss_lnd]
   standard_name = surface_longwave_emissivity_over_land
   long_name = surface lw emissivity in fraction over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -817,7 +817,7 @@
 [emiss_ice]
   standard_name = surface_longwave_emissivity_over_ice
   long_name = surface lw emissivity in fraction over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -879,7 +879,7 @@
 [slc]
   standard_name = volume_fraction_of_unfrozen_water_in_soil
   long_name = liquid soil moisture
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil)
   type = real
   kind = kind_phys
@@ -887,7 +887,7 @@
 [smc]
   standard_name = volume_fraction_of_condensed_water_in_soil
   long_name = total soil moisture
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil)
   type = real
   kind = kind_phys
@@ -978,7 +978,7 @@
 [lakefrac]
   standard_name = lake_area_fraction
   long_name = fraction of horizontal grid area occupied by lake
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1015,7 +1015,7 @@
 [lakefrac_threshold]
   standard_name = lakefrac_threshold_for_enabling_lake_model
   long_name = fraction of horizontal grid area occupied by lake must be greater than this value to enable a lake model
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -1031,14 +1031,14 @@
 [ozphys]
   standard_name = dataset_for_ozone_physics
   long_name = dataset for NRL ozone physics
-  units = mixed
+  units = various
   dimensions = ()
   type = ty_ozphys
   intent = in
 [h2ophys]
   standard_name = dataset_for_h2o_photochemistry_physics
   long_name = dataset for NRL h2o photochemistry physics
-  units = mixed
+  units = various
   dimensions = ()
   type = ty_h2ophys
   intent = in
@@ -1169,7 +1169,7 @@
 [idate]
   standard_name = date_and_time_at_model_initialization_in_united_states_order
   long_name = initial date with different size and ordering
-  units = none
+  units = 1
   dimensions = (4)
   type = integer
   intent = in
@@ -1183,7 +1183,7 @@
 [nsswr]
   standard_name = number_of_timesteps_between_shortwave_radiation_calls
   long_name = number of timesteps between shortwave radiation calls
-  units =
+  units = count
   dimensions = ()
   type = integer
   intent = in
@@ -1269,14 +1269,14 @@
 [iccn]
   standard_name = control_for_ice_cloud_condensation_nuclei_forcing
   long_name = flag for IN and CCN forcing for morrison gettelman microphysics
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
 [clstp]
   standard_name = control_for_convective_cloud_diagnostics
   long_name = index used by cnvc90 (for convective clouds)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -1300,7 +1300,7 @@
 [ddy_o3]
   standard_name = latitude_interpolation_weight_for_ozone_forcing
   long_name = interpolation high index for ozone
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1309,7 +1309,7 @@
 [ozpl]
   standard_name = ozone_forcing
   long_name = ozone forcing data
-  units = mixed
+  units = various
   dimensions = (horizontal_dimension,vertical_dimension_of_ozone_forcing_data,number_of_coefficients_in_ozone_data)
   type = real
   kind = kind_phys
@@ -1333,7 +1333,7 @@
 [ddy_h]
   standard_name = latitude_interpolation_weight_for_stratospheric_water_vapor_forcing
   long_name = interpolation high index for stratospheric water vapor
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1342,7 +1342,7 @@
 [h2opl]
   standard_name = stratospheric_water_vapor_forcing
   long_name = water forcing data
-  units = mixed
+  units = various
   dimensions = (horizontal_dimension,vertical_dimension_of_h2o_forcing_data,number_of_coefficients_in_h2o_forcing_data)
   type = real
   kind = kind_phys
@@ -1373,7 +1373,7 @@
 [ddy_aer]
   standard_name = latitude_interpolation_weight_for_aerosol_forcing
   long_name = interpolation high index for prescribed aerosols in the y direction
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1398,7 +1398,7 @@
 [ddx_aer]
   standard_name = longitude_interpolation_weight_for_aerosol_forcing
   long_name = interpolation high index for prescribed aerosols in the x direction
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1431,7 +1431,7 @@
 [ddy_ci]
   standard_name = latitude_interpolation_weight_for_cloud_nuclei_forcing
   long_name = interpolation high index for ice and cloud condensation nuclei in the y direction
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1456,7 +1456,7 @@
 [ddx_ci]
   standard_name = longitude_interpolation_weight_for_cloud_nuclei_forcing
   long_name = interpolation high index for ice and cloud condensation nuclei in the x direction
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1489,14 +1489,14 @@
 [imap]
   standard_name = map_of_block_column_number_to_global_i_index
   long_name = map of local index ix to global index i for this block
-  units = none
+  units = index
   dimensions = (horizontal_dimension)
   type = integer
   intent = in
 [jmap]
   standard_name = map_of_block_column_number_to_global_j_index
   long_name = map of local index ix to global index j for this block
-  units = none
+  units = index
   dimensions = (horizontal_dimension)
   type = integer
   intent = in
@@ -1511,14 +1511,14 @@
 [seed0]
   standard_name = seed_random_numbers_ras
   long_name = random number seed for the RAS scheme
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
 [rann]
   standard_name = random_number
   long_name = random number array (0-1)
-  units = none
+  units = 1
   dimensions = (horizontal_dimension,number_of_random_numbers)
   type = real
   kind = kind_phys
@@ -1554,14 +1554,14 @@
 [tile_num]
   standard_name = index_of_cubed_sphere_tile
   long_name = tile number
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
 [nlunit]
   standard_name = iounit_of_namelist
   long_name = fortran unit number for file opens
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
@@ -1655,7 +1655,7 @@
 [oceanfrac]
   standard_name = sea_area_fraction
   long_name = fraction of horizontal grid area occupied by ocean
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1663,7 +1663,7 @@
 [lakefrac]
   standard_name = lake_area_fraction
   long_name = fraction of horizontal grid area occupied by lake
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1671,7 +1671,7 @@
 [min_seaice]
   standard_name = min_sea_ice_area_fraction
   long_name = minimum sea ice value
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -1679,7 +1679,7 @@
 [min_lakeice]
   standard_name = min_lake_ice_area_fraction
   long_name = minimum lake ice value
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -1687,7 +1687,7 @@
 [smc]
   standard_name = volume_fraction_of_condensed_water_in_soil
   long_name = total soil moisture
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil)
   type = real
   kind = kind_phys
@@ -1695,7 +1695,7 @@
 [slc]
   standard_name = volume_fraction_of_unfrozen_water_in_soil
   long_name = liquid soil moisture
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil)
   type = real
   kind = kind_phys
@@ -1711,7 +1711,7 @@
 [smois]
   standard_name = volume_fraction_of_soil_moisture_for_land_surface_model
   long_name = volumetric fraction of soil moisture for lsm
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil_internal_to_land_surface_scheme)
   type = real
   kind = kind_phys
@@ -1720,7 +1720,7 @@
 [sh2o]
   standard_name = volume_fraction_of_unfrozen_soil_moisture_for_land_surface_model
   long_name = volume fraction of unfrozen soil moisture for lsm
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil_internal_to_land_surface_scheme)
   type = real
   kind = kind_phys
@@ -1795,7 +1795,7 @@
 [fice]
   standard_name = sea_ice_area_fraction_of_sea_area_fraction
   long_name = ice fraction over open water
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1803,7 +1803,7 @@
 [facsf]
   standard_name =strong_cosz_area_fraction
   long_name = fractional coverage with strong cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1811,7 +1811,7 @@
 [facwf]
   standard_name = weak_cosz_area_fraction
   long_name = fractional coverage with weak cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1819,7 +1819,7 @@
 [alvsf]
   standard_name = vis_albedo_strong_cosz
   long_name = mean vis albedo with strong cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1827,7 +1827,7 @@
 [alvwf]
   standard_name = vis_albedo_weak_cosz
   long_name = mean vis albedo with weak cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1835,7 +1835,7 @@
 [alnsf]
   standard_name = nir_albedo_strong_cosz
   long_name = mean nir albedo with strong cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1843,7 +1843,7 @@
 [alnwf]
   standard_name = nir_albedo_weak_cosz
   long_name = mean nir albedo with weak cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1890,7 +1890,7 @@
 [snoalb]
   standard_name = upper_bound_of_max_albedo_assuming_deep_snow
   long_name = maximum snow albedo
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1906,7 +1906,7 @@
 [vfrac]
   standard_name = vegetation_area_fraction
   long_name = areal fractional cover of green vegetation
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1935,7 +1935,7 @@
 [shdmin]
   standard_name = min_vegetation_area_fraction
   long_name = min fractional coverage of green vegetation
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1943,7 +1943,7 @@
 [shdmax]
   standard_name = max_vegetation_area_fraction
   long_name = max fractional coverage of green vegetation
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1959,7 +1959,7 @@
 [cv]
   standard_name = convective_cloud_area_fraction_between_sw_radiation_calls_from_cnvc90
   long_name = fraction of convective cloud
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1999,7 +1999,7 @@
 [xlat_d]
   standard_name = latitude_in_degree
   long_name = latitude in degree north
-  units = degree_north
+  units = degree
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -2007,7 +2007,7 @@
 [xlon_d]
   standard_name = longitude_in_degree
   long_name = longitude in degree east
-  units = degree_east
+  units = degree
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -2015,7 +2015,7 @@
 [landfrac]
   standard_name = land_area_fraction
   long_name = fraction of horizontal grid area occupied by land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -2038,7 +2038,7 @@
 [jindx1_tau]
   standard_name = lower_latitude_index_of_absolute_momentum_flux_due_to_nonorographic_gravity_wave_drag_for_interpolation
   long_name = index1 for weight1 for tau NGWs
-  units = none
+  units = index
   dimensions = (horizontal_dimension)
   type = integer
   intent = in
@@ -2046,7 +2046,7 @@
 [jindx2_tau]
   standard_name = upper_latitude_index_of_absolute_momentum_flux_due_to_nonorographic_gravity_wave_drag_for_interpolation
   long_name = index2 for weight2 for tau NGWs
-  units = none
+  units = index
   dimensions = (horizontal_dimension)
   type = integer
   intent = in
@@ -2054,7 +2054,7 @@
 [ddy_j1tau]
   standard_name = latitude_interpolation_weight_complement_for_absolute_momentum_flux_due_to_nonorographic_gravity_wave_drag
   long_name = interpolation weight1 for tau NGWs
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   intent = in
@@ -2063,7 +2063,7 @@
 [ddy_j2tau]
   standard_name = latitude_interpolation_weight_for_absolute_momentum_flux_due_to_nonorographic_gravity_wave_drag
   long_name = interpolation weight2 for tau NGWs
-  units = none
+  units = 1
   dimensions = (horizontal_dimension)
   type = real
   intent = in
@@ -2072,7 +2072,7 @@
 [tau_amf]
   standard_name = absolute_momentum_flux_due_to_nonorographic_gravity_wave_drag
   long_name = ngw_absolute_momentum_flux
-  units = mixed
+  units = various
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -2080,14 +2080,14 @@
 [ozphys]
   standard_name = dataset_for_ozone_physics
   long_name = dataset for NRL ozone physics
-  units = mixed
+  units = various
   dimensions = ()
   type = ty_ozphys
   intent = in
 [h2ophys]
   standard_name = dataset_for_h2o_photochemistry_physics
   long_name = dataset for NRL h2o photochemistry physics
-  units = mixed
+  units = various
   dimensions = ()
   type = ty_h2ophys
   intent = in

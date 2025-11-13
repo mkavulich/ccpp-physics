@@ -103,7 +103,7 @@
 [xcosz]
   standard_name = instantaneous_cosine_of_zenith_angle
   long_name = cosine of zenith angle at current time
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -127,7 +127,7 @@
 [cice]
   standard_name = sea_ice_area_fraction_of_sea_area_fraction
   long_name = ice fraction over open water
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -176,7 +176,7 @@
 [xmu]
   standard_name = zenith_angle_temporal_adjustment_factor_for_shortwave_fluxes
   long_name = zenith angle temporal adjustment factor for shortwave fluxes
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -184,7 +184,7 @@
 [ctei_rm]
   standard_name = tunable_parameter_for_critical_cloud_top_entrainment_instability_criteria
   long_name = critical cloud top entrainment instability criteria
-  units = none
+  units = 1
   dimensions = (2)
   type = real
   kind = kind_phys
@@ -192,7 +192,7 @@
 [work1]
   standard_name = grid_size_related_coefficient_used_in_scale_sensitive_schemes
   long_name = grid size related coefficient used in scale-sensitive schemes
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -200,7 +200,7 @@
 [work2]
   standard_name = grid_size_related_coefficient_used_in_scale_sensitive_schemes_complement
   long_name = complement to work1
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -264,7 +264,7 @@
 [prslk]
   standard_name = dimensionless_exner_function
   long_name = dimensionless Exner function at model layer centers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -352,7 +352,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys
@@ -417,7 +417,7 @@
 [ctei_rml]
   standard_name = grid_sensitive_critical_cloud_top_entrainment_instability_criteria
   long_name = grid sensitive critical cloud top entrainment instability criteria
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -425,7 +425,7 @@
 [ctei_r]
   standard_name = cloud_top_entrainment_instability_value
   long_name = cloud top entrainment instability value
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -461,7 +461,7 @@
 [frland]
   standard_name = land_area_fraction_for_microphysics
   long_name = land area fraction used in microphysics schemes
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -469,7 +469,7 @@
 [huge]
   standard_name = netcdf_float_fillvalue
   long_name = definition of NetCDF float FillValue
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys

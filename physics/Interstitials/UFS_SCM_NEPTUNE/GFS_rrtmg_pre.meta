@@ -263,14 +263,14 @@
 [ozphys]
   standard_name = dataset_for_ozone_physics
   long_name = dataset for NRL ozone physics
-  units = mixed
+  units = various
   dimensions = ()
   type = ty_ozphys
   intent = in
 [tempo_cfg]
   standard_name = configuration_for_tempo_microphysics
   long_name = configuration information for TEMPO microphysics
-  units = mixed
+  units = various
   dimensions = ()
   type = ty_tempo_cfg
   intent = in
@@ -745,7 +745,7 @@
 [sup]
   standard_name = tunable_parameter_for_ice_supersaturation
   long_name = ice supersaturation parameter for PDF clouds
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -753,7 +753,7 @@
 [con_eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -761,7 +761,7 @@
 [con_pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -801,7 +801,7 @@
 [epsm1]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants_minus_one
   long_name = (rd/rv) - 1
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -809,7 +809,7 @@
 [fvirt]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -825,7 +825,7 @@
 [rocp]
   standard_name = ratio_of_gas_constant_dry_air_to_specific_heat_of_dry_air_at_constant_pressure
   long_name = (rd/cp)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -833,7 +833,7 @@
 [xlat_d]
   standard_name = latitude_in_degree
   long_name = latitude in degree north
-  units = degree_north
+  units = degree
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -857,7 +857,7 @@
 [coslat]
   standard_name = cosine_of_latitude
   long_name = cosine of latitude
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -865,7 +865,7 @@
 [sinlat]
   standard_name = sine_of_latitude
   long_name = sine of latitude
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -905,7 +905,7 @@
 [prslk]
   standard_name = dimensionless_exner_function
   long_name = dimensionless Exner function at model layer centers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -930,7 +930,7 @@
 [mg_cld]
   standard_name = cloud_fraction_for_mg
   long_name = cloud fraction used by Morrison-Gettelman MP
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -955,7 +955,7 @@
 [sppt_wts]
   standard_name = sppt_weights_from_coupled_process
   long_name = weights for stochastic sppt perturbation
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -964,7 +964,7 @@
 [sppt_amp]
   standard_name = total_amplitude_of_sppt_perturbation
   long_name = total amplitude of stochastic sppt perturbation
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -981,7 +981,7 @@
 [cnvc_in]
   standard_name = convective_cloud_area_fraction
   long_name = convective cloud cover in the phy_f3d array
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -1021,7 +1021,7 @@
 [coszen]
   standard_name = cosine_of_solar_zenith_angle_for_daytime_points_on_radiation_timestep
   long_name = mean cos of zenith angle over rad call period
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1029,7 +1029,7 @@
 [coszdg]
   standard_name = cosine_of_solar_zenith_angle_on_radiation_timestep
   long_name = daytime mean cosz over rad call period
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1064,7 +1064,7 @@
 [clouds1]
   standard_name = total_cloud_fraction
   long_name = layer total cloud fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)
   type = real
   kind = kind_phys
@@ -1180,7 +1180,7 @@
 [alb1d]
   standard_name = surface_albedo_perturbation
   long_name = surface albedo perturbation
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1332,7 +1332,7 @@
 [aerodp]
   standard_name = atmosphere_optical_thickness_due_to_ambient_aerosol_particles
   long_name = vertical integrated optical depth for various aerosol species
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,number_of_species_for_aerosol_optical_depth)
   type = real
   kind = kind_phys
@@ -1340,7 +1340,7 @@
 [ext550]
   standard_name = aerosol_optical_depth_at_550nm
   long_name = 3d optical extinction for total aerosol species
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -1380,7 +1380,7 @@
 [cldsa]
   standard_name = cloud_area_fraction_for_radiation
   long_name = fraction of clouds for low, middle,high, total and BL
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,5)
   type = real
   kind = kind_phys
@@ -1388,7 +1388,7 @@
 [cldfra]
   standard_name = instantaneous_3d_cloud_fraction
   long_name = instantaneous 3D cloud fraction for all MPs
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)
   type = real
   kind = kind_phys
@@ -1396,7 +1396,7 @@
 [cldfra2d]
   standard_name = max_in_column_cloud_fraction
   long_name = instantaneous 2D (max-in-column) cloud fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1436,7 +1436,7 @@
 [faersw1]
   standard_name = aerosol_optical_depth_for_shortwave_bands_01_16
   long_name = aerosol optical depth for shortwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation,number_of_aerosol_bands_for_shortwave_radiation)
   type = real
   kind = kind_phys
@@ -1444,7 +1444,7 @@
 [faersw2]
   standard_name = aerosol_single_scattering_albedo_for_shortwave_bands_01_16
   long_name = aerosol single scattering albedo for shortwave bands 01-16
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation,number_of_aerosol_bands_for_shortwave_radiation)
   type = real
   kind = kind_phys
@@ -1452,7 +1452,7 @@
 [faersw3]
   standard_name = aerosol_asymmetry_parameter_for_shortwave_bands_01_16
   long_name = aerosol asymmetry parameter for shortwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation,number_of_aerosol_bands_for_shortwave_radiation)
   type = real
   kind = kind_phys
@@ -1460,7 +1460,7 @@
 [faerlw1]
   standard_name = aerosol_optical_depth_for_longwave_bands_01_16
   long_name = aerosol optical depth for longwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys
@@ -1468,7 +1468,7 @@
 [faerlw2]
   standard_name = aerosol_single_scattering_albedo_for_longwave_bands_01_16
   long_name = aerosol single scattering albedo for longwave bands 01-16
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys
@@ -1476,7 +1476,7 @@
 [faerlw3]
   standard_name = aerosol_asymmetry_parameter_for_longwave_bands_01_16
   long_name = aerosol asymmetry parameter for longwave bands 01-16
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation,number_of_aerosol_bands_for_longwave_radiation)
   type = real
   kind = kind_phys
@@ -1484,7 +1484,7 @@
 [alpha]
   standard_name = cloud_overlap_decorrelation_parameter
   long_name = cloud overlap decorrelation parameter
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)
   type = real
   kind = kind_phys
@@ -1500,7 +1500,7 @@
 [si]
   standard_name = sigma_pressure_hybrid_vertical_coordinate
   long_name = vertical sigma coordinate for radiation initialization
-  units = none
+  units = 1
   dimensions = (vertical_interface_dimension)
   type = real
   kind = kind_phys
@@ -1529,7 +1529,7 @@
 [fdb_coef]
   standard_name = smoke_dust_direct_fdb_coef
   long_name = smoke dust direct feedback coefficents
-  units = none
+  units = 1
   dimensions = (7)
   type = real
   kind = kind_phys

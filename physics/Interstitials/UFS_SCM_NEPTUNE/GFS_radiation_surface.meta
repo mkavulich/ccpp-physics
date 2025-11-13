@@ -42,7 +42,7 @@
 [con_pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -171,7 +171,7 @@
 [sfc_alb_pert]
   standard_name = surface_albedo_perturbation
   long_name = surface albedo perturbation
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -188,7 +188,7 @@
 [lndp_prt_list]
   standard_name = land_surface_perturbation_magnitudes
   long_name = magnitude of perturbations for landperts
-  units = variable
+  units = various
   dimensions = (number_of_perturbed_land_surface_variables)
   type = real
   kind = kind_phys
@@ -197,7 +197,7 @@
 [landfrac]
   standard_name = land_area_fraction
   long_name = fraction of horizontal grid area occupied by land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -221,7 +221,7 @@
 [sncovr]
   standard_name = surface_snow_area_fraction_over_land
   long_name = surface snow area fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -229,7 +229,7 @@
 [sncovr_ice]
   standard_name = surface_snow_area_fraction_over_ice
   long_name = surface snow area fraction over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -237,7 +237,7 @@
 [fice]
   standard_name = sea_ice_area_fraction_of_sea_area_fraction
   long_name = ice fraction over open water
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -285,7 +285,7 @@
 [coszen]
   standard_name = cosine_of_solar_zenith_angle_for_daytime_points_on_radiation_timestep
   long_name = mean cos of zenith angle over rad call period
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -300,7 +300,7 @@
 [min_seaice]
   standard_name = min_sea_ice_area_fraction
   long_name = minimum sea ice value
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -308,7 +308,7 @@
 [min_lakeice]
   standard_name = min_lake_ice_area_fraction
   long_name = minimum lake ice value
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -316,7 +316,7 @@
 [lakefrac]
   standard_name = lake_area_fraction
   long_name = fraction of horizontal grid area occupied by lake
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -331,7 +331,7 @@
 [alvsf]
   standard_name = vis_albedo_strong_cosz
   long_name = mean vis albedo with strong cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -339,7 +339,7 @@
 [alnsf]
   standard_name = nir_albedo_strong_cosz
   long_name = mean nir albedo with strong cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -347,7 +347,7 @@
 [alvwf]
   standard_name = vis_albedo_weak_cosz
   long_name = mean vis albedo with weak cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -355,7 +355,7 @@
 [alnwf]
   standard_name = nir_albedo_weak_cosz
   long_name = mean nir albedo with weak cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -363,7 +363,7 @@
 [facsf]
   standard_name =strong_cosz_area_fraction
   long_name = fractional coverage with strong cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -371,7 +371,7 @@
 [facwf]
   standard_name = weak_cosz_area_fraction
   long_name = fractional coverage with weak cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -379,7 +379,7 @@
 [semis_lnd]
   standard_name = surface_longwave_emissivity_over_land
   long_name = surface lw emissivity in fraction over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -387,7 +387,7 @@
 [semis_ice]
   standard_name = surface_longwave_emissivity_over_ice
   long_name = surface lw emissivity in fraction over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -395,7 +395,7 @@
 [semis_wat]
   standard_name = surface_longwave_emissivity_over_water
   long_name = surface lw emissivity in fraction over water
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -403,7 +403,7 @@
 [snoalb]
   standard_name = upper_bound_of_max_albedo_assuming_deep_snow
   long_name = maximum snow albedo
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -426,7 +426,7 @@
 [albdvis_lnd]
   standard_name = surface_albedo_direct_visible_over_land
   long_name = direct surface albedo visible band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -434,7 +434,7 @@
 [albdnir_lnd]
   standard_name = surface_albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -442,7 +442,7 @@
 [albivis_lnd]
   standard_name = surface_albedo_diffuse_visible_over_land
   long_name = diffuse surface albedo visible band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -450,7 +450,7 @@
 [albinir_lnd]
   standard_name = surface_albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -458,7 +458,7 @@
 [albdvis_ice]
   standard_name = surface_albedo_direct_visible_over_ice
   long_name = direct surface albedo visible band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -467,7 +467,7 @@
 [albdnir_ice]
   standard_name = surface_albedo_direct_nir_over_ice
   long_name = direct surface albedo NIR band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -476,7 +476,7 @@
 [albivis_ice]
   standard_name = surface_albedo_diffuse_visible_over_ice
   long_name = diffuse surface albedo visible band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -485,7 +485,7 @@
 [albinir_ice]
   standard_name = surface_albedo_diffuse_nir_over_ice
   long_name = diffuse surface albedo NIR band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -494,7 +494,7 @@
 [semisbase]
   standard_name = baseline_surface_longwave_emissivity
   long_name = baseline surface lw emissivity in fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -502,7 +502,7 @@
 [semis]
   standard_name = surface_longwave_emissivity
   long_name = surface lw emissivity in fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -510,7 +510,7 @@
 [sfcalb]
   standard_name = surface_albedo_components
   long_name = surface albedo IR/UV/VIS components
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,number_of_components_for_surface_albedo)
   type = real
   kind = kind_phys
@@ -518,7 +518,7 @@
 [sfc_alb_dif]
   standard_name = surface_albedo_for_diffused_shortwave_on_radiation_timestep
   long_name = mean surface diffused sw albedo
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

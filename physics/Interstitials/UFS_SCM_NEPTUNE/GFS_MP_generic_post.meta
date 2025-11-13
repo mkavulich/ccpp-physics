@@ -176,7 +176,7 @@
 [frain]
   standard_name = dynamics_to_physics_timestep_ratio
   long_name = ratio of dynamics timestep to physics timestep
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -200,7 +200,7 @@
 [rann]
   standard_name = random_number
   long_name = random number array (0-1)
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,number_of_random_numbers)
   type = real
   kind = kind_phys
@@ -493,7 +493,7 @@
 [domr_diag]
   standard_name = dominant_rain_type
   long_name = dominant rain type
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -501,7 +501,7 @@
 [domzr_diag]
   standard_name = dominant_freezing_rain_type
   long_name = dominant freezing rain type
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -509,7 +509,7 @@
 [domip_diag]
   standard_name = dominant_sleet_type
   long_name = dominant sleet type
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -517,7 +517,7 @@
 [doms_diag]
   standard_name = dominant_snow_type
   long_name = dominant snow type
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -541,7 +541,7 @@
 [sr]
   standard_name = ratio_of_snowfall_to_rainfall
   long_name = snow ratio: ratio of snow to total precipitation
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -855,7 +855,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys

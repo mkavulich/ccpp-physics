@@ -53,7 +53,7 @@
 [frain]
   standard_name = dynamics_to_physics_timestep_ratio
   long_name = ratio of dynamics timestep to physics timestep
-  units = none
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -158,7 +158,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys
@@ -312,7 +312,7 @@
 [cnvc]
   standard_name = convective_cloud_cover
   long_name = convective cloud cover
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -329,7 +329,7 @@
 [cnvc_phy_f3d]
   standard_name = convective_cloud_area_fraction
   long_name = convective cloud cover in the phy_f3d array
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys

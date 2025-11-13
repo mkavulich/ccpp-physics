@@ -10,7 +10,7 @@
 [clstp]
   standard_name = control_for_convective_cloud_diagnostics
   long_name = switch for saving convective clouds
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -70,7 +70,7 @@
 [acvb]
   standard_name = cumulative_min_vertical_index_at_cloud_base_between_sw_radiation_calls
   long_name = smallest cloud base vertical index encountered thus far
-  units = index
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -78,7 +78,7 @@
 [acvt]
   standard_name = cumulative_max_vertical_index_at_cloud_base_between_sw_radiation_calls
   long_name = largest cloud top vertical index encountered thus far
-  units = index
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -86,7 +86,7 @@
 [cv]
   standard_name = convective_cloud_area_fraction_between_sw_radiation_calls_from_cnvc90
   long_name = fraction of convective cloud
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

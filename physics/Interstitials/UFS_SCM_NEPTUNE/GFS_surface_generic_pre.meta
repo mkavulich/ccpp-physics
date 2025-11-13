@@ -144,7 +144,7 @@
 [vfrac]
   standard_name = vegetation_area_fraction
   long_name = areal fractional cover of green vegetation
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -229,7 +229,7 @@
 [prsik_1]
   standard_name = surface_dimensionless_exner_function
   long_name = dimensionless Exner function at lowest model interface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -237,7 +237,7 @@
 [prslk_1]
   standard_name = dimensionless_exner_function_at_surface_adjacent_layer
   long_name = dimensionless Exner function at lowest model layer
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -269,7 +269,7 @@
 [sigmaf]
   standard_name = bounded_vegetation_area_fraction
   long_name = areal fractional cover of green vegetation bounded on the bottom
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -277,7 +277,7 @@
 [work3]
   standard_name = ratio_of_exner_function_between_midlayer_and_interface_at_lowest_model_layer
   long_name = Exner function ratio bt midlayer and interface at 1st layer
-  units = ratio
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -325,7 +325,7 @@
 [lndp_prt_list]
   standard_name =land_surface_perturbation_magnitudes
   long_name = magnitude of perturbations for landperts
-  units = variable
+  units = various
   dimensions = (number_of_perturbed_land_surface_variables) 
   type = real
   kind = kind_phys
@@ -334,7 +334,7 @@
 [z01d]
   standard_name = perturbation_of_momentum_roughness_length
   long_name = perturbation of momentum roughness length
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -342,7 +342,7 @@
 [zt1d]
   standard_name = perturbation_of_heat_to_momentum_roughness_length_ratio
   long_name = perturbation of heat to momentum roughness length ratio
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -350,7 +350,7 @@
 [bexp1d]
   standard_name = perturbation_of_soil_type_b_parameter
   long_name = perturbation of soil type "b" parameter
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -358,7 +358,7 @@
 [xlai1d]
   standard_name = perturbation_of_leaf_area_index
   long_name = perturbation of leaf area index
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -366,7 +366,7 @@
 [vegf1d]
   standard_name = perturbation_of_vegetation_fraction
   long_name = perturbation of vegetation fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -374,7 +374,7 @@
 [lndp_vgf]
   standard_name = magnitude_of_perturbation_of_vegetation_fraction
   long_name = magnitude of perturbation of vegetation fraction
-  units = frac
+  units = fraction
   dimensions = () 
   type = real
   kind = kind_phys
@@ -445,7 +445,7 @@
 [smcwlt2]
   standard_name = volume_fraction_of_condensed_water_in_soil_at_wilting_point
   long_name = wilting point (volumetric)
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -453,7 +453,7 @@
 [smcref2]
   standard_name = threshold_volume_fraction_of_condensed_water_in_soil
   long_name = soil moisture threshold (volumetric)
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

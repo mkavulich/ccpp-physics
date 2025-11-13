@@ -30,7 +30,7 @@
 [si]
   standard_name = sigma_pressure_hybrid_vertical_coordinate
   long_name = vertical sigma coordinate for radiation initialization
-  units = none
+  units = 1
   dimensions = (vertical_interface_dimension)
   type = real
   kind = kind_phys
@@ -38,7 +38,7 @@
 [vfact_ca]
   standard_name = cellular_automata_vertical_weight
   long_name = vertical weight for ca
-  units = frac
+  units = fraction
   dimensions = (vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -152,7 +152,7 @@
 [vfact_ca]
   standard_name = cellular_automata_vertical_weight
   long_name = vertical weight for ca
-  units = frac
+  units = fraction
   dimensions = (vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -160,7 +160,7 @@
 [zmtnblck]
   standard_name = level_of_dividing_streamline
   long_name = level of the dividing streamline
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -168,7 +168,7 @@
 [sppt_wts]
   standard_name = sppt_weights_from_coupled_process
   long_name = weights for stochastic sppt perturbation
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -177,7 +177,7 @@
 [skebu_wts]
   standard_name = skeb_x_wind_weights_from_coupled_process
   long_name = weights for stochastic skeb perturbation of x wind
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -186,7 +186,7 @@
 [skebv_wts]
   standard_name = skeb_y_wind_weights_from_coupled_process
   long_name = weights for stochastic skeb perturbation of y wind
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -195,7 +195,7 @@
 [shum_wts]
   standard_name = shum_weights_from_coupled_process
   long_name = weights for stochastic shum perturbation
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys

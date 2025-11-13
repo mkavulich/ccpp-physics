@@ -26,7 +26,7 @@
 [sdec]
   standard_name = sine_of_solar_declination_angle
   long_name = sine of solar declination angle
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -34,7 +34,7 @@
 [cdec]
   standard_name = cosine_of_solar_declination_angle
   long_name = cosine of solar declination angle
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -42,7 +42,7 @@
 [sinlat]
   standard_name = sine_of_latitude
   long_name = sine of latitude
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -50,7 +50,7 @@
 [coslat]
   standard_name = cosine_of_latitude
   long_name = cosine of latitude
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -74,7 +74,7 @@
 [con_pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -98,7 +98,7 @@
 [coszen]
   standard_name = cosine_of_solar_zenith_angle_for_daytime_points_on_radiation_timestep
   long_name = average of cosine of zenith angle over daytime shortwave call time interval
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -154,7 +154,7 @@
 [sfcemis_lnd]
   standard_name = surface_longwave_emissivity_over_land
   long_name = surface lw emissivity in fraction over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -162,7 +162,7 @@
 [sfcemis_ice]
   standard_name = surface_longwave_emissivity_over_ice
   long_name = surface lw emissivity in fraction over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -170,7 +170,7 @@
 [sfcemis_wat]
   standard_name = surface_longwave_emissivity_over_water
   long_name = surface lw emissivity in fraction over water
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -574,7 +574,7 @@
 [xmu]
   standard_name = zenith_angle_temporal_adjustment_factor_for_shortwave_fluxes
   long_name = zenith angle temporal adjustment factor for shortwave fluxes
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -582,7 +582,7 @@
 [xcosz]
   standard_name = instantaneous_cosine_of_zenith_angle
   long_name = cosine of zenith angle at current time
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

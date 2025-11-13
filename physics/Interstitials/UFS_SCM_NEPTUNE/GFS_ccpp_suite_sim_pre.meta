@@ -17,14 +17,14 @@
 [physics_process]
   standard_name = physics_process_type_for_ccpp_suite_simulator
   long_name = physics process type for CCPP suite simulator
-  units = mixed
+  units = various
   dimensions = (number_of_physics_process_in_CCPP_suite_simulator)
   type = base_physics_process
   intent = in
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys
@@ -125,7 +125,7 @@
 [active_phys_tend]
   standard_name = tendencies_for_active_process_in_ccpp_suite_simulator
   long_name = tendencies for active physics process in ccpp suite simulator
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_prognostics_variables_in_CCPP_suite_simulator)
   type = real
   kind = kind_phys

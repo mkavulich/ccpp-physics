@@ -246,7 +246,7 @@
 [sigmain]
   standard_name = prognostic_updraft_area_fraction_in_convection
   long_name = convective updraft area fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -255,7 +255,7 @@
 [sigmaout]
   standard_name = updraft_area_fraction_updated_by_physics
   long_name = convective updraft area fraction updated by physics
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -377,7 +377,7 @@
 [prslk]
   standard_name = dimensionless_exner_function
   long_name = dimensionless Exner function at model layer centers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -385,7 +385,7 @@
 [rhcbot]
   standard_name = critical_relative_humidity_at_surface
   long_name = critical relative humidity at the surface
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -393,7 +393,7 @@
 [rhcpbl]
   standard_name = critical_relative_humidity_at_pbl_top
   long_name = critical relative humidity at the PBL top
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -401,7 +401,7 @@
 [rhctop]
   standard_name = critical_relative_humidity_at_toa
   long_name = critical relative humidity at the top of atmosphere
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -409,7 +409,7 @@
 [rhcmax]
   standard_name = max_critical_relative_humidity
   long_name = maximum critical relative humidity
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -424,7 +424,7 @@
 [work1]
   standard_name = grid_size_related_coefficient_used_in_scale_sensitive_schemes
   long_name = grid size related coefficient used in scale-sensitive schemes
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -432,7 +432,7 @@
 [work2]
   standard_name = grid_size_related_coefficient_used_in_scale_sensitive_schemes_complement
   long_name = complement to work1
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -476,7 +476,7 @@
 [rhc]
   standard_name = critical_relative_humidity
   long_name = critical relative humidity
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
