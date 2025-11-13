@@ -46,7 +46,7 @@
 [nlunit]
   standard_name = iounit_of_namelist
   long_name = fortran unit number for file opens
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
@@ -155,7 +155,7 @@
 [eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -163,7 +163,7 @@
 [epsm1]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants_minus_one
   long_name = (rd/rv) - 1
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -171,7 +171,7 @@
 [rvrdm1]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -217,7 +217,7 @@
 [sigmaf]
   standard_name = bounded_vegetation_area_fraction
   long_name = areal fractional cover of green vegetation bounded on the bottom
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -225,7 +225,7 @@
 [sfcemis]
   standard_name = surface_longwave_emissivity_over_land
   long_name = surface lw emissivity in fraction over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -265,7 +265,7 @@
 [cm]
   standard_name = surface_drag_coefficient_for_momentum_in_air_over_land
   long_name = surface exchange coeff for momentum over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -273,7 +273,7 @@
 [ch]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air_over_land
   long_name = surface exchange coeff heat & moisture over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -289,7 +289,7 @@
 [prslki]
   standard_name = ratio_of_exner_function_between_midlayer_and_interface_at_lowest_model_layer
   long_name = Exner function ratio bt midlayer and interface at 1st layer
-  units = ratio
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -327,7 +327,7 @@
 [shdmin]
   standard_name = min_vegetation_area_fraction
   long_name = min fractional coverage of green veg
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -335,7 +335,7 @@
 [shdmax]
   standard_name = max_vegetation_area_fraction
   long_name = max fractnl cover of green veg (not used)
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -343,7 +343,7 @@
 [snoalb]
   standard_name = upper_bound_of_max_albedo_assuming_deep_snow
   long_name = upper bound on max albedo over deep snow
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -351,7 +351,7 @@
 [sfalb]
   standard_name = surface_albedo_for_diffused_shortwave_on_radiation_timestep
   long_name = mean surface diffused shortwave albedo
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -394,7 +394,7 @@
 [bexppert]
   standard_name = perturbation_of_soil_type_b_parameter
   long_name = perturbation of soil type "b" parameter
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -402,7 +402,7 @@
 [xlaipert]
   standard_name = perturbation_of_leaf_area_index
   long_name = perturbation of leaf area index
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -410,7 +410,7 @@
 [vegfpert]
   standard_name = perturbation_of_vegetation_fraction
   long_name = perturbation of vegetation fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -418,7 +418,7 @@
 [pertvegf]
   standard_name = magnitude_of_perturbation_of_vegetation_fraction
   long_name = magnitude of perturbation of vegetation fraction
-  units = frac
+  units = fraction
   dimensions = () 
   type = real
   kind = kind_phys
@@ -426,7 +426,7 @@
 [albdvis_lnd]
   standard_name = surface_albedo_direct_visible_over_land
   long_name = direct surface albedo visible band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -434,7 +434,7 @@
 [albdnir_lnd]
   standard_name = surface_albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -442,7 +442,7 @@
 [albivis_lnd]
   standard_name = surface_albedo_diffuse_visible_over_land
   long_name = diffuse surface albedo visible band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -450,7 +450,7 @@
 [albinir_lnd]
   standard_name = surface_albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -545,7 +545,7 @@
 [smc]
   standard_name = volume_fraction_of_condensed_water_in_soil
   long_name = volumetric fraction of soil moisture
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_dimension_of_soil)
   type = real
   kind = kind_phys
@@ -561,7 +561,7 @@
 [slc]
   standard_name = volume_fraction_of_unfrozen_water_in_soil
   long_name = volume fraction of unfrozen soil moisture
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_dimension_of_soil)
   type = real
   kind = kind_phys
@@ -601,7 +601,7 @@
 [sncovr1]
   standard_name = surface_snow_area_fraction_over_land
   long_name = surface snow area fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -705,7 +705,7 @@
 [snowc]
   standard_name = surface_snow_area_fraction
   long_name = surface snow area fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -729,7 +729,7 @@
 [smcwlt2]
   standard_name = volume_fraction_of_condensed_water_in_soil_at_wilting_point
   long_name = soil water fraction at wilting point
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -737,7 +737,7 @@
 [smcref2]
   standard_name = threshold_volume_fraction_of_condensed_water_in_soil
   long_name = soil moisture threshold
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -745,7 +745,7 @@
 [wet1]
   standard_name = normalized_soil_wetness
   long_name = normalized soil wetness
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -754,7 +754,7 @@
 [lai]
   standard_name = leaf_area_index
   long_name = leaf area index
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

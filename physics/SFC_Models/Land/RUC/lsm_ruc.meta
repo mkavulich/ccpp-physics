@@ -39,7 +39,7 @@
 [nlunit]
   standard_name = iounit_of_namelist
   long_name = fortran unit number for file opens
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
@@ -60,7 +60,7 @@
 [con_fvirt]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = rv/rd - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -147,7 +147,7 @@
 [landfrac]
   standard_name = land_area_fraction
   long_name = fraction of horizontal grid area occupied by land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -203,7 +203,7 @@
 [smc]
   standard_name = volume_fraction_of_condensed_water_in_soil
   long_name = total soil moisture
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil)
   type = real
   kind = kind_phys
@@ -211,7 +211,7 @@
 [slc]
   standard_name = volume_fraction_of_unfrozen_water_in_soil
   long_name = liquid soil moisture
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil)
   type = real
   kind = kind_phys
@@ -227,7 +227,7 @@
 [fice]
   standard_name = sea_ice_area_fraction_of_sea_area_fraction
   long_name = ice fraction over open water
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -235,7 +235,7 @@
 [min_seaice]
   standard_name = min_sea_ice_area_fraction
   long_name = minimum sea ice value
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -243,7 +243,7 @@
 [sncovr_lnd]
   standard_name = surface_snow_area_fraction_over_land
   long_name = surface snow area fraction over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -251,7 +251,7 @@
 [sncovr_ice]
   standard_name = surface_snow_area_fraction_over_ice
   long_name = surface snow area fraction over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -259,7 +259,7 @@
 [snoalb]
   standard_name = upper_bound_of_max_albedo_assuming_deep_snow
   long_name = maximum snow albedo
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -267,7 +267,7 @@
 [facsf]
   standard_name = strong_cosz_area_fraction
   long_name = fractional coverage with strong cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -275,7 +275,7 @@
 [facwf]
   standard_name = weak_cosz_area_fraction
   long_name = fractional coverage with weak cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -283,7 +283,7 @@
 [alvsf]
   standard_name = vis_albedo_strong_cosz
   long_name = mean vis albedo with strong cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -291,7 +291,7 @@
 [alvwf]
   standard_name = vis_albedo_weak_cosz
   long_name = mean vis albedo with weak cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -299,7 +299,7 @@
 [alnsf]
   standard_name = nir_albedo_strong_cosz
   long_name = mean nir albedo with strong cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -307,7 +307,7 @@
 [alnwf]
   standard_name = nir_albedo_weak_cosz
   long_name = mean nir albedo with weak cosz dependency
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -331,7 +331,7 @@
 [sfalb_lnd_bck]
   standard_name =surface_snow_free_albedo_over_land
   long_name = surface snow-free albedo over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -339,7 +339,7 @@
 [semisbase]
   standard_name = baseline_surface_longwave_emissivity
   long_name = baseline surface lw emissivity in fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -347,7 +347,7 @@
 [semis_lnd]
   standard_name = surface_longwave_emissivity_over_land
   long_name = surface lw emissivity in fraction over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -355,7 +355,7 @@
 [semis_ice]
   standard_name = surface_longwave_emissivity_over_ice
   long_name = surface lw emissivity in fraction over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -363,7 +363,7 @@
 [albdvis_lnd]
   standard_name = surface_albedo_direct_visible_over_land
   long_name = direct surface albedo visible band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -371,7 +371,7 @@
 [albdnir_lnd]
   standard_name = surface_albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -379,7 +379,7 @@
 [albivis_lnd]
   standard_name = surface_albedo_diffuse_visible_over_land
   long_name = diffuse surface albedo visible band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -387,7 +387,7 @@
 [albinir_lnd]
   standard_name = surface_albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -395,7 +395,7 @@
 [albdvis_ice]
   standard_name = surface_albedo_direct_visible_over_ice
   long_name = direct surface albedo visible band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -403,7 +403,7 @@
 [albdnir_ice]
   standard_name = surface_albedo_direct_nir_over_ice
   long_name = direct surface albedo NIR band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -411,7 +411,7 @@
 [albivis_ice]
   standard_name = surface_albedo_diffuse_visible_over_ice
   long_name = diffuse surface albedo visible band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -419,7 +419,7 @@
 [albinir_ice]
   standard_name = surface_albedo_diffuse_nir_over_ice
   long_name = diffuse surface albedo NIR band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -435,7 +435,7 @@
 [sh2o]
   standard_name = volume_fraction_of_unfrozen_soil_moisture_for_land_surface_model
   long_name = volume fraction of unfrozen soil moisture for lsm
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil_internal_to_land_surface_scheme)
   type = real
   kind = kind_phys
@@ -443,7 +443,7 @@
 [smfrkeep]
   standard_name = volume_fraction_of_frozen_soil_moisture_for_land_surface_model
   long_name = volume fraction of frozen soil moisture for lsm
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil_internal_to_land_surface_scheme)
   type = real
   kind = kind_phys
@@ -459,7 +459,7 @@
 [smois]
   standard_name = volume_fraction_of_soil_moisture_for_land_surface_model
   long_name = volumetric fraction of soil moisture for lsm
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension,vertical_dimension_of_soil_internal_to_land_surface_scheme)
   type = real
   kind = kind_phys
@@ -467,7 +467,7 @@
 [wetness]
   standard_name = normalized_soil_wetness_for_land_surface_model
   long_name = normalized soil wetness
-  units = frac
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -708,7 +708,7 @@
 [xlat_d]
   standard_name = latitude_in_degree
   long_name = latitude in degree north
-  units = degree_north
+  units = degree
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -716,7 +716,7 @@
 [xlon_d]
   standard_name = longitude_in_degree
   long_name = longitude in degree east
-  units = degree_east
+  units = degree
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -786,7 +786,7 @@
 [vegtype_frac]
   standard_name = fraction_of_vegetation_category
   long_name = fraction of horizontal grid area occupied by given vegetation category
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,number_of_vegetation_categories)
   type = real
   kind = kind_phys
@@ -794,7 +794,7 @@
 [soiltype_frac]
   standard_name = fraction_of_soil_category
   long_name = fraction of horizontal grid area occupied by given soil category
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,number_of_soil_categories)
   type = real
   kind = kind_phys
@@ -802,7 +802,7 @@
 [sigmaf]
   standard_name = vegetation_area_fraction
   long_name = areal fractional cover of green vegetation
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -810,7 +810,7 @@
 [laixy]
   standard_name = leaf_area_index
   long_name = leaf area index
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -842,7 +842,7 @@
 [coszen]
   standard_name = instantaneous_cosine_of_zenith_angle
   long_name = cosine of zenith angle at current time
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -935,7 +935,7 @@
 [shdmin]
   standard_name = min_vegetation_area_fraction
   long_name = min fractional coverage of green vegetation
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -943,7 +943,7 @@
 [shdmax]
   standard_name = max_vegetation_area_fraction
   long_name = max fractional coverage of green vegetation
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -959,7 +959,7 @@
 [sfalb_lnd_bck]
   standard_name =surface_snow_free_albedo_over_land
   long_name = surface snow-free albedo over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -967,7 +967,7 @@
 [snoalb]
   standard_name = upper_bound_of_max_albedo_assuming_deep_snow
   long_name = maximum snow albedo
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -989,7 +989,7 @@
 [fice]
   standard_name = sea_ice_area_fraction_of_sea_area_fraction
   long_name = ice fraction over open water
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -997,7 +997,7 @@
 [smcwlt2]
   standard_name = volume_fraction_of_condensed_water_in_soil_at_wilting_point
   long_name = soil water fraction at wilting point
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1005,7 +1005,7 @@
 [smcref2]
   standard_name = threshold_volume_fraction_of_condensed_water_in_soil
   long_name = soil moisture threshold
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1013,7 +1013,7 @@
 [min_lakeice]
   standard_name = min_lake_ice_area_fraction
   long_name = minimum lake ice value
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -1021,7 +1021,7 @@
 [min_seaice]
   standard_name = min_sea_ice_area_fraction
   long_name = minimum sea ice value
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -1029,7 +1029,7 @@
 [oceanfrac]
   standard_name = sea_area_fraction
   long_name = fraction of horizontal grid area occupied by ocean
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1077,7 +1077,7 @@
 [con_pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -1101,7 +1101,7 @@
 [con_fvirt]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = rv/rd - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -1125,7 +1125,7 @@
 [semisbase]
   standard_name = baseline_surface_longwave_emissivity
   long_name = baseline surface lw emissivity in fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1133,7 +1133,7 @@
 [semis_lnd]
   standard_name = surface_longwave_emissivity_over_land
   long_name = surface lw emissivity in fraction over land 
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1141,7 +1141,7 @@
 [semis_ice]
   standard_name = surface_longwave_emissivity_over_ice
   long_name = surface lw emissivity in fraction over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1149,7 +1149,7 @@
 [sfalb_lnd]
   standard_name = surface_diffused_shortwave_albedo_over_land
   long_name = mean surface diffused sw albedo over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1157,7 +1157,7 @@
 [sfalb_ice]
   standard_name = surface_diffused_shortwave_albedo_over_ice
   long_name = mean surface diffused sw albedo over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1165,7 +1165,7 @@
 [sncovr1_lnd]
   standard_name = surface_snow_area_fraction_over_land
   long_name = surface snow area fraction over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1197,7 +1197,7 @@
 [sncovr1_ice]
   standard_name = surface_snow_area_fraction_over_ice
   long_name = surface snow area fraction over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1229,7 +1229,7 @@
 [smois]
   standard_name = volume_fraction_of_soil_moisture_for_land_surface_model
   long_name = volumetric fraction of soil moisture for lsm
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_dimension_of_soil_internal_to_land_surface_scheme)
   type = real
   kind = kind_phys
@@ -1253,7 +1253,7 @@
 [sh2o]
   standard_name = volume_fraction_of_unfrozen_soil_moisture_for_land_surface_model
   long_name = volume fraction of unfrozen soil moisture for lsm
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_dimension_of_soil_internal_to_land_surface_scheme)
   type = real
   kind = kind_phys
@@ -1269,7 +1269,7 @@
 [smfrkeep]
   standard_name = volume_fraction_of_frozen_soil_moisture_for_land_surface_model
   long_name = volume fraction of frozen soil moisture for lsm
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_dimension_of_soil_internal_to_land_surface_scheme)
   type = real
   kind = kind_phys
@@ -1397,7 +1397,7 @@
 [cm_lnd]
   standard_name = surface_drag_coefficient_for_momentum_in_air_over_land
   long_name = surface exchange coeff for momentum over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1405,7 +1405,7 @@
 [ch_lnd]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air_over_land
   long_name = surface exchange coeff heat & moisture over land
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1437,7 +1437,7 @@
 [wetness]
   standard_name = normalized_soil_wetness_for_land_surface_model
   long_name = normalized soil wetness
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1477,7 +1477,7 @@
 [albdvis_lnd]
   standard_name = surface_albedo_direct_visible_over_land
   long_name = direct surface albedo visible band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1485,7 +1485,7 @@
 [albdnir_lnd]
   standard_name = surface_albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1493,7 +1493,7 @@
 [albivis_lnd]
   standard_name = surface_albedo_diffuse_visible_over_land
   long_name = diffuse surface albedo visible band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1501,7 +1501,7 @@
 [albinir_lnd]
   standard_name = surface_albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1589,7 +1589,7 @@
 [cm_ice]
   standard_name = surface_drag_coefficient_for_momentum_in_air_over_ice
   long_name = surface exchange coeff for momentum over ice
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1597,7 +1597,7 @@
 [ch_ice]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air_over_ice
   long_name = surface exchange coeff heat & moisture over ice
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1629,7 +1629,7 @@
 [albdvis_ice]
   standard_name = surface_albedo_direct_visible_over_ice
   long_name = direct surface albedo visible band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1637,7 +1637,7 @@
 [albdnir_ice]
   standard_name = surface_albedo_direct_nir_over_ice
   long_name = direct surface albedo NIR band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1645,7 +1645,7 @@
 [albivis_ice]
   standard_name = surface_albedo_diffuse_visible_over_ice
   long_name = diffuse surface albedo visible band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1653,7 +1653,7 @@
 [albinir_ice]
   standard_name = surface_albedo_diffuse_nir_over_ice
   long_name = diffuse surface albedo NIR band over ice
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -1766,7 +1766,7 @@
 [frac_grid_burned_out]
   standard_name = fraction_of_grid_cell_burning
   long_name = ration of the burnt area to the grid cell area
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

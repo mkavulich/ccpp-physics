@@ -49,7 +49,7 @@
 [min_lakeice]
   standard_name = min_lake_ice_area_fraction
   long_name = minimum lake ice value
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -150,7 +150,7 @@
 [imon]
   standard_name = forecast_month
   long_name = current forecast month
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
@@ -210,7 +210,7 @@
 [fice]
   standard_name = sea_ice_area_fraction_of_sea_area_fraction
   long_name = ice fraction over open water
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -274,7 +274,7 @@
 [ch]
   standard_name = surface_drag_coefficient_for_heat_and_moisture_in_air_over_water
   long_name = surface exchange coeff heat surface exchange coeff heat & moisture over ocean moisture over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -282,7 +282,7 @@
 [cm]
   standard_name = surface_drag_coefficient_for_momentum_in_air_over_water
   long_name = surface exchange coeff for momentum over water
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -362,7 +362,7 @@
 [c_t]
   standard_name = shape_factor_of_water_temperature_vertical_profile
   long_name = the shape factor of water temperature vertical profile
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
