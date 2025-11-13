@@ -38,7 +38,7 @@
 [wetdep_ls_alpha_in]
   standard_name = alpha_for_ls_wet_deposition
   long_name = alpha parameter for ls wet deposition
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -53,7 +53,7 @@
 [do_plumerise_in]
   standard_name = do_smoke_plumerise
   long_name = rrfs smoke plumerise option
-  units = index
+  units = flag
   dimensions = ()
   type = logical
   intent = in
@@ -117,7 +117,7 @@
 [plume_alpha_in]
   standard_name = alpha_for_plumerise_scheme
   long_name = alpha parameter for plumerise scheme
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -132,7 +132,7 @@
 [dust_alpha_in]
   standard_name = alpha_fengsha_dust_scheme
   long_name = alpha parameter for fengsha dust scheme
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -140,7 +140,7 @@
 [dust_gamma_in]
   standard_name = gamma_fengsha_dust_scheme
   long_name = gamma parameter for fengsha dust scheme
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -155,7 +155,7 @@
 [dust_moist_correction_in]
   standard_name = dust_moist_correction_fengsha_dust_scheme
   long_name = moisture correction term for fengsha dust emission
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -163,7 +163,7 @@
 [dust_drylimit_factor_in]
   standard_name = dust_drylimit_factor_fengsha_dust_scheme
   long_name = moisture correction term for drylimit in fengsha dust emission
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -270,14 +270,14 @@
 [land]
   standard_name = sea_land_ice_mask
   long_name = landmask: sea/land/ice=0/1/2
-  units = flag
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = in
 [jdate]
   standard_name = date_and_time_of_forecast_in_united_states_order
   long_name = current forecast date and time
-  units = none
+  units = 1
   dimensions = (8)
   type = integer
   intent = in
@@ -435,7 +435,7 @@
 [smc]
   standard_name = volume_fraction_of_soil_moisture_for_land_surface_model
   long_name = volumetric fraction of soil moisture for lsm
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_dimension_of_soil_internal_to_land_surface_scheme)
   type = real
   kind = kind_phys
@@ -474,7 +474,7 @@
 [vegtype_frac]
   standard_name = fraction_of_vegetation_category
   long_name = fraction of horizontal grid area occupied by given vegetation category
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,number_of_vegetation_categories)
   type = real
   kind = kind_phys
@@ -522,7 +522,7 @@
 [idat]
   standard_name = date_and_time_at_model_initialization_in_iso_order
   long_name = initialization date and time
-  units = none
+  units = 1
   dimensions = (8)
   type = integer
   intent = in
@@ -561,7 +561,7 @@
 [pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -585,7 +585,7 @@
 [con_fv]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -661,7 +661,7 @@
 [tile_num]
   standard_name = index_of_cubed_sphere_tile
   long_name = tile number
-  units = none
+  units = index
   dimensions = ()
   type = integer
   intent = in
@@ -696,14 +696,14 @@
 [imp_physics]
   standard_name = control_for_microphysics_scheme
   long_name = choice of microphysics scheme
-  units = flag
+  units = 1
   dimensions = ()
   type = integer
   intent = in
 [imp_physics_thompson]
   standard_name = identifier_for_thompson_microphysics_scheme
   long_name = choice of Thompson microphysics scheme
-  units = flag
+  units = 1
   dimensions = ()
   type = integer
   intent = in
@@ -773,7 +773,7 @@
 [coef_bb]
   standard_name = coef_bb_dc
   long_name = coef to estimate the fire emission
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -799,7 +799,7 @@
 [fhist]
   standard_name = fire_hist
   long_name = coefficient to scale the fire activity depending on the fire duration
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -808,7 +808,7 @@
 [min_fplume]
   standard_name = minimum_fire_plume_sigma_pressure_level
   long_name = minimum model level of fire plumerise
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -817,7 +817,7 @@
 [max_fplume]
   standard_name = maximum_fire_plume_sigma_pressure_level
   long_name = maximum model level of fire plumerise
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -892,7 +892,7 @@
 [hwp]
   standard_name = hourly_wildfire_potential
   long_name = rrfs hourly fire weather potential
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -901,7 +901,7 @@
 [hwp_ave]
   standard_name = hourly_wildfire_potential_average
   long_name = rrfs hourly fire weather potential average
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -910,7 +910,7 @@
 [wetness]
   standard_name = normalized_soil_wetness_for_land_surface_model
   long_name = normalized soil wetness
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -971,7 +971,7 @@
 [frac_grid_burned_out]
   standard_name = fraction_of_grid_cell_burning
   long_name = ration of the burnt area to the grid cell area
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
