@@ -26,7 +26,7 @@
 [con_pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -130,7 +130,7 @@
 [con_eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -427,7 +427,7 @@
 [diag3d]
   standard_name = extended_diagnostics_output_from_thompson_microphysics
   long_name = set of 3d arrays for extended diagnostics output from thompson microphysics
-  units = none
+  units = 1
   dimensions = (horizontal_dimension,vertical_layer_dimension,number_of_3d_diagnostic_output_arrays_from_thompson_microphysics)
   type = real
   kind = kind_phys
@@ -493,7 +493,7 @@
 [con_eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -768,7 +768,7 @@
 [sr]
   standard_name = ratio_of_snowfall_to_rainfall
   long_name = ratio of snowfall to large-scale rainfall
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -849,7 +849,7 @@
 [diag3d]
   standard_name = extended_diagnostics_output_from_thompson_microphysics
   long_name = set of 3d arrays for extended diagnostics output from thompson microphysics
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,number_of_3d_diagnostic_output_arrays_from_thompson_microphysics)
   type = real
   kind = kind_phys

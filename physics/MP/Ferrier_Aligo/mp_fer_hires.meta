@@ -198,7 +198,7 @@
 [sr]
   standard_name = ratio_of_snowfall_to_rainfall
   long_name = snow ratio: ratio of snow to total precipitation (explicit only)
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -275,7 +275,7 @@
 [rhgrd]
   standard_name = relative_humidity_threshold_for_condensation
   long_name = relative humidity threshold parameter for condensation for FA scheme
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -307,7 +307,7 @@
 [P608]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys

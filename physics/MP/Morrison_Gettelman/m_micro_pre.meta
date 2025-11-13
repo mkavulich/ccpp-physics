@@ -116,7 +116,7 @@
 [cld_shoc]
   standard_name = subgrid_scale_cloud_fraction_from_shoc
   long_name = subgrid-scale cloud fraction from the SHOC scheme
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -125,7 +125,7 @@
 [cnvc]
   standard_name = convective_cloud_cover
   long_name = convective cloud cover
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -213,7 +213,7 @@
 [cld_frc_MG]
   standard_name = cloud_fraction_for_mg
   long_name = cloud fraction used by Morrison-Gettelman MP
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -237,7 +237,7 @@
 [clcn]
   standard_name = convective_cloud_volume_fraction
   long_name = convective cloud volume fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys

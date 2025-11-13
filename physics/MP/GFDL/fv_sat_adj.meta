@@ -12,7 +12,7 @@
 [do_sat_adj]
   standard_name = flag_for_saturation_adjustment_for_microphysics_in_dynamics
   long_name = flag for saturation adjustment for microphysics in dynamics
-  units = none
+  units = flag
   dimensions = ()
   type = logical
   intent = in
@@ -118,7 +118,7 @@
 [zvir]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one_default_kind
   long_name = zvir=rv/rd-1.0
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_dyn
@@ -415,7 +415,7 @@
 [akap]
   standard_name = kappa_dry_for_fast_physics
   long_name = modified kappa for dry air, fast physics
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_dyn
@@ -423,7 +423,7 @@
 [cappa]
   standard_name = cappa_moist_gas_constant_at_lagrangian_surface
   long_name = cappa(i,j,k) = rdgas / ( rdgas +  cvm(i)/(1.+r_vir*q(i,j,k,sphum)) )
-  units = none
+  units = 1
   dimensions = (starting_x_direction_index_domain:ending_x_direction_index_domain,starting_y_direction_index_domain:ending_y_direction_index_domain,1:vertical_dimension_for_cappa_at_Lagrangian_surface)
   type = real
   kind = kind_dyn
@@ -468,7 +468,7 @@
 [qa]
   standard_name = cloud_fraction_at_lagrangian_surface
   long_name = cloud fraction at Lagrangian surface
-  units = none
+  units = 1
   dimensions = (starting_x_direction_index_alloc1:ending_x_direction_index_alloc1,starting_y_direction_index_alloc1:ending_y_direction_index_alloc1,1:vertical_dimension_for_fast_physics)
   type = real
   kind = kind_dyn

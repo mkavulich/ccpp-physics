@@ -27,7 +27,7 @@
 [nlunit]
   standard_name = iounit_of_namelist
   long_name = fortran unit number for opening namelist file
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
@@ -42,7 +42,7 @@
 [logunit]
   standard_name = iounit_of_log
   long_name = fortran unit number for writing logfile
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
@@ -148,7 +148,7 @@
 [con_fvirt]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = rv/rd - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -164,7 +164,7 @@
 [con_eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -172,7 +172,7 @@
 [frland]
   standard_name = land_area_fraction_for_microphysics
   long_name = land area fraction used in microphysics schemes
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -243,7 +243,7 @@
 [gq0_ntclamt]
   standard_name = cloud_area_fraction_in_atmosphere_layer_of_new_state
   long_name = cloud fraction updated by physics
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -347,7 +347,7 @@
 [sr]
   standard_name = ratio_of_snowfall_to_rainfall
   long_name = snow ratio: ratio of snow to total precipitation
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

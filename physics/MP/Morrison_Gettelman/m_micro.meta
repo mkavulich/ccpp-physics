@@ -65,7 +65,7 @@
 [eps_in]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -73,7 +73,7 @@
 [epsm1_in]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants_minus_one
   long_name = (rd/rv) - 1
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -105,7 +105,7 @@
 [pi_in]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -121,7 +121,7 @@
 [VIREPS_in]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -137,7 +137,7 @@
 [mg_qcvar]
   standard_name = relative_variance_of_subgrid_cloud_condensate_distribution
   long_name = cloud water relative variance for MG microphysics
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -153,7 +153,7 @@
 [mg_rhmini]
   standard_name = relative_humidity_threshold_for_ice_nucleation
   long_name = relative humidity threshold parameter for nucleating ice for MG microphysics
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -190,7 +190,7 @@
 [mg_berg_eff_factor]
   standard_name = bergeron_findeisen_process_efficiency_factor
   long_name = bergeron efficiency factor for MG microphysics
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -438,7 +438,7 @@
 [cf_upi]
   standard_name = convective_cloud_fraction_for_microphysics
   long_name = convective cloud fraction for microphysics
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -446,7 +446,7 @@
 [frland]
   standard_name = land_area_fraction_for_microphysics
   long_name = land area fraction used in microphysics schemes
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -478,7 +478,7 @@
 [clcn_i]
   standard_name = convective_cloud_volume_fraction
   long_name = convective cloud volume fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -534,7 +534,7 @@
 [cnv_fice_i]
   standard_name = ice_fraction_in_convective_tower
   long_name = ice fraction in convective tower
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -598,7 +598,7 @@
 [sr_o]
   standard_name = ratio_of_snowfall_to_rainfall
   long_name = snow ratio: ratio of snow to total precipitation
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -677,7 +677,7 @@
 [clls_io]
   standard_name = cloud_fraction_for_mg
   long_name = cloud fraction used by Morrison-Gettelman MP
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -763,7 +763,7 @@
 [iccn]
   standard_name = control_for_ice_cloud_condensation_nuclei_forcing
   long_name = flag for IN and CCN forcing for morrison gettelman microphysics
-  units = none
+  units = flag
   dimensions = ()
   type = integer
   intent = in
@@ -777,7 +777,7 @@
 [alf_fac]
   standard_name = alpha_tuning_coefficient_for_morrison_gettelman_microphysics_scheme
   long_name = tuning factor for alphas (alpha = 1 - critical relative humidity)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -823,7 +823,7 @@
 [rhc_i]
   standard_name = critical_relative_humidity
   long_name = critical relative humidity
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys

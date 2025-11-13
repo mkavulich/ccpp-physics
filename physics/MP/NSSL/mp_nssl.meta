@@ -233,7 +233,7 @@
 [con_eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -263,7 +263,7 @@
 [nssl_alphah]
   standard_name = nssl_alpha_graupel
   long_name = graupel particle size distribution(PSD) shape parameter in NSSL microphysics scheme
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -271,7 +271,7 @@
 [nssl_alphahl]
   standard_name = nssl_alpha_hail
   long_name = hail particle size distribution(PSD) shape parameter in NSSL microphysics scheme
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -279,7 +279,7 @@
 [nssl_alphar]
   standard_name = nssl_alpha_rain
   long_name = rain particle size distribution(PSD) shape parameter in NSSL microphysics scheme
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -287,7 +287,7 @@
 [nssl_ehw0]
   standard_name = nssl_graupel_collection_efficiency 
   long_name = graupel droplet collection efficiency in NSSL microphysics scheme
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -295,7 +295,7 @@
 [nssl_ehlw0]
   standard_name = nssl_hail_collection_efficiency 
   long_name = hail droplet collection efficiency in NSSL microphysics scheme
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -548,7 +548,7 @@
 [prslk]
   standard_name = dimensionless_exner_function
   long_name = dimensionless Exner function at model layer centers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -628,7 +628,7 @@
 [sr]
   standard_name = ratio_of_snowfall_to_rainfall
   long_name = ratio of snowfall to large-scale rainfall
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
