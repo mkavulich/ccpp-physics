@@ -176,7 +176,7 @@
   kind = kind_phys
   intent = inout
 [zorlo]
-  standard_name = surface_roughness_length_over_water
+  standard_name = roughness_length_over_water
   long_name = surface roughness length over water
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -184,7 +184,7 @@
   kind = kind_phys
   intent = inout
 [zorll]
-  standard_name = surface_roughness_length_over_land
+  standard_name = roughness_length_over_land
   long_name = surface roughness length over land
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -192,7 +192,7 @@
   kind = kind_phys
   intent = inout
 [zorli]
-  standard_name = surface_roughness_length_over_ice
+  standard_name = roughness_length_over_ice
   long_name = surface roughness length over ice
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -320,7 +320,7 @@
   kind = kind_phys
   intent = inout
 [ep1d_ice]
-  standard_name = surface_upward_potential_latent_heat_flux_over_ice
+  standard_name = upward_potential_latent_heat_flux_at_surface_over_ice
   long_name = surface upward potential latent heat flux over ice
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -430,7 +430,7 @@
   kind = kind_phys
   intent = inout
 [qss]
-  standard_name = surface_specific_humidity
+  standard_name = specific_humidity_at_surface
   long_name = surface air saturation specific humidity
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -438,7 +438,7 @@
   kind = kind_phys
   intent = in
 [qss_wat]
-  standard_name = surface_specific_humidity_over_water
+  standard_name = specific_humidity_at_surface_over_water
   long_name = surface air saturation specific humidity over water
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -446,7 +446,7 @@
   kind = kind_phys
   intent = inout
 [qss_lnd]
-  standard_name = surface_specific_humidity_over_land
+  standard_name = specific_humidity_at_surface_over_land
   long_name = surface air saturation specific humidity over land
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -454,7 +454,7 @@
   kind = kind_phys
   intent = inout
 [qss_ice]
-  standard_name = surface_specific_humidity_over_ice
+  standard_name = specific_humidity_at_surface_over_ice
   long_name = surface air saturation specific humidity over ice
   units = kg kg-1
   dimensions = (horizontal_loop_extent)

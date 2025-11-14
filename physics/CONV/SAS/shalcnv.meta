@@ -189,7 +189,7 @@
   kind = kind_phys
   intent = in
 [psp]
-  standard_name = surface_air_pressure
+  standard_name = air_pressure_at_surface
   long_name = surface pressure
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -312,7 +312,7 @@
   kind = kind_phys
   intent = in
 [heat]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_reduced_by_surface_roughness_and_vegetation
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_reduced_by_surface_roughness_and_vegetation
   long_name = kinematic surface upward sensible heat flux reduced by surface roughness and vegetation
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -320,7 +320,7 @@
   kind = kind_phys
   intent = in
 [evap]
-  standard_name = surface_upward_specific_humidity_flux
+  standard_name = upward_specific_humidity_flux_at_surface
   long_name = kinematic surface upward latent heat flux
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)

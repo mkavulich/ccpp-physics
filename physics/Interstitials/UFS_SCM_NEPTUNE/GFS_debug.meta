@@ -863,7 +863,7 @@
   type = integer
   intent = in
 [zorl]
-  standard_name = surface_roughness_length
+  standard_name = roughness_length
   long_name = surface roughness length
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -871,7 +871,7 @@
   kind = kind_phys
   intent = in
 [zorlw]
-  standard_name = surface_roughness_length_over_water
+  standard_name = roughness_length_over_water
   long_name = surface roughness length over water
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -879,7 +879,7 @@
   kind = kind_phys
   intent = in
 [zorll]
-  standard_name = surface_roughness_length_over_land
+  standard_name = roughness_length_over_land
   long_name = surface roughness length over land
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -887,7 +887,7 @@
   kind = kind_phys
   intent = in
 [zorli]
-  standard_name = surface_roughness_length_over_ice
+  standard_name = roughness_length_over_ice
   long_name = surface roughness length over ice
   units = cm
   dimensions = (horizontal_loop_extent)

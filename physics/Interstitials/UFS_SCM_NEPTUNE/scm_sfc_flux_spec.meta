@@ -90,7 +90,7 @@
   kind = kind_phys
   intent = in
 [roughness_length]
-  standard_name = surface_roughness_length
+  standard_name = roughness_length
   long_name = surface roughness length
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -98,7 +98,7 @@
   kind = kind_phys
   intent = in
 [spec_sh_flux]
-  standard_name = specified_surface_upward_temperature_flux
+  standard_name = specified_upward_temperature_flux_at_surface
   long_name = specified kinematic surface upward sensible heat flux
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -106,7 +106,7 @@
   kind = kind_phys
   intent = in
 [spec_lh_flux]
-  standard_name = specified_surface_upward_specific_humidity_flux
+  standard_name = specified_upward_specific_humidity_flux_at_surface
   long_name = specified kinematic surface upward latent heat flux
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -337,7 +337,7 @@
   type = integer
   intent = inout
 [sh_flux]
-  standard_name = surface_upward_temperature_flux
+  standard_name = upward_temperature_flux_at_surface
   long_name = surface upward sensible heat flux
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -345,7 +345,7 @@
   kind = kind_phys
   intent = out
 [lh_flux]
-  standard_name = surface_upward_specific_humidity_flux
+  standard_name = upward_specific_humidity_flux_at_surface
   long_name = surface upward evaporation flux
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -353,7 +353,7 @@
   kind = kind_phys
   intent = out
 [sh_flux_chs]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_reduced_by_surface_roughness_and_vegetation
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_reduced_by_surface_roughness_and_vegetation
   long_name = kinematic surface upward sensible heat flux reduced by surface roughness and vegetation
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -369,7 +369,7 @@
   kind = kind_phys
   intent = out
 [sfc_stress]
-  standard_name = surface_wind_stress
+  standard_name = wind_stress
   long_name = surface wind stress
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -441,7 +441,7 @@
   kind = kind_phys
   intent = out
 [qss]
-  standard_name = surface_specific_humidity
+  standard_name = specific_humidity_at_surface
   long_name = surface air saturation specific humidity
   units = kg kg-1
   dimensions = (horizontal_loop_extent)

@@ -111,7 +111,7 @@
   kind = kind_phys
   intent = in
 [ps]
-  standard_name = surface_air_pressure
+  standard_name = air_pressure_at_surface
   long_name = surface pressure
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -283,7 +283,7 @@
   kind = kind_phys
   intent = in
 [stress]
-  standard_name = surface_wind_stress_over_water
+  standard_name = wind_stress_over_water
   long_name = surface wind stress over water
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -299,7 +299,7 @@
   kind = kind_phys
   intent = in
 [dlwflx]
-  standard_name = surface_downwelling_longwave_flux_absorbed_by_ground_over_water
+  standard_name = downwelling_longwave_flux_at_surface_absorbed_by_ground_over_water
   long_name = total sky surface downward longwave flux absorbed by the ground over water
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -307,7 +307,7 @@
   kind = kind_phys
   intent = in
 [sfcnsw]
-  standard_name = surface_net_downwelling_shortwave_flux
+  standard_name = net_downwelling_shortwave_flux_at_surface
   long_name = total sky sfc net sw flx into ocean
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -562,7 +562,7 @@
   kind = kind_phys
   intent = inout
 [qrain]
-  standard_name = surface_sensible_heat_due_to_rainfall
+  standard_name = sensible_heat_at_surface_due_to_rainfall
   long_name = sensible heat flux due to rainfall
   units = W
   dimensions = (horizontal_loop_extent)
@@ -570,7 +570,7 @@
   kind = kind_phys
   intent = inout
 [qsurf]
-  standard_name = surface_specific_humidity_over_water
+  standard_name = specific_humidity_at_surface_over_water
   long_name = surface air saturation specific humidity over water
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -602,7 +602,7 @@
   kind = kind_phys
   intent = inout
 [evap]
-  standard_name = kinematic_surface_upward_latent_heat_flux_over_water
+  standard_name = kinematic_upward_latent_heat_flux_at_surface_over_water
   long_name = kinematic surface upward latent heat flux over water
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -610,7 +610,7 @@
   kind = kind_phys
   intent = inout
 [hflx]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_over_water
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_over_water
   long_name = kinematic surface upward sensible heat flux over water
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -618,7 +618,7 @@
   kind = kind_phys
   intent = inout
 [ep]
-  standard_name = surface_upward_potential_latent_heat_flux_over_water
+  standard_name = upward_potential_latent_heat_flux_at_surface_over_water
   long_name = surface upward potential latent heat flux over water
   units = W m-2
   dimensions = (horizontal_loop_extent)

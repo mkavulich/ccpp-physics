@@ -1162,7 +1162,7 @@
   kind = kind_phys
   intent = out
 [tsfa]
-  standard_name = surface_air_temperature_for_radiation
+  standard_name = air_temperature_at_surface_for_radiation
   long_name = lowest model layer air temperature for radiation
   units = K
   dimensions = (horizontal_loop_extent)
@@ -1178,7 +1178,7 @@
   kind = kind_phys
   intent = out
 [alb1d]
-  standard_name = surface_albedo_perturbation
+  standard_name = albedo_perturbation
   long_name = surface albedo perturbation
   units = fraction
   dimensions = (horizontal_loop_extent)

@@ -357,7 +357,7 @@
   type = integer
   intent = in
 [ps]
-  standard_name = surface_air_pressure
+  standard_name = air_pressure_at_surface
   long_name = surface pressure
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -426,7 +426,7 @@
   kind = kind_phys
   intent= in
 [dlwflx]
-  standard_name = surface_downwelling_longwave_flux
+  standard_name = downwelling_longwave_flux_at_surface
   long_name = surface downwelling longwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -434,7 +434,7 @@
   kind = kind_phys
   intent = in
 [dswsfc]
-  standard_name = surface_downwelling_shortwave_flux
+  standard_name = downwelling_shortwave_flux_at_surface
   long_name = surface downwelling shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -442,7 +442,7 @@
   kind = kind_phys
   intent= in
 [snet]
-  standard_name = surface_net_downwelling_shortwave_flux
+  standard_name = net_downwelling_shortwave_flux_at_surface
   long_name = surface net downwelling shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -576,7 +576,7 @@
   kind = kind_phys
   intent = in
 [sfalb]
-  standard_name = surface_albedo_for_diffused_shortwave_on_radiation_timestep
+  standard_name = albedo_for_diffused_shortwave_on_radiation_timestep
   long_name = mean surface diffused sw albedo
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -776,7 +776,7 @@
   kind = kind_phys
   intent = in
 [rhonewsn1]
-  standard_name = surface_frozen_precipitation_density
+  standard_name = frozen_precipitation_density_at_surface
   long_name = density of precipitation ice
   units = kg m-3
   dimensions = (horizontal_loop_extent)
@@ -965,7 +965,7 @@
   kind = kind_phys
   intent = inout
 [zorl]
-  standard_name = surface_roughness_length_over_land
+  standard_name = roughness_length_over_land
   long_name = surface roughness length over land  (temporary use as interstitial)
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -1005,7 +1005,7 @@
   kind = kind_phys
   intent = inout
 [stress1]
-  standard_name = surface_wind_stress_over_land
+  standard_name = wind_stress_over_land
   long_name = surface wind stress over land
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -1148,7 +1148,7 @@
   kind = kind_phys
   intent = inout
 [alboldxy]
-  standard_name = surface_albedo_assuming_deep_snow_on_previous_timestep
+  standard_name = albedo_assuming_deep_snow_on_previous_timestep
   long_name = snow albedo at previous time step
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1332,7 +1332,7 @@
   kind = kind_phys
   intent = inout
 [albdvis]
-  standard_name = surface_albedo_direct_visible_over_land
+  standard_name = albedo_direct_visible_over_land
   long_name = direct surface albedo visible band over land
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1340,7 +1340,7 @@
   kind = kind_phys
   intent = out
 [albdnir]
-  standard_name = surface_albedo_direct_nir_over_land
+  standard_name = albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1348,7 +1348,7 @@
   kind = kind_phys
   intent = out
 [albivis]
-  standard_name = surface_albedo_diffuse_visible_over_land
+  standard_name = albedo_diffuse_visible_over_land
   long_name = diffuse surface albedo visible band over land
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1356,7 +1356,7 @@
   kind = kind_phys
   intent = out
 [albinir]
-  standard_name = surface_albedo_diffuse_nir_over_land
+  standard_name = albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1372,7 +1372,7 @@
   kind = kind_phys
   intent = out
 [sncovr1]
-  standard_name = surface_snow_area_fraction_over_land
+  standard_name = snow_area_fraction_at_surface_over_land
   long_name = surface snow area fraction
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1380,7 +1380,7 @@
   kind = kind_phys
   intent = out
 [qsurf]
-  standard_name = surface_specific_humidity_over_land
+  standard_name = specific_humidity_at_surface_over_land
   long_name = surface air saturation specific humidity over land
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -1404,7 +1404,7 @@
   kind = kind_phys
   intent = out
 [evap]
-  standard_name = kinematic_surface_upward_latent_heat_flux_over_land
+  standard_name = kinematic_upward_latent_heat_flux_at_surface_over_land
   long_name = kinematic surface upward latent heat flux over land
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -1412,7 +1412,7 @@
   kind = kind_phys
   intent = out
 [hflx]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_over_land
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_over_land
   long_name = kinematic surface upward sensible heat flux over land
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -1420,7 +1420,7 @@
   kind = kind_phys
   intent = out
 [ep]
-  standard_name = surface_upward_potential_latent_heat_flux_over_land
+  standard_name = upward_potential_latent_heat_flux_at_surface_over_land
   long_name = surface upward potential latent heat flux over land
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -1508,7 +1508,7 @@
   kind = kind_phys
   intent = out
 [snowc]
-  standard_name = surface_snow_area_fraction
+  standard_name = snow_area_fraction_at_surface
   long_name = surface snow area fraction
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1572,7 +1572,7 @@
   kind = kind_phys
   intent = out
 [zvfun]
-  standard_name = function_of_surface_roughness_length_and_green_vegetation_fraction
+  standard_name = function_of_roughness_length_and_green_vegetation_fraction
   long_name = function of surface roughness length and green vegetation fraction
   units = 1
   dimensions = (horizontal_loop_extent)
@@ -1580,7 +1580,7 @@
   kind = kind_phys
   intent = out
 [ztmax]
-  standard_name = bounded_surface_roughness_length_for_heat_over_land
+  standard_name = bounded_roughness_length_for_heat_over_land
   long_name = bounded surface roughness length for heat over land
   units = m
   dimensions = (horizontal_loop_extent)

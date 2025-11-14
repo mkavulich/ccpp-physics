@@ -63,7 +63,7 @@
   kind = kind_phys
   intent = in
 [ps]
-  standard_name = surface_air_pressure
+  standard_name = air_pressure_at_surface
   long_name = surface pressure
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -225,7 +225,7 @@
   type = logical
   intent = in
 [dqsfc_med]
-  standard_name = surface_upward_latent_heat_flux_over_ocean_from_mediator
+  standard_name = upward_latent_heat_flux_at_surface_over_ocean_from_mediator
   long_name = sfc latent heat flux input over ocean for coupling
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -234,7 +234,7 @@
   intent = in
   optional = True
 [dtsfc_med]
-  standard_name = surface_upward_sensible_heat_flux_over_ocean_from_mediator
+  standard_name = upward_sensible_heat_flux_at_surface_over_ocean_from_mediator
   long_name = sfc sensible heat flux input over ocean for coupling
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -243,7 +243,7 @@
   intent = in
   optional = True
 [qsurf]
-  standard_name = surface_specific_humidity_over_water
+  standard_name = specific_humidity_at_surface_over_water
   long_name = surface air saturation specific humidity over water
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -275,7 +275,7 @@
   kind = kind_phys
   intent = inout
 [evap]
-  standard_name = kinematic_surface_upward_latent_heat_flux_over_water
+  standard_name = kinematic_upward_latent_heat_flux_at_surface_over_water
   long_name = kinematic surface upward latent heat flux over water
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -283,7 +283,7 @@
   kind = kind_phys
   intent = inout
 [hflx]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_over_water
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_over_water
   long_name = kinematic surface upward sensible heat flux over water
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -291,7 +291,7 @@
   kind = kind_phys
   intent = inout
 [ep]
-  standard_name = surface_upward_potential_latent_heat_flux_over_water
+  standard_name = upward_potential_latent_heat_flux_at_surface_over_water
   long_name = surface upward potential latent heat flux over water
   units = W m-2
   dimensions = (horizontal_loop_extent)

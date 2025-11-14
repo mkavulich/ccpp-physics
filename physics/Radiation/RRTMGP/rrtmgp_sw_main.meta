@@ -496,7 +496,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_nir_dir]
-  standard_name = surface_albedo_due_to_near_ir_direct
+  standard_name = albedo_due_to_near_ir_direct
   long_name = surface albedo due to near IR direct beam
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -504,7 +504,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_nir_dif]
-  standard_name = surface_albedo_due_to_near_ir_diffused
+  standard_name = albedo_due_to_near_ir_diffused
   long_name = surface albedo due to near IR diffused beam
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -512,7 +512,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_uvvis_dir]
-  standard_name = surface_albedo_due_to_uv_and_vis_direct
+  standard_name = albedo_due_to_uv_and_vis_direct
   long_name = surface albedo due to UV+VIS direct beam
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -520,7 +520,7 @@
   kind = kind_phys
   intent = in
 [sfc_alb_uvvis_dif]
-  standard_name = surface_albedo_due_to_uv_and_vis_diffused
+  standard_name = albedo_due_to_uv_and_vis_diffused
   long_name = surface albedo due to UV+VIS diffused beam
   units = fraction
   dimensions = (horizontal_loop_extent)

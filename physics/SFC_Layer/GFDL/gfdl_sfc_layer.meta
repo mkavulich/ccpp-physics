@@ -315,7 +315,7 @@
   kind = kind_phys
   intent = in
 [psfc]
-  standard_name = surface_air_pressure
+  standard_name = air_pressure_at_surface
   long_name = surface pressure
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -387,7 +387,7 @@
   kind = kind_phys
   intent = in
 [gsw]
-  standard_name = surface_downwelling_shortwave_flux
+  standard_name = downwelling_shortwave_flux_at_surface
   long_name = surface downwelling shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -395,7 +395,7 @@
   kind = kind_phys
   intent = in
 [glw]
-  standard_name = surface_downwelling_longwave_flux
+  standard_name = downwelling_longwave_flux_at_surface
   long_name = surface downwelling longwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -475,7 +475,7 @@
   kind = kind_phys
   intent = inout
 [znt_wat]
-  standard_name = surface_roughness_length_over_water
+  standard_name = roughness_length_over_water
   long_name = surface roughness length over water (temporary use as interstitial)
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -483,7 +483,7 @@
   kind = kind_phys
   intent = inout
 [znt_lnd]
-  standard_name = surface_roughness_length_over_land
+  standard_name = roughness_length_over_land
   long_name = surface roughness length over land  (temporary use as interstitial)
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -491,7 +491,7 @@
   kind = kind_phys
   intent = inout
 [znt_ice]
-  standard_name = surface_roughness_length_over_ice
+  standard_name = roughness_length_over_ice
   long_name = surface roughness length over ice   (temporary use as interstitial)
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -523,7 +523,7 @@
   kind = kind_phys
   intent = inout
 [stress_wat]
-  standard_name = surface_wind_stress_over_water
+  standard_name = wind_stress_over_water
   long_name = surface wind stress over water
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -531,7 +531,7 @@
   kind = kind_phys
   intent = inout
 [stress_lnd]
-  standard_name = surface_wind_stress_over_land
+  standard_name = wind_stress_over_land
   long_name = surface wind stress over land
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -539,7 +539,7 @@
   kind = kind_phys
   intent = inout
 [stress_ice]
-  standard_name = surface_wind_stress_over_ice
+  standard_name = wind_stress_over_ice
   long_name = surface wind stress over ice
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -691,7 +691,7 @@
   kind = kind_phys
   intent = inout
 [qss_wat]
-  standard_name = surface_specific_humidity_over_water
+  standard_name = specific_humidity_at_surface_over_water
   long_name = surface air saturation specific humidity over water
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -699,7 +699,7 @@
   kind = kind_phys
   intent = inout
 [qss_lnd]
-  standard_name = surface_specific_humidity_over_land
+  standard_name = specific_humidity_at_surface_over_land
   long_name = surface air saturation specific humidity over land
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -707,7 +707,7 @@
   kind = kind_phys
   intent = inout
 [qss_ice]
-  standard_name = surface_specific_humidity_over_ice
+  standard_name = specific_humidity_at_surface_over_ice
   long_name = surface air saturation specific humidity over ice
   units = kg kg-1
   dimensions = (horizontal_loop_extent)

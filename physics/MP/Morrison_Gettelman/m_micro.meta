@@ -500,7 +500,7 @@
   kind = kind_phys
   intent = in
 [taugwx]
-  standard_name = cumulative_surface_x_momentum_flux_for_diag_multiplied_by_timestep
+  standard_name = cumulative_x_momentum_flux_at_surface_for_diag_multiplied_by_timestep
   long_name = cumulative sfc x momentum flux multiplied by timestep
   units = Pa s
   dimensions = (horizontal_loop_extent)
@@ -508,7 +508,7 @@
   kind = kind_phys
   intent = in
 [taugwy]
-  standard_name = cumulative_surface_y_momentum_flux_for_diag_multiplied_by_timestep
+  standard_name = cumulative_y_momentum_flux_at_surface_for_diag_multiplied_by_timestep
   long_name = cumulative sfc y momentum flux multiplied by timestep
   units = Pa s
   dimensions = (horizontal_loop_extent)
@@ -516,7 +516,7 @@
   kind = kind_phys
   intent = in
 [tauorox]
-  standard_name = surface_x_momentum_flux
+  standard_name = x_momentum_flux_at_surface
   long_name = x momentum flux
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -524,7 +524,7 @@
   kind = kind_phys
   intent = in
 [tauoroy]
-  standard_name = surface_y_momentum_flux
+  standard_name = y_momentum_flux_at_surface
   long_name = y momentum flux
   units = Pa
   dimensions = (horizontal_loop_extent)

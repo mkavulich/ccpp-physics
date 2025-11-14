@@ -175,7 +175,7 @@
   kind = kind_phys
   intent = in
 [zorl]
-  standard_name = surface_roughness_length
+  standard_name = roughness_length
   long_name = surface roughness length in cm
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -223,7 +223,7 @@
   kind = kind_phys
   intent = in
 [heat]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_reduced_by_surface_roughness_and_vegetation
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_reduced_by_surface_roughness_and_vegetation
   long_name = kinematic surface upward sensible heat flux reduced by surface roughness and vegetation
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -231,7 +231,7 @@
   kind = kind_phys
   intent = in
 [evap]
-  standard_name = surface_upward_specific_humidity_flux
+  standard_name = upward_specific_humidity_flux_at_surface
   long_name = kinematic surface upward latent heat flux
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -239,7 +239,7 @@
   kind = kind_phys
   intent = in
 [stress]
-  standard_name = surface_wind_stress
+  standard_name = wind_stress
   long_name = surface wind stress
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -325,7 +325,7 @@
   type = logical
   intent = in
 [dusfc]
-  standard_name = surface_x_momentum_flux
+  standard_name = x_momentum_flux_at_surface
   long_name = x momentum flux
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -333,7 +333,7 @@
   kind = kind_phys
   intent = out
 [dvsfc]
-  standard_name = surface_y_momentum_flux
+  standard_name = y_momentum_flux_at_surface
   long_name = y momentum flux
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -341,7 +341,7 @@
   kind = kind_phys
   intent = out
 [dtsfc]
-  standard_name = surface_upward_sensible_heat_flux
+  standard_name = upward_sensible_heat_flux_at_surface
   long_name = surface upward sensible heat flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -349,7 +349,7 @@
   kind = kind_phys
   intent = out
 [dqsfc]
-  standard_name = surface_upward_latent_heat_flux
+  standard_name = upward_latent_heat_flux_at_surface
   long_name = surface upward latent heat flux
   units = W m-2
   dimensions = (horizontal_loop_extent)

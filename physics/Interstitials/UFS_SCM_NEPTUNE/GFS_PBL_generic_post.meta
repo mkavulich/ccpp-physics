@@ -416,7 +416,7 @@
   kind = kind_phys
   intent = in
 [dusfc1]
-  standard_name = surface_x_momentum_flux
+  standard_name = x_momentum_flux_at_surface
   long_name = surface momentum flux in the x-direction valid for current call
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -424,7 +424,7 @@
   kind = kind_phys
   intent = in
 [dvsfc1]
-  standard_name = surface_y_momentum_flux
+  standard_name = y_momentum_flux_at_surface
   long_name = surface momentum flux in the y-direction valid for current call
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -432,7 +432,7 @@
   kind = kind_phys
   intent = in
 [dtsfc1]
-  standard_name = surface_upward_sensible_heat_flux
+  standard_name = upward_sensible_heat_flux_at_surface
   long_name = surface upward sensible heat flux valid for current call
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -484,7 +484,7 @@
   type = integer
   intent = in
 [dqsfc1]
-  standard_name = surface_upward_latent_heat_flux
+  standard_name = upward_latent_heat_flux_at_surface
   long_name = surface upward latent heat flux valid for current call
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -556,7 +556,7 @@
   kind = kind_phys
   intent = inout
 [dusfc_cpl]
-  standard_name = cumulative_surface_x_momentum_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_x_momentum_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative sfc u momentum flux multiplied by timestep
   units = Pa s
   dimensions = (horizontal_loop_extent)
@@ -565,7 +565,7 @@
   intent = inout
   optional = True
 [dvsfc_cpl]
-  standard_name = cumulative_surface_y_momentum_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_y_momentum_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative sfc v momentum flux multiplied by timestep
   units = Pa s
   dimensions = (horizontal_loop_extent)
@@ -574,7 +574,7 @@
   intent = inout
   optional = True
 [dtsfc_cpl]
-  standard_name = cumulative_surface_upward_sensible_heat_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_upward_sensible_heat_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative sfc sensible heat flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -583,7 +583,7 @@
   intent = inout
   optional = True
 [dqsfc_cpl]
-  standard_name = cumulative_surface_upward_latent_heat_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_upward_latent_heat_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative sfc latent heat flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -592,7 +592,7 @@
   intent = inout
   optional = True
 [dusfci_cpl]
-  standard_name = surface_x_momentum_flux_for_coupling
+  standard_name = x_momentum_flux_at_surface_for_coupling
   long_name = instantaneous sfc u momentum flux
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -601,7 +601,7 @@
   intent = inout
   optional = True
 [dvsfci_cpl]
-  standard_name = surface_y_momentum_flux_for_coupling
+  standard_name = y_momentum_flux_at_surface_for_coupling
   long_name = instantaneous sfc v momentum flux
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -610,7 +610,7 @@
   intent = inout
   optional = True
 [dtsfci_cpl]
-  standard_name = surface_upward_sensible_heat_flux_for_coupling
+  standard_name = upward_sensible_heat_flux_at_surface_for_coupling
   long_name = instantaneous sfc sensible heat flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -619,7 +619,7 @@
   intent = inout
   optional = True
 [dqsfci_cpl]
-  standard_name = surface_upward_latent_heat_flux_for_coupling
+  standard_name = upward_latent_heat_flux_at_surface_for_coupling
   long_name = instantaneous sfc latent heat flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -628,7 +628,7 @@
   intent = inout
   optional = True
 [dusfc_diag]
-  standard_name = cumulative_surface_x_momentum_flux_for_diag_multiplied_by_timestep
+  standard_name = cumulative_x_momentum_flux_at_surface_for_diag_multiplied_by_timestep
   long_name = cumulative sfc x momentum flux multiplied by timestep
   units = Pa s
   dimensions = (horizontal_loop_extent)
@@ -636,7 +636,7 @@
   kind = kind_phys
   intent = inout
 [dvsfc_diag]
-  standard_name = cumulative_surface_y_momentum_flux_for_diag_multiplied_by_timestep
+  standard_name = cumulative_y_momentum_flux_at_surface_for_diag_multiplied_by_timestep
   long_name = cumulative sfc y momentum flux multiplied by timestep
   units = Pa s
   dimensions = (horizontal_loop_extent)
@@ -644,7 +644,7 @@
   kind = kind_phys
   intent = inout
 [dtsfc_diag]
-  standard_name = cumulative_surface_upward_sensible_heat_flux_for_diag_multiplied_by_timestep
+  standard_name = cumulative_upward_sensible_heat_flux_at_surface_for_diag_multiplied_by_timestep
   long_name = cumulative sfc sensible heat flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -652,7 +652,7 @@
   kind = kind_phys
   intent = inout
 [dqsfc_diag]
-  standard_name = cumulative_surface_upward_latent_heat_flux_for_diag_multiplied_by_timestep
+  standard_name = cumulative_upward_latent_heat_flux_at_surface_for_diag_multiplied_by_timestep
   long_name = cumulative sfc latent heat flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -660,7 +660,7 @@
   kind = kind_phys
   intent = inout
 [dusfci_diag]
-  standard_name = surface_x_momentum_flux_for_diag
+  standard_name = x_momentum_flux_at_surface_for_diag
   long_name = instantaneous sfc x momentum flux multiplied by timestep
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -668,7 +668,7 @@
   kind = kind_phys
   intent = inout
 [dvsfci_diag]
-  standard_name = surface_y_momentum_flux_for_diag
+  standard_name = y_momentum_flux_at_surface_for_diag
   long_name = instantaneous sfc y momentum flux multiplied by timestep
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -676,7 +676,7 @@
   kind = kind_phys
   intent = inout
 [dtsfci_diag]
-  standard_name = surface_upward_sensible_heat_flux_for_diag
+  standard_name = upward_sensible_heat_flux_at_surface_for_diag
   long_name = instantaneous sfc sensible heat flux multiplied by timestep
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -684,7 +684,7 @@
   kind = kind_phys
   intent = inout
 [dqsfci_diag]
-  standard_name = surface_upward_latent_heat_flux_for_diag
+  standard_name = upward_latent_heat_flux_at_surface_for_diag
   long_name = instantaneous sfc latent heat flux multiplied by timestep
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -748,7 +748,7 @@
   kind = kind_phys
   intent = in
 [hflx]
-  standard_name = surface_upward_temperature_flux
+  standard_name = upward_temperature_flux_at_surface
   long_name = kinematic surface upward sensible heat flux
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -756,7 +756,7 @@
   kind = kind_phys
   intent = in
 [ushfsfci]
-  standard_name = surface_upward_sensible_heat_flux_for_chemistry_coupling
+  standard_name = upward_sensible_heat_flux_at_surface_for_chemistry_coupling
   long_name = instantaneous upward sensible heat flux for chemistry coupling
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -780,7 +780,7 @@
   type = integer
   intent = in
 [dusfc_cice]
-  standard_name = surface_x_momentum_flux_from_coupled_process
+  standard_name = x_momentum_flux_at_surface_from_coupled_process
   long_name = sfc x momentum flux for coupling
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -789,7 +789,7 @@
   intent = in
   optional = True
 [dvsfc_cice]
-  standard_name = surface_y_momentum_flux_from_coupled_process
+  standard_name = y_momentum_flux_at_surface_from_coupled_process
   long_name = sfc y momentum flux for coupling
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -798,7 +798,7 @@
   intent = in
   optional = True
 [dtsfc_cice]
-  standard_name = surface_upward_sensible_heat_flux_from_coupled_process
+  standard_name = upward_sensible_heat_flux_at_surface_from_coupled_process
   long_name = sfc sensible heat flux for coupling
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -807,7 +807,7 @@
   intent = in
   optional = True
 [dqsfc_cice]
-  standard_name = surface_upward_latent_heat_flux_from_coupled_process
+  standard_name = upward_latent_heat_flux_at_surface_from_coupled_process
   long_name = sfc latent heat flux for coupling
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -823,7 +823,7 @@
   type = logical
   intent = in
 [dqsfc_med]
-  standard_name = surface_upward_latent_heat_flux_over_ocean_from_mediator
+  standard_name = upward_latent_heat_flux_at_surface_over_ocean_from_mediator
   long_name = sfc latent heat flux input over ocean for coupling
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -832,7 +832,7 @@
   intent = in
   optional = True
 [dtsfc_med]
-  standard_name = surface_upward_sensible_heat_flux_over_ocean_from_mediator
+  standard_name = upward_sensible_heat_flux_at_surface_over_ocean_from_mediator
   long_name = sfc sensible heat flux input over ocean for coupling
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -841,7 +841,7 @@
   intent = in
   optional = True
 [dusfc_med]
-  standard_name = surface_x_momentum_flux_over_ocean_from_mediator
+  standard_name = x_momentum_flux_at_surface_over_ocean_from_mediator
   long_name = sfc x momentum flux over ocean for coupling
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -850,7 +850,7 @@
   intent = in
   optional = True
 [dvsfc_med]
-  standard_name = surface_y_momentum_flux_over_ocean_from_mediator
+  standard_name = y_momentum_flux_at_surface_over_ocean_from_mediator
   long_name = sfc y momentum flux over ocean for coupling
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -888,7 +888,7 @@
   kind = kind_phys
   intent = in
 [stress_wat]
-  standard_name = surface_wind_stress_over_water
+  standard_name = wind_stress_over_water
   long_name = surface wind stress over water
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -896,7 +896,7 @@
   kind = kind_phys
   intent = in
 [hflx_wat]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_over_water
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_over_water
   long_name = kinematic surface upward sensible heat flux over water
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -904,7 +904,7 @@
   kind = kind_phys
   intent = in
 [evap_wat]
-  standard_name = kinematic_surface_upward_latent_heat_flux_over_water
+  standard_name = kinematic_upward_latent_heat_flux_at_surface_over_water
   long_name = kinematic surface upward latent heat flux over water
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -928,7 +928,7 @@
   kind = kind_phys
   intent = in
 [hffac]
-  standard_name = surface_upward_sensible_heat_flux_reduction_factor
+  standard_name = upward_sensible_heat_flux_at_surface_reduction_factor
   long_name = surface upward sensible heat flux reduction factor from canopy heat storage
   units = 1
   dimensions = (horizontal_loop_extent)

@@ -372,7 +372,7 @@
   kind = kind_phys
   intent = inout
 [tsfa]
-  standard_name = surface_air_temperature_for_radiation
+  standard_name = air_temperature_at_surface_for_radiation
   long_name = lowest model layer air temperature for radiation
   units = K
   dimensions = (horizontal_loop_extent)

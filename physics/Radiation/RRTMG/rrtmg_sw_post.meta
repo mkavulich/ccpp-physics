@@ -71,7 +71,7 @@
   type = logical
   intent = in
 [sfcalb1]
-  standard_name = surface_albedo_due_to_near_ir_direct
+  standard_name = albedo_due_to_near_ir_direct
   long_name = surface albedo due to near IR direct beam
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -79,7 +79,7 @@
   kind = kind_phys
   intent = in
 [sfcalb2]
-  standard_name = surface_albedo_due_to_near_ir_diffused
+  standard_name = albedo_due_to_near_ir_diffused
   long_name = surface albedo due to near IR diffused beam
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -87,7 +87,7 @@
   kind = kind_phys
   intent = in
 [sfcalb3]
-  standard_name = surface_albedo_due_to_uv_and_vis_direct
+  standard_name = albedo_due_to_uv_and_vis_direct
   long_name = surface albedo due to UV+VIS direct beam
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -95,7 +95,7 @@
   kind = kind_phys
   intent = in
 [sfcalb4]
-  standard_name = surface_albedo_due_to_uv_and_vis_diffused
+  standard_name = albedo_due_to_uv_and_vis_diffused
   long_name = surface albedo due to UV+VIS diffused beam
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -119,7 +119,7 @@
   kind = kind_phys
   intent = in
 [nirbmdi]
-  standard_name = surface_downwelling_direct_nir_shortwave_flux_on_radiation_timestep
+  standard_name = downwelling_direct_nir_shortwave_flux_at_surface_on_radiation_timestep
   long_name = sfc nir beam sw downward flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -127,7 +127,7 @@
   kind = kind_phys
   intent = inout
 [nirdfdi]
-  standard_name = surface_downwelling_diffuse_nir_shortwave_flux_on_radiation_timestep
+  standard_name = downwelling_diffuse_nir_shortwave_flux_at_surface_on_radiation_timestep
   long_name = sfc nir diff sw downward flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -135,7 +135,7 @@
   kind = kind_phys
   intent = inout
 [visbmdi]
-  standard_name = surface_downwelling_direct_uv_and_vis_shortwave_flux_on_radiation_timestep
+  standard_name = downwelling_direct_uv_and_vis_shortwave_flux_at_surface_on_radiation_timestep
   long_name = sfc uv+vis beam sw downward flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -143,7 +143,7 @@
   kind = kind_phys
   intent = inout
 [visdfdi]
-  standard_name = surface_downwelling_diffuse_uv_and_vis_shortwave_flux_on_radiation_timestep
+  standard_name = downwelling_diffuse_uv_and_vis_shortwave_flux_at_surface_on_radiation_timestep
   long_name = sfc uv+vis diff sw downward flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -151,7 +151,7 @@
   kind = kind_phys
   intent = inout
 [nirbmui]
-  standard_name = surface_upwelling_direct_nir_shortwave_flux_on_radiation_timestep
+  standard_name = upwelling_direct_nir_shortwave_flux_at_surface_on_radiation_timestep
   long_name = sfc nir beam sw upward flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -159,7 +159,7 @@
   kind = kind_phys
   intent = inout
 [nirdfui]
-  standard_name = surface_upwelling_diffuse_nir_shortwave_flux_on_radiation_timestep
+  standard_name = upwelling_diffuse_nir_shortwave_flux_at_surface_on_radiation_timestep
   long_name = sfc nir diff sw upward flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -167,7 +167,7 @@
   kind = kind_phys
   intent = inout
 [visbmui]
-  standard_name = surface_upwelling_direct_uv_and_vis_shortwave_flux_on_radiation_timestep
+  standard_name = upwelling_direct_uv_and_vis_shortwave_flux_at_surface_on_radiation_timestep
   long_name = sfc uv+vis beam sw upward flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -175,7 +175,7 @@
   kind = kind_phys
   intent = inout
 [visdfui]
-  standard_name = surface_upwelling_diffuse_uv_and_vis_shortwave_flux_on_radiation_timestep
+  standard_name = upwelling_diffuse_uv_and_vis_shortwave_flux_at_surface_on_radiation_timestep
   long_name = sfc uv+vis diff sw upward flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -183,7 +183,7 @@
   kind = kind_phys
   intent = inout
 [sfcdsw]
-  standard_name = surface_downwelling_shortwave_flux_on_radiation_timestep
+  standard_name = downwelling_shortwave_flux_at_surface_on_radiation_timestep
   long_name = total sky sfc downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -191,7 +191,7 @@
   kind = kind_phys
   intent = inout
 [sfcnsw]
-  standard_name = surface_net_downwelling_shortwave_flux_on_radiation_timestep
+  standard_name = net_downwelling_shortwave_flux_at_surface_on_radiation_timestep
   long_name = total sky sfc netsw flx into ground
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -199,7 +199,7 @@
   kind = kind_phys
   intent = inout
 [sfcdswc]
-  standard_name = surface_downwelling_shortwave_flux_on_radiation_timestep_assuming_clear_sky
+  standard_name = downwelling_shortwave_flux_at_surface_on_radiation_timestep_assuming_clear_sky
   long_name = clear sky sfc downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)

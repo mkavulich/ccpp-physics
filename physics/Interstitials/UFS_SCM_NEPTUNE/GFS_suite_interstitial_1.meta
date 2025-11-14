@@ -78,7 +78,7 @@
   kind = kind_phys
   intent = in
 [pgr]
-  standard_name = surface_air_pressure
+  standard_name = air_pressure_at_surface
   long_name = surface pressure
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -109,7 +109,7 @@
   kind = kind_phys
   intent = out
 [psurf]
-  standard_name = surface_air_pressure_diag
+  standard_name = air_pressure_at_surface_diag
   long_name = surface air pressure diagnostic
   units = Pa
   dimensions = (horizontal_loop_extent)

@@ -201,7 +201,7 @@
   kind = kind_phys
   intent = in
 [zorl]
-  standard_name = surface_roughness_length
+  standard_name = roughness_length
   long_name = surface roughness length
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -209,7 +209,7 @@
   kind = kind_phys
   intent = inout
 [zorlo]
-  standard_name = surface_roughness_length_over_water
+  standard_name = roughness_length_over_water
   long_name = surface roughness length over water
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -217,7 +217,7 @@
   kind = kind_phys
   intent = in
 [zorll]
-  standard_name = surface_roughness_length_over_land
+  standard_name = roughness_length_over_land
   long_name = surface roughness length over land
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -225,7 +225,7 @@
   kind = kind_phys
   intent = in
 [zorli]
-  standard_name = surface_roughness_length_over_ice
+  standard_name = roughness_length_over_ice
   long_name = surface roughness length over ice
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -329,7 +329,7 @@
   kind = kind_phys
   intent = in
 [stress]
-  standard_name = surface_wind_stress
+  standard_name = wind_stress
   long_name = surface wind stress
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -337,7 +337,7 @@
   kind = kind_phys
   intent = inout
 [stress_wat]
-  standard_name = surface_wind_stress_over_water
+  standard_name = wind_stress_over_water
   long_name = surface wind stress over water
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -345,7 +345,7 @@
   kind = kind_phys
   intent = in
 [stress_lnd]
-  standard_name = surface_wind_stress_over_land
+  standard_name = wind_stress_over_land
   long_name = surface wind stress over land
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -353,7 +353,7 @@
   kind = kind_phys
   intent = in
 [stress_ice]
-  standard_name = surface_wind_stress_over_ice
+  standard_name = wind_stress_over_ice
   long_name = surface wind stress over ice
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -641,7 +641,7 @@
   kind = kind_phys
   intent = in
 [ep1d]
-  standard_name = surface_upward_potential_latent_heat_flux
+  standard_name = upward_potential_latent_heat_flux_at_surface
   long_name = surface upward potential latent heat flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -649,7 +649,7 @@
   kind = kind_phys
   intent = inout
 [ep1d_wat]
-  standard_name = surface_upward_potential_latent_heat_flux_over_water
+  standard_name = upward_potential_latent_heat_flux_at_surface_over_water
   long_name = surface upward potential latent heat flux over water
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -657,7 +657,7 @@
   kind = kind_phys
   intent = in
 [ep1d_lnd]
-  standard_name = surface_upward_potential_latent_heat_flux_over_land
+  standard_name = upward_potential_latent_heat_flux_at_surface_over_land
   long_name = surface upward potential latent heat flux over land
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -665,7 +665,7 @@
   kind = kind_phys
   intent = in
 [ep1d_ice]
-  standard_name = surface_upward_potential_latent_heat_flux_over_ice
+  standard_name = upward_potential_latent_heat_flux_at_surface_over_ice
   long_name = surface upward potential latent heat flux over ice
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -753,7 +753,7 @@
   kind = kind_phys
   intent = in
 [evap]
-  standard_name = surface_upward_specific_humidity_flux
+  standard_name = upward_specific_humidity_flux_at_surface
   long_name = kinematic surface upward latent heat flux
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -761,7 +761,7 @@
   kind = kind_phys
   intent = inout
 [evap_wat]
-  standard_name = kinematic_surface_upward_latent_heat_flux_over_water
+  standard_name = kinematic_upward_latent_heat_flux_at_surface_over_water
   long_name = kinematic surface upward latent heat flux over water
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -769,7 +769,7 @@
   kind = kind_phys
   intent = in
 [evap_lnd]
-  standard_name = kinematic_surface_upward_latent_heat_flux_over_land
+  standard_name = kinematic_upward_latent_heat_flux_at_surface_over_land
   long_name = kinematic surface upward latent heat flux over land
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -777,7 +777,7 @@
   kind = kind_phys
   intent = in
 [evap_ice]
-  standard_name = kinematic_surface_upward_latent_heat_flux_over_ice
+  standard_name = kinematic_upward_latent_heat_flux_at_surface_over_ice
   long_name = kinematic surface upward latent heat flux over ice
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -785,7 +785,7 @@
   kind = kind_phys
   intent = in
 [hflx]
-  standard_name = surface_upward_temperature_flux
+  standard_name = upward_temperature_flux_at_surface
   long_name = kinematic surface upward sensible heat flux
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -793,7 +793,7 @@
   kind = kind_phys
   intent = inout
 [hflx_wat]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_over_water
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_over_water
   long_name = kinematic surface upward sensible heat flux over water
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -801,7 +801,7 @@
   kind = kind_phys
   intent = in
 [hflx_lnd]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_over_land
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_over_land
   long_name = kinematic surface upward sensible heat flux over land
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -809,7 +809,7 @@
   kind = kind_phys
   intent = in
 [hflx_ice]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_over_ice
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_over_ice
   long_name = kinematic surface upward sensible heat flux over ice
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -817,7 +817,7 @@
   kind = kind_phys
   intent = in
 [hflx_fire]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_of_fire
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_of_fire
   long_name = kinematic surface upward sensible heat flux of fire
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -826,7 +826,7 @@
   intent = in
   optional = True
 [evap_fire]
-  standard_name = surface_upward_specific_humidity_flux_of_fire
+  standard_name = upward_specific_humidity_flux_at_surface_of_fire
   long_name = kinematic surface upward latent heat flux of fire
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -842,7 +842,7 @@
   type = logical
   intent = in
 [qss]
-  standard_name = surface_specific_humidity
+  standard_name = specific_humidity_at_surface
   long_name = surface air saturation specific humidity
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -850,7 +850,7 @@
   kind = kind_phys
   intent = inout
 [qss_wat]
-  standard_name = surface_specific_humidity_over_water
+  standard_name = specific_humidity_at_surface_over_water
   long_name = surface air saturation specific humidity over water
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -858,7 +858,7 @@
   kind = kind_phys
   intent = in
 [qss_lnd]
-  standard_name = surface_specific_humidity_over_land
+  standard_name = specific_humidity_at_surface_over_land
   long_name = surface air saturation specific humidity over land
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -866,7 +866,7 @@
   kind = kind_phys
   intent = in
 [qss_ice]
-  standard_name = surface_specific_humidity_over_ice
+  standard_name = specific_humidity_at_surface_over_ice
   long_name = surface air saturation specific humidity over ice
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -994,7 +994,7 @@
   kind = kind_phys
   intent = in
 [zvfun]
-  standard_name = function_of_surface_roughness_length_and_green_vegetation_fraction
+  standard_name = function_of_roughness_length_and_green_vegetation_fraction
   long_name = function of surface roughness length and green vegetation fraction
   units = 1
   dimensions = (horizontal_loop_extent)
@@ -1025,7 +1025,7 @@
   kind = kind_phys
   intent = in
 [hflxq]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_reduced_by_surface_roughness_and_vegetation
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_reduced_by_surface_roughness_and_vegetation
   long_name = kinematic surface upward sensible heat flux reduced by surface roughness and vegetation
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -1033,7 +1033,7 @@
   kind = kind_phys
   intent = inout
 [hffac]
-  standard_name = surface_upward_sensible_heat_flux_reduction_factor
+  standard_name = upward_sensible_heat_flux_at_surface_reduction_factor
   long_name = surface upward sensible heat flux reduction factor from canopy heat storage
   units = 1
   dimensions = (horizontal_loop_extent)
@@ -1049,7 +1049,7 @@
   kind = kind_phys
   intent = inout
 [ztmax_wat]
-  standard_name = bounded_surface_roughness_length_for_heat_over_water
+  standard_name = bounded_roughness_length_for_heat_over_water
   long_name = bounded surface roughness length for heat over water
   units = m
   dimensions = (horizontal_loop_extent)
@@ -1057,7 +1057,7 @@
   kind = kind_phys
   intent = in
 [ztmax_lnd]
-  standard_name = bounded_surface_roughness_length_for_heat_over_land
+  standard_name = bounded_roughness_length_for_heat_over_land
   long_name = bounded surface roughness length for heat over land
   units = m
   dimensions = (horizontal_loop_extent)
@@ -1065,7 +1065,7 @@
   kind = kind_phys
   intent = in
 [ztmax_ice]
-  standard_name = bounded_surface_roughness_length_for_heat_over_ice
+  standard_name = bounded_roughness_length_for_heat_over_ice
   long_name = bounded surface roughness length for heat over ice
   units = m
   dimensions = (horizontal_loop_extent)

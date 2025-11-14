@@ -57,7 +57,7 @@
   type = logical
   intent = in
 [tsfa]
-  standard_name = surface_air_temperature_for_radiation
+  standard_name = air_temperature_at_surface_for_radiation
   long_name = lowest model layer air temperature for radiation
   units = K
   dimensions = (horizontal_loop_extent)
@@ -96,7 +96,7 @@
   kind = kind_phys
   intent = inout
 [sfcdlw]
-  standard_name = surface_downwelling_longwave_flux_on_radiation_timestep
+  standard_name = downwelling_longwave_flux_at_surface_on_radiation_timestep
   long_name = total sky sfc downward lw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)

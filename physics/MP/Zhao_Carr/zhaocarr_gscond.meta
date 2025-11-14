@@ -86,7 +86,7 @@
   kind = kind_phys
   intent = in
 [ps]
-  standard_name = surface_air_pressure
+  standard_name = air_pressure_at_surface
   long_name = surface pressure
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -150,7 +150,7 @@
   kind = kind_phys
   intent = inout
 [psp]
-  standard_name = surface_air_pressure_two_timesteps_back
+  standard_name = air_pressure_at_surface_two_timesteps_back
   long_name = surface air pressure two timesteps back
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -254,7 +254,7 @@
   kind = kind_phys
   intent = inout
 [psp1]
-  standard_name = surface_air_pressure_on_previous_timestep
+  standard_name = air_pressure_at_surface_on_previous_timestep
   long_name = surface air surface pressure at previous timestep
   units = Pa
   dimensions = (horizontal_loop_extent)

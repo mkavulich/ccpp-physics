@@ -480,7 +480,7 @@
   kind = kind_phys
   intent = in
 [dswsfc]
-  standard_name = surface_downwelling_shortwave_flux
+  standard_name = downwelling_shortwave_flux_at_surface
   long_name = surface downwelling shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -488,7 +488,7 @@
   kind = kind_phys
   intent = in
 [zorl]
-  standard_name = surface_roughness_length
+  standard_name = roughness_length
   long_name = surface roughness length in cm
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -543,7 +543,7 @@
   kind = kind_phys
   intent = in
 [hf2d]
-  standard_name = surface_upward_sensible_heat_flux
+  standard_name = upward_sensible_heat_flux_at_surface
   long_name = surface upward sensible heat flux valid for current call
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -753,7 +753,7 @@
   intent = inout
   optional = True
 [ebb_smoke_in]
-  standard_name = surface_smoke_emission
+  standard_name = smoke_emission_at_surface
   long_name = emission of surface smoke
   units = ug m-2 s-1
   dimensions = (horizontal_loop_extent)
@@ -960,7 +960,7 @@
  intent = out
  optional = True
 [fire_heat_flux_out]
-  standard_name = surface_fire_heat_flux
+  standard_name = fire_heat_flux_at_surface
   long_name = heat flux of fire at the surface
   units = W m-2
   dimensions = (horizontal_loop_extent)

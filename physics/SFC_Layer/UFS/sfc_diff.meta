@@ -48,7 +48,7 @@
   kind = kind_phys
   intent = in
 [ps]
-  standard_name = surface_air_pressure
+  standard_name = air_pressure_at_surface
   long_name = surface pressure
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -88,7 +88,7 @@
   kind = kind_phys
   intent = in
 [zvfun]
-  standard_name = function_of_surface_roughness_length_and_green_vegetation_fraction
+  standard_name = function_of_roughness_length_and_green_vegetation_fraction
   long_name = function of surface roughness length and green vegetation fraction
   units = 1
   dimensions = (horizontal_loop_extent)
@@ -205,7 +205,7 @@
   type = logical
   intent = in
 [redrag]
-  standard_name = flag_for_limited_surface_roughness_length_over_ocean
+  standard_name = flag_for_limited_roughness_length_over_ocean
   long_name = flag for reduced drag coefficient over sea
   units = flag
   dimensions = ()
@@ -357,7 +357,7 @@
   kind = kind_phys
   intent = in
 [z0rl_wat]
-  standard_name = surface_roughness_length_over_water
+  standard_name = roughness_length_over_water
   long_name = surface roughness length over water (temporary use as interstitial)
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -365,7 +365,7 @@
   kind = kind_phys
   intent = inout
 [z0rl_lnd]
-  standard_name = surface_roughness_length_over_land
+  standard_name = roughness_length_over_land
   long_name = surface roughness length over land  (temporary use as interstitial)
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -373,7 +373,7 @@
   kind = kind_phys
   intent = inout
 [z0rl_ice]
-  standard_name = surface_roughness_length_over_ice
+  standard_name = roughness_length_over_ice
   long_name = surface roughness length over ice   (temporary use as interstitial)
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -381,7 +381,7 @@
   kind = kind_phys
   intent = inout
 [z0rl_wav]
-  standard_name = surface_roughness_length_from_wave_model
+  standard_name = roughness_length_from_wave_model
   long_name = surface roughness length from wave model
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -485,7 +485,7 @@
   kind = kind_phys
   intent = inout
 [stress_wat]
-  standard_name = surface_wind_stress_over_water
+  standard_name = wind_stress_over_water
   long_name = surface wind stress over water
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -493,7 +493,7 @@
   kind = kind_phys
   intent = inout
 [stress_lnd]
-  standard_name = surface_wind_stress_over_land
+  standard_name = wind_stress_over_land
   long_name = surface wind stress over land
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -501,7 +501,7 @@
   kind = kind_phys
   intent = inout
 [stress_ice]
-  standard_name = surface_wind_stress_over_ice
+  standard_name = wind_stress_over_ice
   long_name = surface wind stress over ice
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -605,7 +605,7 @@
   kind = kind_phys
   intent = inout
 [ztmax_wat]
-  standard_name = bounded_surface_roughness_length_for_heat_over_water
+  standard_name = bounded_roughness_length_for_heat_over_water
   long_name = bounded surface roughness length for heat over water
   units = m
   dimensions = (horizontal_loop_extent)
@@ -613,7 +613,7 @@
   kind = kind_phys
   intent = inout
 [ztmax_lnd]
-  standard_name = bounded_surface_roughness_length_for_heat_over_land
+  standard_name = bounded_roughness_length_for_heat_over_land
   long_name = bounded surface roughness length for heat over land
   units = m
   dimensions = (horizontal_loop_extent)
@@ -621,7 +621,7 @@
   kind = kind_phys
   intent = inout
 [ztmax_ice]
-  standard_name = bounded_surface_roughness_length_for_heat_over_ice
+  standard_name = bounded_roughness_length_for_heat_over_ice
   long_name = bounded surface roughness length for heat over ice
   units = m
   dimensions = (horizontal_loop_extent)

@@ -241,7 +241,7 @@
   kind = kind_phys
   intent = in
 [sncovr_lnd]
-  standard_name = surface_snow_area_fraction_over_land
+  standard_name = snow_area_fraction_at_surface_over_land
   long_name = surface snow area fraction over land
   units = fraction
   dimensions = (horizontal_dimension)
@@ -249,7 +249,7 @@
   kind = kind_phys
   intent = in
 [sncovr_ice]
-  standard_name = surface_snow_area_fraction_over_ice
+  standard_name = snow_area_fraction_at_surface_over_ice
   long_name = surface snow area fraction over ice
   units = fraction
   dimensions = (horizontal_dimension)
@@ -361,7 +361,7 @@
   kind = kind_phys
   intent = inout
 [albdvis_lnd]
-  standard_name = surface_albedo_direct_visible_over_land
+  standard_name = albedo_direct_visible_over_land
   long_name = direct surface albedo visible band over land
   units = fraction
   dimensions = (horizontal_dimension)
@@ -369,7 +369,7 @@
   kind = kind_phys
   intent = inout
 [albdnir_lnd]
-  standard_name = surface_albedo_direct_nir_over_land
+  standard_name = albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
   units = fraction
   dimensions = (horizontal_dimension)
@@ -377,7 +377,7 @@
   kind = kind_phys
   intent = inout
 [albivis_lnd]
-  standard_name = surface_albedo_diffuse_visible_over_land
+  standard_name = albedo_diffuse_visible_over_land
   long_name = diffuse surface albedo visible band over land
   units = fraction
   dimensions = (horizontal_dimension)
@@ -385,7 +385,7 @@
   kind = kind_phys
   intent = inout
 [albinir_lnd]
-  standard_name = surface_albedo_diffuse_nir_over_land
+  standard_name = albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
   units = fraction
   dimensions = (horizontal_dimension)
@@ -393,7 +393,7 @@
   kind = kind_phys
   intent = inout
 [albdvis_ice]
-  standard_name = surface_albedo_direct_visible_over_ice
+  standard_name = albedo_direct_visible_over_ice
   long_name = direct surface albedo visible band over ice
   units = fraction
   dimensions = (horizontal_dimension)
@@ -401,7 +401,7 @@
   kind = kind_phys
   intent = inout
 [albdnir_ice]
-  standard_name = surface_albedo_direct_nir_over_ice
+  standard_name = albedo_direct_nir_over_ice
   long_name = direct surface albedo NIR band over ice
   units = fraction
   dimensions = (horizontal_dimension)
@@ -409,7 +409,7 @@
   kind = kind_phys
   intent = inout
 [albivis_ice]
-  standard_name = surface_albedo_diffuse_visible_over_ice
+  standard_name = albedo_diffuse_visible_over_ice
   long_name = diffuse surface albedo visible band over ice
   units = fraction
   dimensions = (horizontal_dimension)
@@ -417,7 +417,7 @@
   kind = kind_phys
   intent = inout
 [albinir_ice]
-  standard_name = surface_albedo_diffuse_nir_over_ice
+  standard_name = albedo_diffuse_nir_over_ice
   long_name = diffuse surface albedo NIR band over ice
   units = fraction
   dimensions = (horizontal_dimension)
@@ -636,7 +636,7 @@
   type = logical
   intent = in
 [exticeden]
-  standard_name = do_external_surface_frozen_precipitation_density
+  standard_name = do_external_frozen_precipitation_density_at_surface
   long_name = flag for calculating frozen precip ice density outside of the LSM
   units = flag
   dimensions = ()
@@ -816,7 +816,7 @@
   kind = kind_phys
   intent = inout
 [dlwflx]
-  standard_name = surface_downwelling_longwave_flux
+  standard_name = downwelling_longwave_flux_at_surface
   long_name = surface downwelling longwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -824,7 +824,7 @@
   kind = kind_phys
   intent = in
 [dswsfc]
-  standard_name = surface_downwelling_shortwave_flux
+  standard_name = downwelling_shortwave_flux_at_surface
   long_name = surface downwelling shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -1035,7 +1035,7 @@
   kind = kind_phys
   intent = in
 [rhonewsn1]
-  standard_name = surface_frozen_precipitation_density
+  standard_name = frozen_precipitation_density_at_surface
   long_name = density of precipitation ice
   units = kg m-3
   dimensions = (horizontal_loop_extent)
@@ -1147,7 +1147,7 @@
   kind = kind_phys
   intent = inout
 [sfalb_lnd]
-  standard_name = surface_diffused_shortwave_albedo_over_land
+  standard_name = diffused_shortwave_albedo_over_land
   long_name = mean surface diffused sw albedo over land
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1155,7 +1155,7 @@
   kind = kind_phys
   intent = inout
 [sfalb_ice]
-  standard_name = surface_diffused_shortwave_albedo_over_ice
+  standard_name = diffused_shortwave_albedo_over_ice
   long_name = mean surface diffused sw albedo over ice
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1163,7 +1163,7 @@
   kind = kind_phys
   intent = inout
 [sncovr1_lnd]
-  standard_name = surface_snow_area_fraction_over_land
+  standard_name = snow_area_fraction_at_surface_over_land
   long_name = surface snow area fraction over land
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1195,7 +1195,7 @@
   kind = kind_phys
   intent = inout
 [sncovr1_ice]
-  standard_name = surface_snow_area_fraction_over_ice
+  standard_name = snow_area_fraction_at_surface_over_ice
   long_name = surface snow area fraction over ice
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1307,7 +1307,7 @@
   kind = kind_phys
   intent = inout
 [z0rl_lnd]
-  standard_name = surface_roughness_length_over_land
+  standard_name = roughness_length_over_land
   long_name = surface roughness length over land  (temporary use as interstitial)
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -1331,7 +1331,7 @@
   kind = kind_phys
   intent = inout
 [qsurf_lnd]
-  standard_name = surface_specific_humidity_over_land
+  standard_name = specific_humidity_at_surface_over_land
   long_name = surface air saturation specific humidity over land
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -1347,7 +1347,7 @@
   kind = kind_phys
   intent = inout
 [evap_lnd]
-  standard_name = kinematic_surface_upward_latent_heat_flux_over_land
+  standard_name = kinematic_upward_latent_heat_flux_at_surface_over_land
   long_name = kinematic surface upward evaporation flux over land
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -1355,7 +1355,7 @@
   kind = kind_phys
   intent = inout
 [hflx_lnd]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_over_land
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_over_land
   long_name = kinematic surface upward sensible heat flux over land
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -1459,7 +1459,7 @@
   kind = kind_phys
   intent = inout
 [snowmt_lnd]
-  standard_name = surface_snow_melt_over_land
+  standard_name = snow_melt_at_surface_over_land
   long_name = snow melt during timestep over land
   units = kg m-2
   dimensions = (horizontal_loop_extent)
@@ -1475,7 +1475,7 @@
   kind = kind_phys
   intent = inout
 [albdvis_lnd]
-  standard_name = surface_albedo_direct_visible_over_land
+  standard_name = albedo_direct_visible_over_land
   long_name = direct surface albedo visible band over land
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1483,7 +1483,7 @@
   kind = kind_phys
   intent = out
 [albdnir_lnd]
-  standard_name = surface_albedo_direct_nir_over_land
+  standard_name = albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1491,7 +1491,7 @@
   kind = kind_phys
   intent = out
 [albivis_lnd]
-  standard_name = surface_albedo_diffuse_visible_over_land
+  standard_name = albedo_diffuse_visible_over_land
   long_name = diffuse surface albedo visible band over land
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1499,7 +1499,7 @@
   kind = kind_phys
   intent = out
 [albinir_lnd]
-  standard_name = surface_albedo_diffuse_nir_over_land
+  standard_name = albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1539,7 +1539,7 @@
   kind = kind_phys
   intent = inout
 [z0rl_ice]
-  standard_name = surface_roughness_length_over_ice
+  standard_name = roughness_length_over_ice
   long_name = surface roughness length over ice   (temporary use as interstitial)
   units = cm
   dimensions = (horizontal_loop_extent)
@@ -1547,7 +1547,7 @@
   kind = kind_phys
   intent = inout
 [qsurf_ice]
-  standard_name = surface_specific_humidity_over_ice
+  standard_name = specific_humidity_at_surface_over_ice
   long_name = surface air saturation specific humidity over ice
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -1563,7 +1563,7 @@
   kind = kind_phys
   intent = inout
 [evap_ice]
-  standard_name = kinematic_surface_upward_latent_heat_flux_over_ice
+  standard_name = kinematic_upward_latent_heat_flux_at_surface_over_ice
   long_name = kinematic surface upward latent heat flux over ice
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -1571,7 +1571,7 @@
   kind = kind_phys
   intent = inout
 [ep1d_ice]
-  standard_name = surface_upward_potential_latent_heat_flux_over_ice
+  standard_name = upward_potential_latent_heat_flux_at_surface_over_ice
   long_name = surface upward potential latent heat flux over ice
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -1579,7 +1579,7 @@
   kind = kind_phys
   intent = inout
 [hflx_ice]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_over_ice
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_over_ice
   long_name = kinematic surface upward sensible heat flux over ice
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -1619,7 +1619,7 @@
   kind = kind_phys
   intent = inout
 [snowmt_ice]
-  standard_name = surface_snow_melt_over_ice
+  standard_name = snow_melt_at_surface_over_ice
   long_name = snow melt during timestep over ice
   units = kg m-2
   dimensions = (horizontal_loop_extent)
@@ -1627,7 +1627,7 @@
   kind = kind_phys
   intent = inout
 [albdvis_ice]
-  standard_name = surface_albedo_direct_visible_over_ice
+  standard_name = albedo_direct_visible_over_ice
   long_name = direct surface albedo visible band over ice
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1635,7 +1635,7 @@
   kind = kind_phys
   intent = out
 [albdnir_ice]
-  standard_name = surface_albedo_direct_nir_over_ice
+  standard_name = albedo_direct_nir_over_ice
   long_name = direct surface albedo NIR band over ice
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1643,7 +1643,7 @@
   kind = kind_phys
   intent = out
 [albivis_ice]
-  standard_name = surface_albedo_diffuse_visible_over_ice
+  standard_name = albedo_diffuse_visible_over_ice
   long_name = diffuse surface albedo visible band over ice
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1651,7 +1651,7 @@
   kind = kind_phys
   intent = out
 [albinir_ice]
-  standard_name = surface_albedo_diffuse_nir_over_ice
+  standard_name = albedo_diffuse_nir_over_ice
   long_name = diffuse surface albedo NIR band over ice
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -1659,7 +1659,7 @@
   kind = kind_phys
   intent = out
 [rhosnf]
-  standard_name = lsm_internal_surface_frozen_precipitation_density
+  standard_name = lsm_internal_frozen_precipitation_density_at_surface
   long_name = density of frozen precipitation
   units = kg m-3
   dimensions = (horizontal_loop_extent)
@@ -1756,7 +1756,7 @@
   type = logical
   intent = in
 [fire_heat_flux_out]
-  standard_name = surface_fire_heat_flux
+  standard_name = fire_heat_flux_at_surface
   long_name = heat flux of fire at the surface
   units = W m-2
   dimensions = (horizontal_loop_extent)

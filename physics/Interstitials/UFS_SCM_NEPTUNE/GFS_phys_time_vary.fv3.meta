@@ -374,7 +374,7 @@
   type = integer
   intent = in
 [sncovr]
-  standard_name = surface_snow_area_fraction_over_land
+  standard_name = snow_area_fraction_at_surface_over_land
   long_name = surface snow area fraction
   units = fraction
   dimensions = (horizontal_dimension)
@@ -382,7 +382,7 @@
   kind = kind_phys
   intent = inout
 [sncovr_ice]
-  standard_name = surface_snow_area_fraction_over_ice
+  standard_name = snow_area_fraction_at_surface_over_ice
   long_name = surface snow area fraction over ice
   units = fraction
   dimensions = (horizontal_dimension)
@@ -577,7 +577,7 @@
   intent = inout
   optional = True
 [alboldxy]
-  standard_name = surface_albedo_assuming_deep_snow_on_previous_timestep
+  standard_name = albedo_assuming_deep_snow_on_previous_timestep
   long_name = snow albedo at previous time step
   units = fraction
   dimensions = (horizontal_dimension)
@@ -739,7 +739,7 @@
   intent = inout
   optional = True
 [albdvis_lnd]
-  standard_name = surface_albedo_direct_visible_over_land
+  standard_name = albedo_direct_visible_over_land
   long_name = direct surface albedo visible band over land
   units = fraction
   dimensions = (horizontal_dimension)
@@ -747,7 +747,7 @@
   kind = kind_phys
   intent = inout
 [albdnir_lnd]
-  standard_name = surface_albedo_direct_nir_over_land
+  standard_name = albedo_direct_nir_over_land
   long_name = direct surface albedo NIR band over land
   units = fraction
   dimensions = (horizontal_dimension)
@@ -755,7 +755,7 @@
   kind = kind_phys
   intent = inout
 [albivis_lnd]
-  standard_name = surface_albedo_diffuse_visible_over_land
+  standard_name = albedo_diffuse_visible_over_land
   long_name = diffuse surface albedo visible band over land
   units = fraction
   dimensions = (horizontal_dimension)
@@ -763,7 +763,7 @@
   kind = kind_phys
   intent = inout
 [albinir_lnd]
-  standard_name = surface_albedo_diffuse_nir_over_land
+  standard_name = albedo_diffuse_nir_over_land
   long_name = diffuse surface albedo NIR band over land
   units = fraction
   dimensions = (horizontal_dimension)
@@ -771,7 +771,7 @@
   kind = kind_phys
   intent = inout
 [albdvis_ice]
-  standard_name = surface_albedo_direct_visible_over_ice
+  standard_name = albedo_direct_visible_over_ice
   long_name = direct surface albedo visible band over ice
   units = fraction
   dimensions = (horizontal_dimension)
@@ -780,7 +780,7 @@
   intent = inout
   optional = True
 [albdnir_ice]
-  standard_name = surface_albedo_direct_nir_over_ice
+  standard_name = albedo_direct_nir_over_ice
   long_name = direct surface albedo NIR band over ice
   units = fraction
   dimensions = (horizontal_dimension)
@@ -789,7 +789,7 @@
   intent = inout
   optional = True
 [albivis_ice]
-  standard_name = surface_albedo_diffuse_visible_over_ice
+  standard_name = albedo_diffuse_visible_over_ice
   long_name = diffuse surface albedo visible band over ice
   units = fraction
   dimensions = (horizontal_dimension)
@@ -798,7 +798,7 @@
   intent = inout
   optional = True
 [albinir_ice]
-  standard_name = surface_albedo_diffuse_nir_over_ice
+  standard_name = albedo_diffuse_nir_over_ice
   long_name = diffuse surface albedo NIR band over ice
   units = fraction
   dimensions = (horizontal_dimension)
@@ -1587,7 +1587,7 @@
   type = integer
   intent = in
 [ialb]
-  standard_name = control_for_surface_albedo
+  standard_name = control_for_albedo
   long_name = flag for using climatology alb, based on sfc type
   units = flag
   dimensions = ()
@@ -1849,7 +1849,7 @@
   kind = kind_phys
   intent = inout
 [zorli]
-  standard_name = surface_roughness_length_over_ice
+  standard_name = roughness_length_over_ice
   long_name = surface roughness length over ice
   units = cm
   dimensions = (horizontal_dimension)
@@ -1857,7 +1857,7 @@
   kind = kind_phys
   intent = inout
 [zorll]
-  standard_name = surface_roughness_length_over_land
+  standard_name = roughness_length_over_land
   long_name = surface roughness length over land
   units = cm
   dimensions = (horizontal_dimension)
@@ -1865,7 +1865,7 @@
   kind = kind_phys
   intent = inout
 [zorlo]
-  standard_name = surface_roughness_length_over_water
+  standard_name = roughness_length_over_water
   long_name = surface roughness length over water
   units = cm
   dimensions = (horizontal_dimension)

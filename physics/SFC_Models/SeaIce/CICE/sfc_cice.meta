@@ -117,7 +117,7 @@
   type = logical
   intent = in
 [dqsfc]
-  standard_name = surface_upward_latent_heat_flux_from_coupled_process
+  standard_name = upward_latent_heat_flux_at_surface_from_coupled_process
   long_name = sfc latent heat flux for coupling
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -125,7 +125,7 @@
   kind = kind_phys
   intent = in
 [dtsfc]
-  standard_name = surface_upward_sensible_heat_flux_from_coupled_process
+  standard_name = upward_sensible_heat_flux_at_surface_from_coupled_process
   long_name = sfc sensible heat flux for coupling
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -133,7 +133,7 @@
   kind = kind_phys
   intent = in
 [dusfc]
-  standard_name = surface_x_momentum_flux_from_coupled_process
+  standard_name = x_momentum_flux_at_surface_from_coupled_process
   long_name = sfc x momentum flux for coupling
   units = Pa 
   dimensions = (horizontal_loop_extent)
@@ -141,7 +141,7 @@
   kind = kind_phys
   intent = in
 [dvsfc]
-  standard_name = surface_y_momentum_flux_from_coupled_process
+  standard_name = y_momentum_flux_at_surface_from_coupled_process
   long_name = sfc y momentum flux for coupling
   units = Pa 
   dimensions = (horizontal_loop_extent)
@@ -157,7 +157,7 @@
   kind = kind_phys
   intent = in
 [qsurf]
-  standard_name = surface_specific_humidity_over_ice
+  standard_name = specific_humidity_at_surface_over_ice
   long_name = surface air saturation specific humidity over ice
   units = kg kg-1
   dimensions = (horizontal_loop_extent)
@@ -181,7 +181,7 @@
   kind = kind_phys
   intent = inout
 [evap]
-  standard_name = kinematic_surface_upward_latent_heat_flux_over_ice
+  standard_name = kinematic_upward_latent_heat_flux_at_surface_over_ice
   long_name = kinematic surface upward latent heat flux over ice
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -189,7 +189,7 @@
   kind = kind_phys
   intent = inout
 [hflx]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_over_ice
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_over_ice
   long_name = kinematic surface upward sensible heat flux over ice
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -197,7 +197,7 @@
   kind = kind_phys
   intent = inout
 [stress]
-  standard_name = surface_wind_stress_over_ice
+  standard_name = wind_stress_over_ice
   long_name = surface wind stress over ice
   units = m2 s-2
   dimensions = (horizontal_loop_extent)
@@ -221,7 +221,7 @@
   kind = kind_phys
   intent = inout
 [ep]
-  standard_name = surface_upward_potential_latent_heat_flux_over_ice
+  standard_name = upward_potential_latent_heat_flux_at_surface_over_ice
   long_name = surface upward potential latent heat flux over ice
   units = W m-2
   dimensions = (horizontal_loop_extent)

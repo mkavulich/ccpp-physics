@@ -153,7 +153,7 @@
   type = integer
   intent = in
 [ps_2delt]
-  standard_name = surface_air_pressure_two_timesteps_back
+  standard_name = air_pressure_at_surface_two_timesteps_back
   long_name = surface air pressure two timesteps back
   units = Pa
   dimensions = (horizontal_dimension)
@@ -162,7 +162,7 @@
   intent = inout
   optional = True
 [ps_1delt]
-  standard_name = surface_air_pressure_on_previous_timestep
+  standard_name = air_pressure_at_surface_on_previous_timestep
   long_name = surface air pressure at previous timestep
   units = Pa
   dimensions = (horizontal_dimension)

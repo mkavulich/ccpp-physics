@@ -184,7 +184,7 @@
   kind = kind_phys
   intent = in
 [ep1d]
-  standard_name = surface_upward_potential_latent_heat_flux
+  standard_name = upward_potential_latent_heat_flux_at_surface
   long_name = surface upward potential latent heat flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -232,7 +232,7 @@
   kind = kind_phys
   intent = in
 [adjsfcdlw]
-  standard_name = surface_downwelling_longwave_flux
+  standard_name = downwelling_longwave_flux_at_surface
   long_name = surface downwelling longwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -240,7 +240,7 @@
   kind = kind_phys
   intent = in
 [adjsfcdsw]
-  standard_name = surface_downwelling_shortwave_flux
+  standard_name = downwelling_shortwave_flux_at_surface
   long_name = surface downwelling shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -248,7 +248,7 @@
   kind = kind_phys
   intent = in
 [adjnirbmd]
-  standard_name = surface_downwelling_direct_near_infrared_shortwave_flux
+  standard_name = downwelling_direct_near_infrared_shortwave_flux_at_surface
   long_name = surface downwelling beam near-infrared shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -256,7 +256,7 @@
   kind = kind_phys
   intent = in
 [adjnirdfd]
-  standard_name = surface_downwelling_diffuse_near_infrared_shortwave_flux
+  standard_name = downwelling_diffuse_near_infrared_shortwave_flux_at_surface
   long_name = surface downwelling diffuse near-infrared shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -264,7 +264,7 @@
   kind = kind_phys
   intent = in
 [adjvisbmd]
-  standard_name = surface_downwelling_direct_ultraviolet_and_visible_shortwave_flux
+  standard_name = downwelling_direct_ultraviolet_and_visible_shortwave_flux_at_surface
   long_name = surface downwelling beam ultraviolet plus visible shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -272,7 +272,7 @@
   kind = kind_phys
   intent = in
 [adjvisdfd]
-  standard_name = surface_downwelling_diffuse_ultraviolet_and_visible_shortwave_flux
+  standard_name = downwelling_diffuse_ultraviolet_and_visible_shortwave_flux_at_surface
   long_name = surface downwelling diffuse ultraviolet plus visible shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -280,7 +280,7 @@
   kind = kind_phys
   intent = in
 [adjsfculw]
-  standard_name = surface_upwelling_longwave_flux
+  standard_name = upwelling_longwave_flux_at_surface
   long_name = surface upwelling longwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -288,7 +288,7 @@
   kind = kind_phys
   intent = in
 [adjsfculw_wat]
-  standard_name = surface_upwelling_longwave_flux_over_water
+  standard_name = upwelling_longwave_flux_at_surface_over_water
   long_name = surface upwelling longwave flux at current time over water
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -296,7 +296,7 @@
   kind = kind_phys
   intent = in
 [adjnirbmu]
-  standard_name = surface_upwelling_direct_near_infrared_shortwave_flux
+  standard_name = upwelling_direct_near_infrared_shortwave_flux_at_surface
   long_name = surface upwelling beam near-infrared shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -304,7 +304,7 @@
   kind = kind_phys
   intent = in
 [adjnirdfu]
-  standard_name = surface_upwelling_diffuse_near_infrared_shortwave_flux
+  standard_name = upwelling_diffuse_near_infrared_shortwave_flux_at_surface
   long_name = surface upwelling diffuse near-infrared shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -312,7 +312,7 @@
   kind = kind_phys
   intent = in
 [adjvisbmu]
-  standard_name = surface_upwelling_direct_ultraviolet_and_visible_shortwave_flux
+  standard_name = upwelling_direct_ultraviolet_and_visible_shortwave_flux_at_surface
   long_name = surface upwelling beam ultraviolet plus visible shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -320,7 +320,7 @@
   kind = kind_phys
   intent = in
 [adjvisdfu]
-  standard_name = surface_upwelling_diffuse_ultraviolet_and_visible_shortwave_flux
+  standard_name = upwelling_diffuse_ultraviolet_and_visible_shortwave_flux_at_surface
   long_name = surface upwelling diffuse ultraviolet plus visible shortwave flux at current time
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -376,7 +376,7 @@
   kind = kind_phys
   intent = in
 [pgr]
-  standard_name = surface_air_pressure
+  standard_name = air_pressure_at_surface
   long_name = surface pressure
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -424,7 +424,7 @@
   kind = kind_phys
   intent = in
 [snowc]
-  standard_name = surface_snow_area_fraction
+  standard_name = snow_area_fraction_at_surface
   long_name = surface snow area fraction
   units = fraction
   dimensions = (horizontal_loop_extent)
@@ -457,7 +457,7 @@
   intent = in
   optional = True
 [epi]
-  standard_name = surface_potential_evaporation
+  standard_name = potential_evaporation_at_surface
   long_name = instantaneous sfc potential evaporation
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -505,7 +505,7 @@
   kind = kind_phys
   intent = inout
 [dlwsfci_cpl]
-  standard_name = surface_downwelling_longwave_flux_for_coupling
+  standard_name = downwelling_longwave_flux_at_surface_for_coupling
   long_name = instantaneous sfc downward lw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -514,7 +514,7 @@
   intent = inout
   optional = True
 [dswsfci_cpl]
-  standard_name = surface_downwelling_shortwave_flux_for_coupling
+  standard_name = downwelling_shortwave_flux_at_surface_for_coupling
   long_name = instantaneous sfc downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -523,7 +523,7 @@
   intent = inout
   optional = True
 [dlwsfc_cpl]
-  standard_name = cumulative_surface_downwelling_longwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_downwelling_longwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative sfc downward lw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -532,7 +532,7 @@
   intent = inout
   optional = True
 [dswsfc_cpl]
-  standard_name = cumulative_surface_downwelling_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_downwelling_shortwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative sfc downward sw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -541,7 +541,7 @@
   intent = inout
   optional = True
 [dnirbmi_cpl]
-  standard_name = surface_downwelling_direct_nir_shortwave_flux_for_coupling
+  standard_name = downwelling_direct_nir_shortwave_flux_at_surface_for_coupling
   long_name = instantaneous sfc nir beam downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -550,7 +550,7 @@
   intent = inout
   optional = True
 [dnirdfi_cpl]
-  standard_name = surface_downwelling_diffuse_nir_shortwave_flux_for_coupling
+  standard_name = downwelling_diffuse_nir_shortwave_flux_at_surface_for_coupling
   long_name = instantaneous sfc nir diff downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -559,7 +559,7 @@
   intent = inout
   optional = True
 [dvisbmi_cpl]
-  standard_name = surface_downwelling_direct_uv_and_vis_shortwave_flux_for_coupling
+  standard_name = downwelling_direct_uv_and_vis_shortwave_flux_at_surface_for_coupling
   long_name = instantaneous sfc uv+vis beam downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -568,7 +568,7 @@
   intent = inout
   optional = True
 [dvisdfi_cpl]
-  standard_name = surface_downwelling_diffuse_uv_and_vis_shortwave_flux_for_coupling
+  standard_name = downwelling_diffuse_uv_and_vis_shortwave_flux_at_surface_for_coupling
   long_name = instantaneous sfc uv+vis diff downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -577,7 +577,7 @@
   intent = inout
   optional = True
 [dnirbm_cpl]
-  standard_name = cumulative_surface_downwelling_direct_nir_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_downwelling_direct_nir_shortwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative sfc nir beam downward sw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -586,7 +586,7 @@
   intent = inout
   optional = True
 [dnirdf_cpl]
-  standard_name = cumulative_surface_downwelling_diffuse_nir_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_downwelling_diffuse_nir_shortwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative sfc nir diff downward sw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -595,7 +595,7 @@
   intent = inout
   optional = True
 [dvisbm_cpl]
-  standard_name = cumulative_surface_downwelling_direct_uv_and_vis_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_downwelling_direct_uv_and_vis_shortwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative sfc uv+vis beam dnwd sw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -604,7 +604,7 @@
   intent = inout
   optional = True
 [dvisdf_cpl]
-  standard_name = cumulative_surface_downwelling_diffuse_uv_and_vis_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_downwelling_diffuse_uv_and_vis_shortwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative sfc uv+vis diff dnwd sw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -613,7 +613,7 @@
   intent = inout
   optional = True
 [nlwsfci_cpl]
-  standard_name = surface_net_downwelling_longwave_flux_for_coupling
+  standard_name = net_downwelling_longwave_flux_at_surface_for_coupling
   long_name = instantaneous net sfc downward lw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -622,7 +622,7 @@
   intent = inout
   optional = True
 [nlwsfc_cpl]
-  standard_name = cumulative_surface_net_downwelling_longwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_net_downwelling_longwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative net downward lw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -676,7 +676,7 @@
   intent = inout
   optional = True
 [psurfi_cpl]
-  standard_name = surface_air_pressure_for_coupling
+  standard_name = air_pressure_at_surface_for_coupling
   long_name = instantaneous sfc pressure
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -685,7 +685,7 @@
   intent = inout
   optional = True
 [nnirbmi_cpl]
-  standard_name = surface_net_downwelling_direct_nir_shortwave_flux_for_coupling
+  standard_name = net_downwelling_direct_nir_shortwave_flux_at_surface_for_coupling
   long_name = instantaneous net nir beam sfc downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -694,7 +694,7 @@
   intent = inout
   optional = True
 [nnirdfi_cpl]
-  standard_name = surface_net_downwelling_diffuse_nir_shortwave_flux_for_coupling
+  standard_name = net_downwelling_diffuse_nir_shortwave_flux_at_surface_for_coupling
   long_name = instantaneous net nir diff sfc downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -703,7 +703,7 @@
   intent = inout
   optional = True
 [nvisbmi_cpl]
-  standard_name = surface_net_downwelling_direct_uv_and_vis_shortwave_flux_for_coupling
+  standard_name = net_downwelling_direct_uv_and_vis_shortwave_flux_at_surface_for_coupling
   long_name = instantaneous net uv+vis beam downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -712,7 +712,7 @@
   intent = inout
   optional = True
 [nvisdfi_cpl]
-  standard_name = surface_net_downwelling_diffuse_uv_and_vis_shortwave_flux_for_coupling
+  standard_name = net_downwelling_diffuse_uv_and_vis_shortwave_flux_at_surface_for_coupling
   long_name = instantaneous net uv+vis diff downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -721,7 +721,7 @@
   intent = inout
   optional = True
 [nswsfci_cpl]
-  standard_name = surface_net_downwelling_shortwave_flux_for_coupling
+  standard_name = net_downwelling_shortwave_flux_at_surface_for_coupling
   long_name = instantaneous net sfc downward sw flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -730,7 +730,7 @@
   intent = inout
   optional = True
 [nswsfc_cpl]
-  standard_name = cumulative_surface_net_downwelling_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_net_downwelling_shortwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative net downward sw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -739,7 +739,7 @@
   intent = inout
   optional = True
 [nnirbm_cpl]
-  standard_name = cumulative_surface_net_downwelling_direct_nir_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_net_downwelling_direct_nir_shortwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative net nir beam downward sw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -748,7 +748,7 @@
   intent = inout
   optional = True
 [nnirdf_cpl]
-  standard_name = cumulative_surface_net_downwelling_diffuse_nir_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_net_downwelling_diffuse_nir_shortwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative net nir diff downward sw flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -757,7 +757,7 @@
   intent = inout
   optional = True
 [nvisbm_cpl]
-  standard_name = cumulative_surface_net_downwelling_direct_uv_and_vis_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_net_downwelling_direct_uv_and_vis_shortwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative net uv+vis beam downward sw rad flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -766,7 +766,7 @@
   intent = inout
   optional = True
 [nvisdf_cpl]
-  standard_name = cumulative_surface_net_downwelling_diffuse_uv_and_vis_shortwave_flux_for_coupling_multiplied_by_timestep
+  standard_name = cumulative_net_downwelling_diffuse_uv_and_vis_shortwave_flux_at_surface_for_coupling_multiplied_by_timestep
   long_name = cumulative net uv+vis diff downward sw rad flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -815,7 +815,7 @@
   kind = kind_phys
   intent = inout
 [snowca]
-  standard_name = cumulative_surface_snow_area_fraction_multiplied_by_timestep
+  standard_name = cumulative_snow_area_fraction_at_surface_multiplied_by_timestep
   long_name = cumulative surface snow area fraction multiplied by timestep
   units = s
   dimensions = (horizontal_loop_extent)
@@ -840,7 +840,7 @@
   intent = inout
   optional = True
 [ep]
-  standard_name = cumulative_surface_upward_potential_latent_heat_flux_multiplied_by_timestep
+  standard_name = cumulative_upward_potential_latent_heat_flux_at_surface_multiplied_by_timestep
   long_name = cumulative surface upward potential latent heat flux multiplied by timestep
   units = W m-2 s
   dimensions = (horizontal_loop_extent)
@@ -969,7 +969,7 @@
   kind = kind_phys
   intent = in
 [hflx]
-  standard_name = surface_upward_temperature_flux
+  standard_name = upward_temperature_flux_at_surface
   long_name = kinematic surface upward sensible heat flux
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -977,7 +977,7 @@
   kind = kind_phys
   intent = in
 [evap]
-  standard_name = surface_upward_specific_humidity_flux
+  standard_name = upward_specific_humidity_flux_at_surface
   long_name = kinematic surface upward latent heat flux
   units = kg kg-1 m s-1
   dimensions = (horizontal_loop_extent)
@@ -985,7 +985,7 @@
   kind = kind_phys
   intent = in
 [hflxq]
-  standard_name = kinematic_surface_upward_sensible_heat_flux_reduced_by_surface_roughness_and_vegetation
+  standard_name = kinematic_upward_sensible_heat_flux_at_surface_reduced_by_surface_roughness_and_vegetation
   long_name = kinematic surface upward sensible heat flux reduced by surface roughness and vegetation
   units = K m s-1
   dimensions = (horizontal_loop_extent)
@@ -993,7 +993,7 @@
   kind = kind_phys
   intent = out
 [zvfun]
-  standard_name = function_of_surface_roughness_length_and_green_vegetation_fraction
+  standard_name = function_of_roughness_length_and_green_vegetation_fraction
   long_name = function of surface roughness length and green vegetation fraction
   units = 1
   dimensions = (horizontal_loop_extent)
@@ -1001,7 +1001,7 @@
   kind = kind_phys
   intent = in
 [hffac]
-  standard_name = surface_upward_sensible_heat_flux_reduction_factor
+  standard_name = upward_sensible_heat_flux_at_surface_reduction_factor
   long_name = surface upward sensible heat flux reduction factor from canopy heat storage
   units = 1
   dimensions = (horizontal_loop_extent)
