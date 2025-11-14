@@ -32,7 +32,7 @@
 [sigmatot]
   standard_name = convective_updraft_area_fraction_at_model_interfaces
   long_name = convective updraft area fraction at model interfaces
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
   type = real
   kind = kind_phys
@@ -40,7 +40,7 @@
 [sigmafrac]
   standard_name = convective_updraft_area_fraction
   long_name = convective updraft area fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys

@@ -17,7 +17,7 @@
 [cgwf]
   standard_name = tunable_parameters_for_convective_gravity_wave_drag
   long_name = multiplication factors for convective gravity wave drag
-  units = none
+  units = 1
   dimensions = (2)
   type = real
   kind = kind_phys
@@ -33,7 +33,7 @@
 [work1]
   standard_name = grid_size_related_coefficient_used_in_scale_sensitive_schemes
   long_name = grid size related coefficient used in scale-sensitive schemes
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -41,7 +41,7 @@
 [work2]
   standard_name = grid_size_related_coefficient_used_in_scale_sensitive_schemes_complement
   long_name = complement to work1
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -57,7 +57,7 @@
 [cldf]
   standard_name = cloud_area_fraction
   long_name = fraction of grid box area in which updrafts occur
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

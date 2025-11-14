@@ -55,7 +55,7 @@
 [work1]
   standard_name = grid_size_related_coefficient_used_in_scale_sensitive_schemes
   long_name = grid size related coefficient used in scale-sensitive schemes
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -63,7 +63,7 @@
 [work2]
   standard_name = grid_size_related_coefficient_used_in_scale_sensitive_schemes_complement
   long_name = complement to work1
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

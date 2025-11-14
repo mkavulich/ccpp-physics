@@ -138,7 +138,7 @@
 [prslk]
   standard_name = dimensionless_exner_function
   long_name = mid-layer Exner function
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -185,7 +185,7 @@
 [oc1]
   standard_name = convexity_of_subgrid_orography
   long_name = convexity of subgrid height_above_mean_sea_level
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -193,7 +193,7 @@
 [oa4]
   standard_name = asymmetry_of_subgrid_orography
   long_name = asymmetry of subgrid height_above_mean_sea_level
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,4)
   type = real
   kind = kind_phys
@@ -201,7 +201,7 @@
 [ol4]
   standard_name = fraction_of_grid_box_with_subgrid_orography_higher_than_critical_height
   long_name = horizontal fraction of grid box covered by subgrid height_above_mean_sea_level higher than critical height
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,4)
   type = real
   kind = kind_phys
@@ -217,7 +217,7 @@
 [oc1ss]
   standard_name = convexity_of_subgrid_orography_small_scale
   long_name = convexity of subgrid height_above_mean_sea_level small scale
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -225,7 +225,7 @@
 [oa4ss]
   standard_name = asymmetry_of_subgrid_orography_small_scale
   long_name = asymmetry of subgrid height_above_mean_sea_level small scale
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,4)
   type = real
   kind = kind_phys
@@ -233,7 +233,7 @@
 [ol4ss]
   standard_name = fraction_of_grid_box_with_subgrid_orography_higher_than_critical_height_small_scale
   long_name = horizontal fraction of grid box covered by subgrid height_above_mean_sea_level higher than critical height small scale
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,4)
   type = real
   kind = kind_phys
@@ -249,7 +249,7 @@
 [sigma]
   standard_name = slope_of_subgrid_orography
   long_name = slope of subgrid height_above_mean_sea_level
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -257,7 +257,7 @@
 [gamma]
   standard_name = anisotropy_of_subgrid_orography
   long_name = anisotropy of subgrid height_above_mean_sea_level
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -441,7 +441,7 @@
 [br1]
   standard_name = bulk_richardson_number_at_lowest_model_level
   long_name = bulk Richardson number at the surface
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -489,7 +489,7 @@
 [fv]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -497,7 +497,7 @@
 [pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -512,7 +512,7 @@
 [cdmbgwd]
   standard_name = multiplicative_tunable_parameters_for_mountain_blocking_and_orographic_gravity_wave_drag
   long_name = multiplic. factors for (1) mountain blocking drag coeff. and (2) ref. level orographic gravity wave drag
-  units = none
+  units = 1
   dimensions = (4)
   type = real
   kind = kind_phys
@@ -556,7 +556,7 @@
 [rdxzb]
   standard_name = level_of_dividing_streamline
   long_name = level of the dividing streamline
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -600,7 +600,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys

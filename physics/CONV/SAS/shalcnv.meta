@@ -90,7 +90,7 @@
 [fv]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -130,7 +130,7 @@
 [eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -138,7 +138,7 @@
 [epsm1]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants_minus_one
   long_name = (rd/rv) - 1
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -354,7 +354,7 @@
 [cnvc]
   standard_name = convective_cloud_cover
   long_name = convective cloud cover
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -362,7 +362,7 @@
 [clam]
   standard_name = entrainment_rate_coefficient_for_shallow_convection
   long_name = entrainment rate coefficient for shallow convection
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -386,7 +386,7 @@
 [pgcon]
   standard_name = momentum_transport_reduction_factor_due_to_pressure_gradient_force_for_shallow_convection
   long_name = reduction factor in momentum transport due to shallow convection induced pressure gradient force
-  units = frac
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys

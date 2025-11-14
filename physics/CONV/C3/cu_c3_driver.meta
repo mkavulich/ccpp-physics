@@ -152,7 +152,7 @@
 [cactiv]
   standard_name = counter_for_grell_freitas_convection
   long_name = convective activity memory
-  units = none
+  units = count
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = inout
@@ -160,7 +160,7 @@
 [cactiv_m]
   standard_name = counter_for_grell_freitas_mid_level_convection
   long_name = mid-level cloud convective activity memory
-  units = none
+  units = count
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = inout
@@ -184,7 +184,7 @@
 [fv]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -251,7 +251,7 @@
 [sigmain]
   standard_name = prognostic_updraft_area_fraction_in_convection
   long_name = convective updraft area fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -260,7 +260,7 @@
 [sigmaout]
   standard_name = updraft_area_fraction_updated_by_physics
   long_name = convective updraft area fraction updated by physics
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -269,7 +269,7 @@
 [betascu]
   standard_name = tuning_param_for_shallow_cu
   long_name = tuning param for shallow cu in case prognostic closure is used
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -277,7 +277,7 @@
 [betamcu]
   standard_name = tuning_param_for_midlevel_cu
   long_name = tuning param for midlevel cu in case prognostic closure is used
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -285,7 +285,7 @@
 [betadcu]
   standard_name = tuning_param_for_deep_cu
   long_name = tuning param for deep cu in case prognostic closure is used
-  units = none
+  units = 1
   dimensions = ()
   type = real
   intent = in
@@ -440,7 +440,7 @@
 [aod_gf]
   standard_name = aerosol_optical_depth_for_grell_freitas_deep_convection
   long_name = aerosol optical depth used in Grell-Freitas Convective Parameterization
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -506,7 +506,7 @@
 [cnvc]
   standard_name = convective_cloud_cover
   long_name = convective cloud cover
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -535,7 +535,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys
@@ -667,7 +667,7 @@
 [cap_suppress]
   standard_name = radar_derived_convection_suppression
   long_name = radar-derived convection suppression
-  units = unitless
+  units = 1
   dimensions = (horizontal_loop_extent,number_of_radar_derived_temperature_or_convection_suppression_intervals)
   type = real
   kind = kind_phys
@@ -676,7 +676,7 @@
 [ca_deep]
   standard_name = cellular_automata_area_fraction_for_deep_convection_from_coupled_process
   long_name = fraction of cellular automata for deep convection
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

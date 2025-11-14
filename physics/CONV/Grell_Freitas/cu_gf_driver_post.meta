@@ -56,21 +56,21 @@
 [cactiv]
   standard_name = counter_for_grell_freitas_convection
   long_name = convective activity memory
-  units = none
+  units = count
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = in
 [cactiv_m]
   standard_name = counter_for_grell_freitas_mid_level_convection
   long_name = midlevel convective activity memory
-  units = none
+  units = count
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = in
 [conv_act]
   standard_name = consecutive_calls_for_grell_freitas_convection
   long_name = Memory counter for GF
-  units = none
+  units = count
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -78,7 +78,7 @@
 [conv_act_m]
   standard_name = consecutive_calls_for_grell_freitas_mid_level_convection
   long_name = Memory counter for GF midlevel
-  units = none
+  units = count
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys

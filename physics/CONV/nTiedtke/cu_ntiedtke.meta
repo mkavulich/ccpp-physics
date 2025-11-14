@@ -308,7 +308,7 @@
 [cnvc]
   standard_name = convective_cloud_cover
   long_name = convective cloud cover
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys

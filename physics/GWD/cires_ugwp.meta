@@ -26,7 +26,7 @@
 [nlunit]
   standard_name = iounit_of_namelist
   long_name = fortran unit number for opening namelist file
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
@@ -41,7 +41,7 @@
 [logunit]
   standard_name = iounit_of_log
   long_name = fortran unit number for writing logfile
-  units = none
+  units = 1
   dimensions = ()
   type = integer
   intent = in
@@ -85,7 +85,7 @@
 [bk]
   standard_name = sigma_pressure_hybrid_coordinate_b_coefficient
   long_name = b parameter for sigma pressure level calculations
-  units = none
+  units = 1
   dimensions = (vertical_interface_dimension)
   type = real
   kind = kind_phys
@@ -101,7 +101,7 @@
 [cdmbgwd]
   standard_name = multiplicative_tunable_parameters_for_mountain_blocking_and_orographic_gravity_wave_drag
   long_name = multiplication factors for cdmb and gwd
-  units = none
+  units = 1
   dimensions = (4)
   type = real
   kind = kind_phys
@@ -109,7 +109,7 @@
 [cgwf]
   standard_name = tunable_parameters_for_convective_gravity_wave_drag
   long_name = multiplication factor for convective GWD
-  units = none
+  units = 1
   dimensions = (2)
   type = real
   kind = kind_phys
@@ -290,7 +290,7 @@
 [oc]
   standard_name = convexity_of_subgrid_orography
   long_name = convexity of subgrid height_above_mean_sea_level
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -306,7 +306,7 @@
 [sigma]
   standard_name = slope_of_subgrid_orography
   long_name = slope of subgrid height_above_mean_sea_level
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -314,7 +314,7 @@
 [gamma]
   standard_name = anisotropy_of_subgrid_orography
   long_name = anisotropy of subgrid height_above_mean_sea_level
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -330,7 +330,7 @@
 [clx]
   standard_name = fraction_of_grid_box_with_subgrid_orography_higher_than_critical_height
   long_name = horizontal fraction of grid box covered by subgrid height_above_mean_sea_level higher than critical height
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,4)
   type = real
   kind = kind_phys
@@ -338,7 +338,7 @@
 [oa4]
   standard_name = asymmetry_of_subgrid_orography
   long_name = asymmetry of subgrid height_above_mean_sea_level
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,4)
   type = real
   kind = kind_phys
@@ -360,7 +360,7 @@
 [cdmbgwd]
   standard_name = multiplicative_tunable_parameters_for_mountain_blocking_and_orographic_gravity_wave_drag
   long_name = multiplication factors for cdmb and gwd
-  units = none
+  units = 1
   dimensions = (4)
   type = real
   kind = kind_phys
@@ -376,7 +376,7 @@
 [xlat_d]
   standard_name = latitude_in_degree
   long_name = latitude in degree north
-  units = degree_north
+  units = degree
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -384,7 +384,7 @@
 [sinlat]
   standard_name = sine_of_latitude
   long_name = sine of the grid latitude
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -392,7 +392,7 @@
 [coslat]
   standard_name = cosine_of_latitude
   long_name = cosine of the grid latitude
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -456,7 +456,7 @@
 [prslk]
   standard_name = dimensionless_exner_function
   long_name = dimensionless Exner function at model layer centers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -738,7 +738,7 @@
 [rdxzb]
   standard_name = level_of_dividing_streamline
   long_name = level of the dividing streamline
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -754,7 +754,7 @@
 [con_pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -786,7 +786,7 @@
 [con_fvirt]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = rv/rd - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -847,7 +847,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys

@@ -81,7 +81,7 @@
 [sigmafrac]
   standard_name = convective_updraft_area_fraction
   long_name = convective updraft area fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -129,7 +129,7 @@
 [cldfrac]
   standard_name = cloud_fraction_for_mg
   long_name = cloud fraction used by Morrison-Gettelman MP
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -138,7 +138,7 @@
 [subcldfrac]
   standard_name = subgrid_scale_cloud_fraction_from_shoc
   long_name = subgrid-scale cloud fraction from the SHOC scheme
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys

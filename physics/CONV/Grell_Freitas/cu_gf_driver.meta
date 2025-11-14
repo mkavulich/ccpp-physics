@@ -124,7 +124,7 @@
 [cactiv]
   standard_name = counter_for_grell_freitas_convection
   long_name = convective activity memory
-  units = none
+  units = count
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = inout
@@ -132,7 +132,7 @@
 [cactiv_m]
   standard_name = counter_for_grell_freitas_mid_level_convection
   long_name = mid-level cloud convective activity memory
-  units = none
+  units = count
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = inout
@@ -330,7 +330,7 @@
 [aod_gf]
   standard_name = aerosol_optical_depth_for_grell_freitas_deep_convection
   long_name = aerosol optical depth used in Grell-Freitas Convective Parameterization
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -395,7 +395,7 @@
 [cnvc]
   standard_name = convective_cloud_cover
   long_name = convective cloud cover
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -424,7 +424,7 @@
 [dtend]
   standard_name = cumulative_change_of_state_variables
   long_name = diagnostic tendencies for state variables
-  units = mixed
+  units = various
   dimensions = (horizontal_loop_extent,vertical_layer_dimension,cumulative_change_of_state_variables_outer_index_max)
   type = real
   kind = kind_phys
@@ -556,7 +556,7 @@
 [cap_suppress]
   standard_name = radar_derived_convection_suppression
   long_name = radar-derived convection suppression
-  units = unitless
+  units = 1
   dimensions = (horizontal_loop_extent,number_of_radar_derived_temperature_or_convection_suppression_intervals)
   type = real
   kind = kind_phys
@@ -650,7 +650,7 @@
 [fscav]
   standard_name = smoke_dust_conv_wet_coef
   long_name = smoke dust convective wet scavanging coefficents
-  units = none
+  units = 1
   dimensions = (3)
   type = real
   kind = kind_phys

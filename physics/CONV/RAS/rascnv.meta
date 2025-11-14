@@ -73,7 +73,7 @@
 [con_fvirt]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = (rv/rd) - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -121,7 +121,7 @@
 [con_eps]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants
   long_name = rd/rv
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -129,7 +129,7 @@
 [con_epsm1]
   standard_name = ratio_of_dry_air_to_water_vapor_gas_constants_minus_one
   long_name = (rd/rv) - 1
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -208,7 +208,7 @@
 [ccwf]
   standard_name = tunable_parameter_for_critical_cloud_workfunction_in_relaxed_arakawa_schubert_deep_convection
   long_name = multiplication factor for critical_cloud_workfunction
-  units = none
+  units = 1
   dimensions = (2)
   type = real
   kind = kind_phys
@@ -224,7 +224,7 @@
 [dxmin]
   standard_name = min_grid_scale
   long_name = minimum scaling factor for critical relative humidity
-  units = m2 rad-2
+  units = m2 radian-2
   dimensions = ()
   type = real
   kind = kind_phys
@@ -232,7 +232,7 @@
 [dxinv]
   standard_name = reciprocal_of_grid_scale_range
   long_name = inverse scaling factor for critical relative humidity
-  units = rad2 m-2
+  units = radian2 m-2
   dimensions = ()
   type = real
   kind = kind_phys
@@ -240,7 +240,7 @@
 [psauras]
   standard_name = autoconversion_to_snow_coefficient_for_deep_convection
   long_name = conversion coefficient from cloud ice to snow in ras
-  units = none
+  units = 1
   dimensions = (2)
   type = real
   kind = kind_phys
@@ -248,7 +248,7 @@
 [prauras]
   standard_name = autoconversion_to_rain_coefficient_for_deep_convection
   long_name = conversion coefficient from cloud water to rain in ras
-  units = none
+  units = 1
   dimensions = (2)
   type = real
   kind = kind_phys
@@ -256,7 +256,7 @@
 [wminras]
   standard_name = cloud_condensate_autoconversion_threshold_coefficient_for_deep_convection
   long_name = conversion coefficient from cloud liquid and ice to precipitation in ras
-  units = none
+  units = 1
   dimensions = (2)
   type = real
   kind = kind_phys
@@ -264,7 +264,7 @@
 [dlqf]
   standard_name = cloud_condensate_detrainment_coefficient
   long_name = condensate fraction detrained with in a updraft layers
-  units = none
+  units = 1
   dimensions = (2)
   type = real
   kind = kind_phys
@@ -286,7 +286,7 @@
 [rannum]
   standard_name = random_number
   long_name = random number array (0-1)
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,number_of_random_numbers)
   type = real
   kind = kind_phys
@@ -329,7 +329,7 @@
 [rhc]
   standard_name = critical_relative_humidity
   long_name = critical relative humidity
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -377,7 +377,7 @@
 [fscav]
   standard_name = chemical_tracer_scavenging_fractions
   long_name = array of aerosol scavenging coefficients
-  units = none
+  units = 1
   dimensions = (number_of_chemical_tracers)
   type = real
   kind = kind_phys
@@ -401,7 +401,7 @@
 [prsik]
   standard_name = dimensionless_exner_function_at_interface
   long_name = dimensionless Exner function at model layer interfaces
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_interface_dimension)
   type = real
   kind = kind_phys
@@ -409,7 +409,7 @@
 [prslk]
   standard_name = dimensionless_exner_function
   long_name = dimensionless Exner function at model layer centers
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -440,7 +440,7 @@
 [cdrag]
   standard_name = surface_drag_coefficient_for_momentum_in_air
   long_name = surface exchange coeff for momentum
-  units = none
+  units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -536,7 +536,7 @@
 [cf_upi]
   standard_name = convective_cloud_fraction_for_microphysics
   long_name = convective cloud fraction for microphysics
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -563,7 +563,7 @@
 [clcn]
   standard_name = convective_cloud_volume_fraction
   long_name = convective cloud volume fraction
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys
@@ -572,7 +572,7 @@
 [cnv_fice]
   standard_name = ice_fraction_in_convective_tower
   long_name = ice fraction in convective tower
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
   type = real
   kind = kind_phys

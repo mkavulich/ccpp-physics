@@ -152,7 +152,7 @@
 [cldf]
   standard_name = cloud_area_fraction
   long_name = fraction of grid box area in which updrafts occur
-  units = frac
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -184,7 +184,7 @@
 [fv]
   standard_name = ratio_of_vapor_to_dry_air_gas_constants_minus_one
   long_name = rv/rd - 1 (rv = ideal gas constant for water vapor)
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
@@ -192,7 +192,7 @@
 [pi]
   standard_name = pi
   long_name = ratio of a circle's circumference to its diameter
-  units = none
+  units = 1
   dimensions = ()
   type = real
   kind = kind_phys
