@@ -328,7 +328,7 @@
   kind = kind_phys
   intent = in
 [ud_mf]
-  standard_name = instantaneous_atmosphere_updraft_convective_mass_flux
+  standard_name = atmosphere_updraft_convective_mass_flux
   long_name = (updraft mass flux) * delt
   units = kg m-2
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -336,7 +336,7 @@
   kind = kind_phys
   intent = out
 [dt_mf]
-  standard_name = instantaneous_atmosphere_detrainment_convective_mass_flux
+  standard_name = atmosphere_detrainment_convective_mass_flux
   long_name = (detrainment mass flux) * delt
   units = kg m-2
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)

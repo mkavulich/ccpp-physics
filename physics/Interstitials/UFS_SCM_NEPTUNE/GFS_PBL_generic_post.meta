@@ -416,7 +416,7 @@
   kind = kind_phys
   intent = in
 [dusfc1]
-  standard_name = instantaneous_surface_x_momentum_flux
+  standard_name = surface_x_momentum_flux
   long_name = surface momentum flux in the x-direction valid for current call
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -424,7 +424,7 @@
   kind = kind_phys
   intent = in
 [dvsfc1]
-  standard_name = instantaneous_surface_y_momentum_flux
+  standard_name = surface_y_momentum_flux
   long_name = surface momentum flux in the y-direction valid for current call
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -432,7 +432,7 @@
   kind = kind_phys
   intent = in
 [dtsfc1]
-  standard_name = instantaneous_surface_upward_sensible_heat_flux
+  standard_name = surface_upward_sensible_heat_flux
   long_name = surface upward sensible heat flux valid for current call
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -484,7 +484,7 @@
   type = integer
   intent = in
 [dqsfc1]
-  standard_name = instantaneous_surface_upward_latent_heat_flux
+  standard_name = surface_upward_latent_heat_flux
   long_name = surface upward latent heat flux valid for current call
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -660,7 +660,7 @@
   kind = kind_phys
   intent = inout
 [dusfci_diag]
-  standard_name = instantaneous_surface_x_momentum_flux_for_diag
+  standard_name = surface_x_momentum_flux_for_diag
   long_name = instantaneous sfc x momentum flux multiplied by timestep
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -668,7 +668,7 @@
   kind = kind_phys
   intent = inout
 [dvsfci_diag]
-  standard_name = instantaneous_surface_y_momentum_flux_for_diag
+  standard_name = surface_y_momentum_flux_for_diag
   long_name = instantaneous sfc y momentum flux multiplied by timestep
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -676,7 +676,7 @@
   kind = kind_phys
   intent = inout
 [dtsfci_diag]
-  standard_name = instantaneous_surface_upward_sensible_heat_flux_for_diag
+  standard_name = surface_upward_sensible_heat_flux_for_diag
   long_name = instantaneous sfc sensible heat flux multiplied by timestep
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -684,7 +684,7 @@
   kind = kind_phys
   intent = inout
 [dqsfci_diag]
-  standard_name = instantaneous_surface_upward_latent_heat_flux_for_diag
+  standard_name = surface_upward_latent_heat_flux_for_diag
   long_name = instantaneous sfc latent heat flux multiplied by timestep
   units = W m-2
   dimensions = (horizontal_loop_extent)

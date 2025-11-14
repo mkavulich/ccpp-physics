@@ -355,7 +355,7 @@
   kind = kind_phys
   intent = in
 [dusfc]
-  standard_name = instantaneous_surface_x_momentum_flux
+  standard_name = surface_x_momentum_flux
   long_name = x momentum flux
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -363,7 +363,7 @@
   kind = kind_phys
   intent = out
 [dvsfc]
-  standard_name = instantaneous_surface_y_momentum_flux
+  standard_name = surface_y_momentum_flux
   long_name = y momentum flux
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -371,7 +371,7 @@
   kind = kind_phys
   intent = out
 [dtsfc]
-  standard_name = instantaneous_surface_upward_sensible_heat_flux
+  standard_name = surface_upward_sensible_heat_flux
   long_name = surface upward sensible heat flux
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -379,7 +379,7 @@
   kind = kind_phys
   intent = out
 [dqsfc]
-  standard_name = instantaneous_surface_upward_latent_heat_flux
+  standard_name = surface_upward_latent_heat_flux
   long_name = surface upward latent heat flux
   units = W m-2
   dimensions = (horizontal_loop_extent)

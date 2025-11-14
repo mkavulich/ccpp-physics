@@ -61,7 +61,7 @@
   kind = kind_phys
   intent = in
 [tau_ogw]
-  standard_name = instantaneous_momentum_flux_due_to_orographic_gravity_wave_drag
+  standard_name = momentum_flux_due_to_orographic_gravity_wave_drag
   long_name = momentum flux or stress due to orographic gravity wave drag
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -69,7 +69,7 @@
   kind = kind_phys
   intent = in
 [tau_ngw]
-  standard_name = instantaneous_momentum_flux_due_to_nonstationary_gravity_wave
+  standard_name = momentum_flux_due_to_nonstationary_gravity_wave
   long_name = momentum flux or stress due to nonstationary gravity waves
   units = Pa
   dimensions = (horizontal_loop_extent)

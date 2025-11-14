@@ -543,7 +543,7 @@
   kind = kind_phys
   intent = in
 [hf2d]
-  standard_name = instantaneous_surface_upward_sensible_heat_flux
+  standard_name = surface_upward_sensible_heat_flux
   long_name = surface upward sensible heat flux valid for current call
   units = W m-2
   dimensions = (horizontal_loop_extent)

@@ -493,7 +493,7 @@
   type = integer
   intent = in
 [dusfcg]
-  standard_name = instantaneous_x_stress_due_to_gravity_wave_drag
+  standard_name = x_stress_due_to_gravity_wave_drag
   long_name = zonal surface stress due to orographic gravity wave drag
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -501,7 +501,7 @@
   kind = kind_phys
   intent = out
 [dvsfcg]
-  standard_name = instantaneous_y_stress_due_to_gravity_wave_drag
+  standard_name = y_stress_due_to_gravity_wave_drag
   long_name = meridional surface stress due to orographic gravity wave drag
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -541,7 +541,7 @@
   kind = kind_phys
   intent = out
 [tau_tofd]
-  standard_name = instantaneous_momentum_flux_due_to_turbulent_orographic_form_drag
+  standard_name = momentum_flux_due_to_turbulent_orographic_form_drag
   long_name = momentum flux or stress due to TOFD
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -549,7 +549,7 @@
   kind = kind_phys
   intent = out
 [tau_mtb]
-  standard_name = instantaneous_momentum_flux_due_to_mountain_blocking_drag
+  standard_name = momentum_flux_due_to_mountain_blocking_drag
   long_name = momentum flux or stress due to mountain blocking drag
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -557,7 +557,7 @@
   kind = kind_phys
   intent = out
 [tau_ogw]
-  standard_name = instantaneous_momentum_flux_due_to_orographic_gravity_wave_drag
+  standard_name = momentum_flux_due_to_orographic_gravity_wave_drag
   long_name = momentum flux or stress due to orographic gravity wave drag
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -565,7 +565,7 @@
   kind = kind_phys
   intent = out
 [tau_ngw]
-  standard_name = instantaneous_momentum_flux_due_to_nonstationary_gravity_wave
+  standard_name = momentum_flux_due_to_nonstationary_gravity_wave
   long_name = momentum flux or stress due to nonstationary gravity waves
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -669,7 +669,7 @@
   intent = out
   optional = True
 [dudt_mtb]
-  standard_name = instantaneous_change_in_x_wind_due_to_mountain_blocking_drag
+  standard_name = change_in_x_wind_due_to_mountain_blocking_drag
   long_name = instantaneous change in x wind due to mountain blocking drag
   units = m s-2
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)

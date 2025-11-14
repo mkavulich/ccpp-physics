@@ -384,7 +384,7 @@
   kind = kind_phys
   intent = in
 [xcosz]
-  standard_name = instantaneous_cosine_of_zenith_angle
+  standard_name = cosine_of_zenith_angle
   long_name = cosine of zenith angle at current time
   units = 1
   dimensions = (horizontal_loop_extent)
@@ -448,7 +448,7 @@
   kind = kind_phys
   intent = in
 [pahi]
-  standard_name = instantaneous_total_precipitation_advected_heat
+  standard_name = total_precipitation_advected_heat
   long_name = instantaneous precipitation advected heat - total
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -457,7 +457,7 @@
   intent = in
   optional = True
 [epi]
-  standard_name = instantaneous_surface_potential_evaporation
+  standard_name = surface_potential_evaporation
   long_name = instantaneous sfc potential evaporation
   units = W m-2
   dimensions = (horizontal_loop_extent)
@@ -465,7 +465,7 @@
   kind = kind_phys
   intent = inout
 [gfluxi]
-  standard_name = instantaneous_surface_ground_heat_flux
+  standard_name = surface_ground_heat_flux
   long_name = instantaneous sfc ground heat flux
   units = W m-2
   dimensions = (horizontal_loop_extent)

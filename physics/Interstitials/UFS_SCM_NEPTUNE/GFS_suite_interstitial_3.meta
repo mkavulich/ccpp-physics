@@ -262,7 +262,7 @@
   intent = inout
   optional = True
 [qmicro]
-  standard_name = instantaneous_tendency_of_specific_humidity_due_to_microphysics
+  standard_name = tendency_of_specific_humidity_due_to_microphysics
   long_name = moisture tendency due to microphysics
   units = kg kg-1 s-1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)

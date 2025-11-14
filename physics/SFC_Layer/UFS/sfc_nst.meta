@@ -346,7 +346,7 @@
   kind = kind_phys
   intent = in
 [xcosz]
-  standard_name = instantaneous_cosine_of_zenith_angle
+  standard_name = cosine_of_zenith_angle
   long_name = cosine of solar zenith angle
   units = 1
   dimensions = (horizontal_loop_extent)

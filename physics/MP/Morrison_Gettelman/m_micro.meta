@@ -516,7 +516,7 @@
   kind = kind_phys
   intent = in
 [tauorox]
-  standard_name = instantaneous_surface_x_momentum_flux
+  standard_name = surface_x_momentum_flux
   long_name = x momentum flux
   units = Pa
   dimensions = (horizontal_loop_extent)
@@ -524,7 +524,7 @@
   kind = kind_phys
   intent = in
 [tauoroy]
-  standard_name = instantaneous_surface_y_momentum_flux
+  standard_name = surface_y_momentum_flux
   long_name = y momentum flux
   units = Pa
   dimensions = (horizontal_loop_extent)

@@ -1386,7 +1386,7 @@
   kind = kind_phys
   intent = out
 [cldfra]
-  standard_name = instantaneous_3d_cloud_fraction
+  standard_name = 3d_cloud_fraction
   long_name = instantaneous 3D cloud fraction for all MPs
   units = fraction
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)

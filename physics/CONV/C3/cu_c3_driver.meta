@@ -240,7 +240,7 @@
   kind = kind_phys
   intent = in
 [qmicro]
-  standard_name = instantaneous_tendency_of_specific_humidity_due_to_microphysics
+  standard_name = tendency_of_specific_humidity_due_to_microphysics
   long_name = moisture tendency due to microphysics
   units = kg kg-1 s-1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -471,7 +471,7 @@
   kind = kind_phys
   intent = in
 [ud_mf]
-  standard_name = instantaneous_atmosphere_updraft_convective_mass_flux
+  standard_name = atmosphere_updraft_convective_mass_flux
   long_name = (updraft mass flux) * delt
   units = kg m-2
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -480,7 +480,7 @@
   intent = out
   optional = True
 [dd_mf]
-  standard_name = instantaneous_atmosphere_downdraft_convective_mass_flux
+  standard_name = atmosphere_downdraft_convective_mass_flux
   long_name = (downdraft mass flux) * delt
   units = kg m-2
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
@@ -488,7 +488,7 @@
   kind = kind_phys
   intent = out
 [dt_mf]
-  standard_name = instantaneous_atmosphere_detrainment_convective_mass_flux
+  standard_name = atmosphere_detrainment_convective_mass_flux
   long_name = (detrainment mass flux) * delt
   units = kg m-2
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
