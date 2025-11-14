@@ -133,28 +133,28 @@
 [iactive_T]
   standard_name = index_for_active_t_in_ccpp_suite_simulator
   long_name = index into active process tracer array for temperature in CCPP suite simulator
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [iactive_u]
   standard_name = index_for_active_u_in_ccpp_suite_simulator
   long_name = index into active process tracer array for zonal wind in CCPP suite simulator
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [iactive_v]
   standard_name = index_for_active_v_in_ccpp_suite_simulator
   long_name = index into active process tracer array for meridional wind in CCPP suite simulator
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [iactive_q]
   standard_name = index_for_active_q_in_ccpp_suite_simulator
   long_name = index into active process tracer array for moisture in CCPP suite simulator
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in

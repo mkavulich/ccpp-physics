@@ -126,56 +126,56 @@
 [is]
   standard_name = starting_x_direction_index
   long_name = starting X direction index
-  units = count
+  units = index 
   dimensions = ()
   type = integer
   intent = in
 [ie]
   standard_name = ending_x_direction_index
   long_name = ending X direction index
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [isc1]
   standard_name = starting_x_direction_index_alloc1
   long_name = starting X direction index for allocation
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [iec1]
   standard_name = ending_x_direction_index_alloc1
   long_name = ending X direction index for allocation
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [isc2]
   standard_name = starting_x_direction_index_alloc2
   long_name = starting X direction index for allocation
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [iec2]
   standard_name = ending_x_direction_index_alloc2
   long_name = ending X direction index for allocation
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [isd]
   standard_name = starting_x_direction_index_domain
   long_name = starting X direction index for domain
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [ied]
   standard_name = ending_x_direction_index_domain
   long_name = ending X direction index for domain
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
@@ -203,56 +203,56 @@
 [js]
   standard_name = starting_y_direction_index
   long_name = starting Y direction index
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [je]
   standard_name = ending_y_direction_index
   long_name = ending Y direction index
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [jsd]
   standard_name = starting_y_direction_index_domain
   long_name = starting X direction index for domain
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [jed]
   standard_name = ending_y_direction_index_domain
   long_name = ending X direction index for domain
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [jsc1]
   standard_name = starting_y_direction_index_alloc1
   long_name = starting X direction index for allocation
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [jec1]
   standard_name = ending_y_direction_index_alloc1
   long_name = ending X direction index for allocation
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [jsc2]
   standard_name = starting_y_direction_index_alloc2
   long_name = starting X direction index for allocation
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [jec2]
   standard_name = ending_y_direction_index_alloc2
   long_name = ending X direction index for allocation
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
@@ -468,7 +468,7 @@
 [qa]
   standard_name = cloud_fraction_at_lagrangian_surface
   long_name = cloud fraction at Lagrangian surface
-  units = 1
+  units = fraction
   dimensions = (starting_x_direction_index_alloc1:ending_x_direction_index_alloc1,starting_y_direction_index_alloc1:ending_y_direction_index_alloc1,1:vertical_dimension_for_fast_physics)
   type = real
   kind = kind_dyn

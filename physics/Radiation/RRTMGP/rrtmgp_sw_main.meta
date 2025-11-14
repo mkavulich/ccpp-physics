@@ -131,7 +131,7 @@
 [iSFC]
   standard_name = vertical_index_for_surface_in_rrtmgp
   long_name = index for surface layer in RRTMGP
-  units = flag
+  units = index
   dimensions = ()
   type = integer
   intent = in

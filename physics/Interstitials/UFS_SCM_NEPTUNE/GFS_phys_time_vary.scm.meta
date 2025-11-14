@@ -560,7 +560,7 @@
 [fwetxy]
   standard_name = wet_canopy_area_fraction
   long_name = area fraction of canopy that is wetted/snowed
-  units = 1
+  units = fraction
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
@@ -1126,14 +1126,14 @@
 [isc]
   standard_name = starting_x_index_for_this_mpi_rank
   long_name = starting index in the x direction for this MPI rank
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in
 [jsc]
   standard_name = starting_y_index_for_this_mpi_rank
   long_name = starting index in the y direction for this MPI rank
-  units = count
+  units = index
   dimensions = ()
   type = integer
   intent = in

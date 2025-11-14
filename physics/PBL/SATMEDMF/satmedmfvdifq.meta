@@ -638,7 +638,7 @@
 [bl_upfr]
   standard_name = updraft_area_fraction_in_scale_aware_tke_moist_edmf_pbl_scheme
   long_name = updraft fraction in boundary layer mass flux scheme
-  units = 1
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -646,7 +646,7 @@
 [bl_dnfr]
   standard_name = downdraft_area_fraction_in_scale_aware_tke_moist_edmf_pbl_scheme
   long_name = downdraft fraction in boundary layer mass flux scheme
-  units = 1
+  units = fraction
   dimensions = ()
   type = real
   kind = kind_phys
@@ -702,7 +702,7 @@
 [cfrt]
   standard_name = canopy_forest_fraction
   long_name = canopy forest fraction
-  units = 1
+  units = fraction
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
