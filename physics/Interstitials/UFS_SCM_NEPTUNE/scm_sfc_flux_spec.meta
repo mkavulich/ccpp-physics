@@ -114,8 +114,8 @@
   kind = kind_phys
   intent = in
 [exner_inverse]
-  standard_name = ratio_of_exner_function_between_midlayer_and_interface_at_lowest_model_layer
-  long_name = Exner function ratio bt midlayer and interface at 1st layer
+  standard_name = reciprocal_of_exner_function
+  long_name = Inverse of the exner function
   units = 1
   dimensions = (horizontal_loop_extent)
   type = real

@@ -546,7 +546,7 @@
   kind = kind_phys
   intent = inout
 [prslk]
-  standard_name = dimensionless_exner_function
+  standard_name = exner_function
   long_name = dimensionless Exner function at model layer centers
   units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)

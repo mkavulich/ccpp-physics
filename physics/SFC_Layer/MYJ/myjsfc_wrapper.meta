@@ -182,7 +182,7 @@
   kind = kind_phys
   intent = in
 [prsik_1]
-  standard_name = surface_dimensionless_exner_function
+  standard_name = exner_function_at_surface
   long_name = dimensionless Exner function at lowest model interface
   units = 1
   dimensions = (horizontal_loop_extent)
@@ -190,7 +190,7 @@
   kind = kind_phys
   intent = in
 [prslk_1]
-  standard_name = dimensionless_exner_function_at_surface_adjacent_layer
+  standard_name = exner_function_at_surface_adjacent_layer
   long_name = dimensionless Exner function at lowest model layer
   units = 1
   dimensions = (horizontal_loop_extent)

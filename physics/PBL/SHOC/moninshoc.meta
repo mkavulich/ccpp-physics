@@ -157,7 +157,7 @@
   type = integer
   intent = in
 [psk]
-  standard_name = surface_dimensionless_exner_function
+  standard_name = exner_function_at_surface
   long_name = dimensionless Exner function at the surface interface
   units = 1
   dimensions = (horizontal_loop_extent)
@@ -284,7 +284,7 @@
   kind = kind_phys
   intent = in
 [prslk]
-  standard_name = dimensionless_exner_function
+  standard_name = exner_function
   long_name = Exner function at layers
   units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)

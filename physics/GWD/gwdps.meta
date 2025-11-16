@@ -109,7 +109,7 @@
   kind = kind_phys
   intent = in
 [prslk]
-  standard_name = dimensionless_exner_function
+  standard_name = exner_function
   long_name = mid-layer Exner function
   units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
