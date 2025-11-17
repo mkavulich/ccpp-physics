@@ -8,7 +8,7 @@
   name = rrtmg_lw_run
   type = scheme
 [plyr]
-  standard_name = air_pressure_at_layer_for_radiation_in_hpa
+  standard_name = air_pressure_at_layer_for_radiation
   long_name = air pressure layer
   units = hPa
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)
@@ -16,7 +16,7 @@
   kind = kind_phys
   intent = in
 [plvl]
-  standard_name = air_pressure_at_interface_for_radiation_in_hpa
+  standard_name = air_pressure_at_interface_for_radiation
   long_name = air pressure level
   units = hPa
   dimensions = (horizontal_loop_extent,adjusted_vertical_level_dimension_for_radiation)

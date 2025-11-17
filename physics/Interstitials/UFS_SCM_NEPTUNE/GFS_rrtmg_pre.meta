@@ -831,7 +831,7 @@
   kind = kind_phys
   intent = in
 [xlat_d]
-  standard_name = latitude_in_degree
+  standard_name = latitude
   long_name = latitude in degree north
   units = degree
   dimensions = (horizontal_loop_extent)
@@ -1202,7 +1202,7 @@
   kind = kind_phys
   intent = out
 [plvl]
-  standard_name = air_pressure_at_interface_for_radiation_in_hpa
+  standard_name = air_pressure_at_interface_for_radiation
   long_name = air pressure at vertical interface for radiation calculation
   units = hPa
   dimensions = (horizontal_loop_extent,adjusted_vertical_level_dimension_for_radiation)
@@ -1210,7 +1210,7 @@
   kind = kind_phys
   intent = out
 [plyr]
-  standard_name = air_pressure_at_layer_for_radiation_in_hpa
+  standard_name = air_pressure_at_layer_for_radiation
   long_name = air pressure at vertical layer for radiation calculation
   units = hPa
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)

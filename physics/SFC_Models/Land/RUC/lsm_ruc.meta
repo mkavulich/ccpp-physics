@@ -706,7 +706,7 @@
   type = logical
   intent = in
 [xlat_d]
-  standard_name = latitude_in_degree
+  standard_name = latitude
   long_name = latitude in degree north
   units = degree
   dimensions = (horizontal_loop_extent)
@@ -714,7 +714,7 @@
   kind = kind_phys
   intent = in
 [xlon_d]
-  standard_name = longitude_in_degree
+  standard_name = longitude
   long_name = longitude in degree east
   units = degree
   dimensions = (horizontal_loop_extent)

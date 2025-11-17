@@ -413,7 +413,7 @@
   type = integer
   intent = in
 [plyr]
-  standard_name = air_pressure_at_layer_for_radiation_in_hpa
+  standard_name = air_pressure_at_layer_for_radiation
   long_name = air pressure at vertical layer for radiation calculation
   units = hPa
   dimensions = (horizontal_loop_extent,adjusted_vertical_layer_dimension_for_radiation)

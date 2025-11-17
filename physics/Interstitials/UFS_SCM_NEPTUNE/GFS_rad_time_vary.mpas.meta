@@ -68,7 +68,7 @@
   intent = inout
   optional = True
 [sec]
-  standard_name = forecast_time_in_seconds
+  standard_name = forecast_time
   long_name = seconds elapsed since model initialization
   units = s
   dimensions = ()
