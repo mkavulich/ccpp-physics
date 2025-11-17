@@ -270,7 +270,7 @@
 [land]
   standard_name = sea_land_ice_mask
   long_name = landmask: sea/land/ice=0/1/2
-  units = 1
+  units = flag
   dimensions = (horizontal_loop_extent)
   type = integer
   intent = in
@@ -696,14 +696,14 @@
 [imp_physics]
   standard_name = control_for_microphysics_scheme
   long_name = choice of microphysics scheme
-  units = 1
+  units = flag
   dimensions = ()
   type = integer
   intent = in
 [imp_physics_thompson]
   standard_name = identifier_for_thompson_microphysics_scheme
   long_name = choice of Thompson microphysics scheme
-  units = 1
+  units = flag
   dimensions = ()
   type = integer
   intent = in

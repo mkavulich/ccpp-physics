@@ -70,7 +70,7 @@
 [acvb]
   standard_name = cumulative_min_vertical_index_at_cloud_base_between_sw_radiation_calls
   long_name = smallest cloud base vertical index encountered thus far
-  units = 1
+  units = index
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
@@ -78,7 +78,7 @@
 [acvt]
   standard_name = cumulative_max_vertical_index_at_cloud_base_between_sw_radiation_calls
   long_name = largest cloud top vertical index encountered thus far
-  units = 1
+  units = index
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
