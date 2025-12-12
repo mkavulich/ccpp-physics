@@ -199,24 +199,23 @@
   kind = kind_phys
   intent = in
 [prslki]
-  standard_name = exner_function_wrt_surface_pressure_at_surface_adjacent_layer 
-  long_name = Exner function with respect to surface pressure: (P/Ps)^(Rd/cp), where P is the pressure at the center of the lowest mode
-l layer, and Ps is the surface pressure
+  standard_name = ratio_of_exner_function_between_midlayer_and_interface_at_lowest_model_layer
+  long_name = Exner function ratio bt midlayer and interface at 1st layer
   units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
   intent = in
 [prsik1]
-  standard_name = exner_function_at_surface
-  long_name = Exner function, Ts/theta, where T is surface temperature and theta is potential temperature wrt 1000 hPa
+  standard_name = dimensionless_exner_function_at_surface
+  long_name = dimensionless Exner function at the ground surface
   units = 1
   dimensions = (horizontal_loop_extent)
   type = real
   kind = kind_phys
   intent = in
 [prslk1]
-  standard_name = exner_function_at_surface_adjacent_layer
+  standard_name = dimensionless_exner_function_at_surface_adjacent_layer
   long_name = dimensionless Exner function at the lowest model layer
   units = 1
   dimensions = (horizontal_loop_extent)

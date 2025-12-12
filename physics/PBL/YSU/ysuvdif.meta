@@ -97,7 +97,7 @@
   kind = kind_phys
   intent = in
 [pi2d]
-  standard_name = exner_function
+  standard_name = dimensionless_exner_function
   long_name = Exner function at layers
   units = 1
   dimensions = (horizontal_loop_extent,vertical_layer_dimension)
